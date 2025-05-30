@@ -93,3 +93,5 @@ python panorama/convert2bench_pi4pc.py
 ## 📜 License
 
 This project is licensed under the CC-BY-NC-4.0.
+
+This work was fully funded by LG AI Research and is a product of collaboration between LG AI Research and Korea Advanced Institute of Science and Technology (KAIST). We are releasing the data and code in line with LG AI Research’s mission of advancing AI for a better life.
