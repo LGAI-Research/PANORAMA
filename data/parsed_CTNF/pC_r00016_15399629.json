@@ -1,0 +1,464 @@
+{
+    "claims": [
+        {
+            "claimNumber": 1,
+            "parentClaim": -1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20120242579",
+                            "text": [
+                                24
+                            ],
+                            "img": [
+                                "2",
+                                "1",
+                                "3"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 1, Chua teaches a mobile communication device (Fig. 2: device 200; Para. [0024]), comprising: a touch screen (Fig. 2: touch screen 206); and a processor (Fig. 2: processor 212) configured to: present, via the touch screen, an input window (Fig. 2: display area 228) and a virtual keypad (Fig. 1: keyboard 100 with virtual keys; Fig. 2: on-screen keyboard with virtual keys 210) including a plurality of keys (Fig. 1: virtual keys; Fig. 2: virtual keys 210 208), receive a user input forming a path from a starting position to an ending positon with respect to the touch screen (Fig. 1: exemplary handwriting gestures 110, 112, 114 and 116 each is an intended character input forming at least a path from a starting point near a respective key corresponding to the intended character input), and display a character, a numeral, or a symbol (Fig. 2; Fig. 3: step 316) corresponding to the path in the input window based at least in part on a determination that the starting position is included in a specified area (Fig. 1: “a specified area” near a key corresponding to an intended character input) of the virtual keypad, and that the ending position is included in the virtual keypad (Fig. 1)."
+                }
+            ]
+        },
+        {
+            "claimNumber": 2,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20120242579",
+                            "text": [
+                                28
+                            ],
+                            "img": [
+                                "2",
+                                "3"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 2, Chua teaches the mobile communication device of claim 1. Chua does not further teach the mobile communication device of claim 1, wherein the processor is configured to: receive, via the touch screen, another user input corresponding to at least one key of the plurality of keys (Para. [0028]: 3rd sentence), and display a character, a numeral, or a symbol corresponding to the at least one key in the input window in response to the other user input (Fig. 2; Fig. 3: step 316)."
+                }
+            ]
+        },
+        {
+            "claimNumber": 3,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20120242579",
+                            "text": [],
+                            "img": [
+                                "1"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 3, Chua teaches the mobile communication device of claim 1. Chua further teaches the mobile communication device of claim 1, wherein the processor is configured to: display, via the touch screen, the path as at least partially overlapped with the virtual keypad in response to the user input (Fig. 1)."
+                }
+            ]
+        },
+        {
+            "claimNumber": 4,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20120242579",
+                            "text": [
+                                28
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 4, Chua teaches the mobile communication device of claim 1. Chua does not further explicitly teach the mobile communication device of claim 1, wherein the virtual keypad is divided into the specified area and another area, and wherein the processor is configured to: disregard the user input based at least in part on a determination that the user input is started from the other area. However, the current claim language is lack of clarity in terms of definition of the specified area and another area (Examiner’s note: “the other area” is replaced by “the another area”). It is noted that there exists a scenario wherein a user is not familiar with the rule of the gesture based character input method and happens to start a gesture at an area (i.e., “another area”) not in the nearby of an intended character (i.e., the specified area) to be input, disambiguation 224 (Para. [0028]) cannot match the user’s gesture with keys being touched. At the time of the invention, it would have been obvious for one ordinary skill in the art to configure the processor, in the scenario wherein a user starts a gesture at an area not in the nearby of an intended character to be input, to: disregard the user input based at least in part on a determination that the user input is started from the other area. Disregarding an unidentifiable input is the most straightforward way to deal with such kind of inputs."
+                }
+            ]
+        },
+        {
+            "claimNumber": 5,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20120242579",
+                            "text": [],
+                            "img": [
+                                "1",
+                                "3"
+                            ]
+                        },
+                        {
+                            "patentNum": "US 20120056814",
+                            "text": [
+                                48
+                            ],
+                            "img": [
+                                "2"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 5, Chua teaches the mobile communication device of claim 1. Chua further teaches the mobile communication device of claim 1, wherein the processor is further configured to: receive at least one additional user input (Fig. 1: gesture 112 including two separate paths, one after the other) after the user input, the at least one additional user input forming another path with respect to the virtual keypad, and change the character, numeral, or symbol corresponding to the path into a character (Fig. 3; Examiner’s Note: the handwritten character “i” corresponding to the two handwritten paths shown in Fig. 1 is converted to character “i” for display), a numeral, or a symbol corresponding to the path and the other path in response to the additional user input (Fig. 1). Chua does not explicitly teach the receipt of the at least one additional user input is within a specified time. The feature is to provide a criterion on determining completion of a character input with a plurality of paths, which is not new however. Sudo, for instances, teaches in Para. [0048], 2nd sentence the receipt of the at least one additional user input is within a specified time after the first user input (i.e., the first path of the character)."
+                }
+            ]
+        },
+        {
+            "claimNumber": 6,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20120242579",
+                            "text": [
+                                48
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 6, Chua teaches the mobile communication device of claim 1. Chua further teaches the mobile communication device of claim 1, wherein the processor is configured to: disable a text input function to receive another user input corresponding to at least one key of the plurality of keys in response to a determination that at least one portion of the user input is detected (Para. [0048]: Examiner’s Note: in the scenario that a plurality of keys are touched when a path is drawn, a text input function is necessarily disabled for a period before an analysis is completed about what is the character input)."
+                }
+            ]
+        },
+        {
+            "claimNumber": 7,
+            "parentClaim": 3,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20120242579",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20120056814",
+                            "text": [
+                                48
+                            ],
+                            "img": [
+                                "2"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 7, Chua teaches the mobile communication device of claim 3. Chua does not further teach the mobile communication device of claim 3, wherein the processor is configured to: enable a text input function to receive another user input corresponding to at least one key of the plurality of keys after the displaying of the path is stopped. Sudo, however, teaches in Para. [0048] and Fig. 2 enabling a text input function to receive another user input corresponding to at least one key of the plurality of keys after the displaying of the path is stopped (Examiner’s Note: according to the prior art of record, before an input of character is assumed to be completed, no input from a keystroke is received; furthermore, each path of the input is displayed real time before completing the character input). At the time of the invention, it would have been obvious for one ordinary skill in the art to apply Sudo’s teaching to Chua’s technique enable a text input function to receive another user input corresponding to at least one key of the plurality of keys after the displaying of the path is stopped. The motivation/suggestion would have been to allow the device reliably determine whether it is a gesture based character input or a keystroke based character input and avoid errors of recognizing characters."
+                }
+            ]
+        },
+        {
+            "claimNumber": 8,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20120242579",
+                            "text": [],
+                            "img": [
+                                "3"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 8, Chua teaches the mobile communication device of claim 1. Chua further teaches the mobile communication device of claim 1, wherein the processor is configured to: determine the character, numeral, or symbol corresponding to the path using a character recognition (Fig. 3: steps 310 and 312)."
+                }
+            ]
+        },
+        {
+            "claimNumber": 9,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20120242579",
+                            "text": [],
+                            "img": [
+                                "1"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 9, Chua teaches the mobile communication device of claim 1. Chua further teaches the mobile communication device of claim 1, wherein the user input comprises a drag input, a cursive input, a handwritten input, or any combination thereof (Fig. 1)."
+                }
+            ]
+        },
+        {
+            "claimNumber": 10,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20120242579",
+                            "text": [],
+                            "img": [
+                                "1"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 10, Chua teaches the mobile communication device of claim 1. Chua further teaches the mobile communication device of claim 1, wherein the character comprises an alphabet (Fig. 1), a cursive character (Fig. 1), a Chinese character, or any combination thereof."
+                }
+            ]
+        },
+        {
+            "claimNumber": 11,
+            "parentClaim": -1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 9569091",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 8547354",
+                            "text": [],
+                            "img": [
+                                "5FF",
+                                "5GG"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 11, although claims 11 and 17 of this instant application are not identical to claim 9 of U.S. Patent No. 9,569,091, they are not patentably distinct from each other because: region on the touch screen recited in claim 9 of U.S. Patent No. 9,569,091 and “a region outside the keyboard” recited in claims 11 and 17 of this instant application are obvious variants in view of Figs. 5FF and 5GG US of Patent No. 8,547,354, wherein center area 5016-C of the integrated input area reads on not only region on the touch screen in claim 9 of U.S. Patent No. 9,569,091 but also “a region outside the keyboard” in claims 11 and 17 of this instant application. With region on the touch screen recited in claim 9 of U.S. Patent No. 9,569,091 and “a region outside the keyboard” recited in claims 11 and 17 of this instant application being equivalent to each other, all features of in claims 11 and 17 of this instant are indistinguishable from claim 9 of U.S. Patent No. 9,569,091."
+                }
+            ]
+        },
+        {
+            "claimNumber": 12,
+            "parentClaim": 11,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 9569091",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 8547354",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 12, claims 12-16 depend on claim 11 and are rejected accordingly."
+                }
+            ]
+        },
+        {
+            "claimNumber": 13,
+            "parentClaim": 11,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 9569091",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 8547354",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 13, claims 12-16 depend on claim 11 and are rejected accordingly."
+                }
+            ]
+        },
+        {
+            "claimNumber": 14,
+            "parentClaim": 11,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 9569091",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 8547354",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 14, claims 12-16 depend on claim 11 and are rejected accordingly."
+                }
+            ]
+        },
+        {
+            "claimNumber": 15,
+            "parentClaim": 11,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 9569091",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 8547354",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 15, claims 12-16 depend on claim 11 and are rejected accordingly."
+                }
+            ]
+        },
+        {
+            "claimNumber": 16,
+            "parentClaim": 11,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 9569091",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 8547354",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 16, claims 12-16 depend on claim 11 and are rejected accordingly."
+                }
+            ]
+        },
+        {
+            "claimNumber": 17,
+            "parentClaim": -1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 9569091",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 8547354",
+                            "text": [],
+                            "img": [
+                                "5FF",
+                                "5GG"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 17, although claims 11 and 17 of this instant application are not identical to claim 9 of U.S. Patent No. 9,569,091, they are not patentably distinct from each other because: region on the touch screen recited in claim 9 of U.S. Patent No. 9,569,091 and “a region outside the keyboard” recited in claims 11 and 17 of this instant application are obvious variants in view of Figs. 5FF and 5GG US of Patent No. 8,547,354, wherein center area 5016-C of the integrated input area reads on not only region on the touch screen in claim 9 of U.S. Patent No. 9,569,091 but also “a region outside the keyboard” in claims 11 and 17 of this instant application. With region on the touch screen recited in claim 9 of U.S. Patent No. 9,569,091 and “a region outside the keyboard” recited in claims 11 and 17 of this instant application being equivalent to each other, all features of in claims 11 and 17 of this instant are indistinguishable from claim 9 of U.S. Patent No. 9,569,091."
+                }
+            ]
+        },
+        {
+            "claimNumber": 18,
+            "parentClaim": 17,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 9569091",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 8547354",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 18, claims 18-20 depend on claim 17 and are rejected accordingly."
+                }
+            ]
+        },
+        {
+            "claimNumber": 19,
+            "parentClaim": 17,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 9569091",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 8547354",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 19, claims 18-20 depend on claim 17 and are rejected accordingly."
+                }
+            ]
+        },
+        {
+            "claimNumber": 20,
+            "parentClaim": 17,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 9569091",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 8547354",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 20, claims 18-20 depend on claim 17 and are rejected accordingly."
+                }
+            ]
+        }
+    ]
+}

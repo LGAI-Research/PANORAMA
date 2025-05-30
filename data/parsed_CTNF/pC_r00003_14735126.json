@@ -1,0 +1,104 @@
+{
+    "claims": [
+        {
+            "claimNumber": 1,
+            "parentClaim": -1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 6758876",
+                            "text": [],
+                            "img": [
+                                "19"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 1, Suzuki et al. (US 6758876) discloses a gas distributor used in wafer carriers comprising a body having an interior space and a separator configured in the interior space. Suzuki et al. also discloses that one edge of the separator and the front side of the body form a passage, and the separator divides the interior space into a first room connected with an air inlet, where the air inlet and passage are configured at adjacent sides of the body. It further discloses a second room connected with at least one air outlet, configured on the rear side of the body."
+                }
+            ]
+        },
+        {
+            "claimNumber": 2,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 6758876",
+                            "text": [],
+                            "img": [
+                                "19"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 2, Suzuki et al. (US 6758876) discloses the separator further comprises an extended member, and the extended member extends into the first room."
+                }
+            ]
+        },
+        {
+            "claimNumber": 3,
+            "parentClaim": 2,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 6758876",
+                            "text": [],
+                            "img": [
+                                "19"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 3, Suzuki et al. (US 6758876) discloses the extended member has a plane facing the front side of the body, and the width of the plane is greater at the end away from the air inlet."
+                }
+            ]
+        },
+        {
+            "claimNumber": 4,
+            "parentClaim": 2,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 6758876",
+                            "text": [],
+                            "img": [
+                                "19"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 4, Suzuki et al. (US 6758876) discloses the extended member has a plane facing the front side of the body, and wherein the plane comprises a first part and a second part having a width larger than that of the first part."
+                }
+            ]
+        },
+        {
+            "claimNumber": 5,
+            "parentClaim": 4,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 6758876",
+                            "text": [],
+                            "img": [
+                                "19"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 5, Suzuki et al. (US 6758876) discloses the width of the second part is constant and the width of the second part is greater at the end away from the air inlet."
+                }
+            ]
+        }
+    ]
+}

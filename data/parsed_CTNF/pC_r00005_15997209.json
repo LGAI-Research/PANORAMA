@@ -1,0 +1,460 @@
+{
+    "claims": [
+        {
+            "claimNumber": 1,
+            "parentClaim": -1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110313726",
+                            "text": [
+                                15,
+                                16,
+                                18,
+                                19,
+                                20,
+                                22,
+                                23,
+                                34,
+                                35,
+                                45,
+                                46,
+                                47
+                            ],
+                            "img": [
+                                "5"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 1, Parthasarathy (US 20110313726) discloses an abnormality monitoring apparatus for a wind farm, configured to perform monitoring on a group including at least two of a plurality of wind turbine power generating apparatuses. The apparatus comprises parts such as a parameter obtaining part, a member candidate extraction part, a monitoring group setting part, and a group monitoring part. However, it would have been obvious to incorporate that the parameter obtaining part and strain parameters are not smaller than predetermined values, as discovering an optimum value is routine skill in the art."
+                }
+            ]
+        },
+        {
+            "claimNumber": 2,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110313726",
+                            "text": [
+                                33,
+                                34,
+                                35,
+                                37,
+                                38,
+                                45
+                            ],
+                            "img": [
+                                "5"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 2, Parthasarathy (US 20110313726) discloses a member candidate extraction part that includes selection of member candidate groups and calculation of parameter correlations. The teachings would lead one skilled in the art to determine member candidates with correlation not smaller than predetermined values."
+                }
+            ]
+        },
+        {
+            "claimNumber": 3,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110313726",
+                            "text": [
+                                45
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 3, Parthasarathy (US 20110313726) discloses a canonical correlation learning part configured for obtaining a canonical correlation before execution of monitoring. The group monitoring is performed based on this canonical correlation, as disclosed in Parthasarathy."
+                }
+            ]
+        },
+        {
+            "claimNumber": 4,
+            "parentClaim": 3,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110313726",
+                            "text": [
+                                45
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 4, Parthasarathy (US 20110313726) discloses a group monitoring part that includes a canonical correlation deviance determination part and an abnormality determination part, which checks if the canonical correlation is maintained during monitoring."
+                }
+            ]
+        },
+        {
+            "claimNumber": 5,
+            "parentClaim": 4,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110313726",
+                            "text": [
+                                33,
+                                34,
+                                35,
+                                37,
+                                39,
+                                45,
+                                47
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 5, Parthasarathy (US 20110313726) discloses a canonical correlation deviance determination part that calculates monitored and predicted values based on monitoring parameters and compares them to determine if the canonical correlation is maintained."
+                }
+            ]
+        },
+        {
+            "claimNumber": 6,
+            "parentClaim": 3,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110313726",
+                            "text": [
+                                22,
+                                41,
+                                42,
+                                43,
+                                44,
+                                45
+                            ],
+                            "img": [
+                                "1"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 6, Parthasarathy (US 20110313726) discloses a principal component analysis part to obtain a power generation parameter principal component, and a canonical correlation learning part to obtain canonical correlation between principal components."
+                }
+            ]
+        },
+        {
+            "claimNumber": 7,
+            "parentClaim": 6,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110313726",
+                            "text": [
+                                19,
+                                22,
+                                41,
+                                42,
+                                43,
+                                44,
+                                45
+                            ],
+                            "img": [
+                                "1"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 7, Parthasarathy (US 20110313726) discloses a strain parameter principal component analysis part, and a canonical correlation learning part for obtaining canonical correlation between power generation and strain parameter principal components."
+                }
+            ]
+        },
+        {
+            "claimNumber": 8,
+            "parentClaim": 6,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110313726",
+                            "text": [
+                                27
+                            ],
+                            "img": [
+                                "2"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 8, Parthasarathy (US 20110313726) discloses power generation parameters including wind velocity, power generation amount, and rotor rotation speed, with principal component analysis configured to obtain parameter principal components for each type."
+                }
+            ]
+        },
+        {
+            "claimNumber": 9,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110313726",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20160245262",
+                            "text": [
+                                9
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 9, Parthasarathy (US 20110313726) does not disclose a sensor part included in an optical fiber sensor. Ide et al. (US 20160245262) teach this feature, making it obvious to incorporate for detecting damage in wind turbine blades."
+                }
+            ]
+        },
+        {
+            "claimNumber": 10,
+            "parentClaim": -1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110313726",
+                            "text": [
+                                15,
+                                16,
+                                18,
+                                19,
+                                20,
+                                22,
+                                23,
+                                34,
+                                35,
+                                45,
+                                46,
+                                47
+                            ],
+                            "img": [
+                                "5"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 10, Parthasarathy (US 20110313726) discloses an abnormality monitoring method for a wind farm, configured to perform monitoring on a group including at least two of a plurality of wind turbine power generating apparatuses. The method comprises steps such as a parameter obtaining step, a member candidate extraction step, a monitoring group setting step, and a group monitoring step. However, it would have been obvious to incorporate that the parameter obtaining step and strain parameters are not smaller than predetermined values, as discovering an optimum value is routine skill in the art."
+                }
+            ]
+        },
+        {
+            "claimNumber": 11,
+            "parentClaim": 10,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110313726",
+                            "text": [
+                                33,
+                                34,
+                                35,
+                                37,
+                                38,
+                                45
+                            ],
+                            "img": [
+                                "5"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 11, Parthasarathy (US 20110313726) discloses a member candidate extraction step that includes selection of member candidate groups and calculation of parameter correlations. The teachings would lead one skilled in the art to determine member candidates with correlation not smaller than predetermined values."
+                }
+            ]
+        },
+        {
+            "claimNumber": 12,
+            "parentClaim": 10,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110313726",
+                            "text": [
+                                45
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 12, Parthasarathy (US 20110313726) discloses a canonical correlation learning step configured for obtaining a canonical correlation before execution of monitoring. The group monitoring is performed based on this canonical correlation, as disclosed in Parthasarathy."
+                }
+            ]
+        },
+        {
+            "claimNumber": 13,
+            "parentClaim": 12,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110313726",
+                            "text": [
+                                45
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 13, Parthasarathy (US 20110313726) discloses a group monitoring step that includes a canonical correlation deviance determination step and an abnormality determination step, which checks if the canonical correlation is maintained during monitoring."
+                }
+            ]
+        },
+        {
+            "claimNumber": 14,
+            "parentClaim": 13,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110313726",
+                            "text": [
+                                33,
+                                34,
+                                35,
+                                37,
+                                39,
+                                45,
+                                47
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 14, Parthasarathy (US 20110313726) discloses a canonical correlation deviance determination step that calculates monitored and predicted values based on monitoring parameters and compares them to determine if the canonical correlation is maintained."
+                }
+            ]
+        },
+        {
+            "claimNumber": 15,
+            "parentClaim": 12,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110313726",
+                            "text": [
+                                22,
+                                41,
+                                42,
+                                43,
+                                44,
+                                45
+                            ],
+                            "img": [
+                                "1"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 15, Parthasarathy (US 20110313726) discloses a principal component analysis step to obtain a power generation parameter principal component, and a canonical correlation learning step to obtain canonical correlation between principal components."
+                }
+            ]
+        },
+        {
+            "claimNumber": 16,
+            "parentClaim": 15,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110313726",
+                            "text": [
+                                19,
+                                22,
+                                41,
+                                42,
+                                43,
+                                44,
+                                45
+                            ],
+                            "img": [
+                                "1"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 16, Parthasarathy (US 20110313726) discloses a strain parameter principal component analysis step, and a canonical correlation learning step for obtaining canonical correlation between power generation and strain parameter principal components."
+                }
+            ]
+        },
+        {
+            "claimNumber": 17,
+            "parentClaim": 15,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110313726",
+                            "text": [
+                                27
+                            ],
+                            "img": [
+                                "2"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 17, Parthasarathy (US 20110313726) discloses power generation parameters including wind velocity, power generation amount, and rotor rotation speed, with principal component analysis configured to obtain parameter principal components for each type."
+                }
+            ]
+        },
+        {
+            "claimNumber": 18,
+            "parentClaim": 10,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110313726",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20160245262",
+                            "text": [
+                                9
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 18, Parthasarathy (US 20110313726) does not disclose a sensor part included in an optical fiber sensor. Ide et al. (US 20160245262) teach this feature, making it obvious to incorporate for detecting damage in wind turbine blades."
+                }
+            ]
+        }
+    ]
+}

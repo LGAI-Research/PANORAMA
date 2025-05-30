@@ -1,5 +1,3 @@
-# PANORAMA
-
 # PANORAMA: A Dataset and Benchmark Tasks Capturing the Evaluation Trails and Rationales in Patent Examination
 
 PANORAMA is a dataset of U.S. patent examination records designed to capture the complete patent examination process. It includes original patent applications, cited prior art references, rejection documents, and approval notices along with examiners' detailed rationales. From this dataset, we've developed three benchmark tasks that test different aspects of the patent examination workflow: Prior Art Retrieval for Patent Claims (PAR4PC), Patentability Identification for Patent Claims (PI4PC), and Novelty and Obviousness Characterization for Patent Claims (NOC4PC).

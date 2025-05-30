@@ -1,0 +1,675 @@
+{
+  "id": 16,
+  "abstract": "ABSTRACT OF THE DISCLOSURE  A method and an apparatus input test in a touch screen terminal. The method comprises designating a certain region on a keyboard interface picture, not permitting text input through a keyboard when touch drag started from the designated region is sensed and acquiring a path of the touch drag, acquiring a path of following touch drag when at least the one or more following touch drag are sensed, and reading out at least the acquired one or more paths by cursive character recognition, deducing a character, determining the deduced character as an input target, and permitting the text input through the keyboard.  -16-",
+  "initialClaims": [
+    "1. A mobile communication device, comprising: a touch screen; and a processor configured to: present, via the touch screen, an input window and a virtual keypad including a plurality of keys, receive a user input forming a path from a starting position to an ending positon with respect to the touch screen, and display a character, a numeral, or a symbol corresponding to the path in the input window based at least in part on a determination that the starting position is included in a specified area of the virtual keypad, and that the ending position is included in the virtual keypad.",
+    "2. The mobile communication device of claim 1, wherein the processor is configured to: receive, via the touch screen, another user input corresponding to at least one key of the plurality of keys, and display a character, a numeral, or a symbol corresponding to the at least one key in the input window in response to the other user input.",
+    "3. The mobile communication device of claim 1, wherein the processor is configured to: display, via the touch screen, the path as at least partially overlapped with the virtual keypad in response to the user input.",
+    "4. The mobile communication device of claim 1, wherein the virtual keypad is divided into the specified area and another area, and wherein the processor is configured to: disregard the user input based at least in part on a determination that the user input is started from the other area.",
+    "5. The mobile communication device of claim 1, wherein the processor is further configured to: receive at least one additional user input within a specified time after the user input, the at least one additional user input forming another path with respect to the virtual keypad, and change the character, numeral, or symbol corresponding to the path into a character, a numeral, or a symbol corresponding to the path and the other path in response to the additional user input.",
+    "6. The mobile communication device of claim 1, wherein the processor is configured to: disable a text input function to receive another user input corresponding to at least one key of the plurality of keys in response to a determination that at least one portion of the user input is detected.",
+    "7. The mobile communication device of claim 3, wherein the processor is configured to: enable a text input function to receive another user input corresponding to at least one key of the plurality of keys after the displaying of the path is stopped.",
+    "8. The mobile communication device of claim 1, wherein the processor is configured to: determine the character, numeral, or symbol corresponding to the path using a character recognition.",
+    "9. The mobile communication device of claim 1, wherein the user input comprises a drag input, a cursive input, a handwritten input, or any combination thereof.",
+    "10. The mobile communication device of claim 1, wherein the character comprises an alphabet, a cursive character, a Chinese character, or any combination thereof.",
+    "11. An electronic device comprising: a touch screen; and a controller configured to: provide a user interface on the touch screen having an input window and a keyboard, detect whether a touch input is started from the keyboard or a region outside the keyboard, in response to detecting the touch input starting from the keyboard, identify a first character on the keyboard that corresponds to the detected touch input, in response to detecting the touch input starting from the region outside the keyboard, disable a text input mode through the keyboard to allow the touch input to extend into the keyboard, acquire at least one or more paths of the detected touch input, and identify a second character using character recognition based on the acquired one or more paths, and input the first or second character in the input window.",
+    "12. The electronic device of claim 11, wherein the controller is configured to maintain a form of the keyboard while a handwriting input mode is enabled.",
+    "13. The electronic device of claim 11, wherein the controller is configured to maintain a character key of the keyboard while the text input mode is disabled.",
+    "14. The electronic device of claim 11, wherein the controller is configured to, in response to detecting the touch input starting from the region outside an English keyboard, disable the text input mode through the English keyboard, recognize a Chinese character as the second character using character recognition based on the acquired one or more paths, and enable the text input mode to receive another touch input corresponding to at least one key of the English keyboard after the inputting of the second character.",
+    "15. The electronic device of claim 11, wherein the controller is configured to determine a range or position of the touch input in the region outside the keyboard.",
+    "16. The electronic device of claim 11, wherein the controller is configured to determine an entire display area of the touch screen as the region for character recognition.",
+    "17. An electronic device, comprising: a touch screen; and a processor configured to: provide a user interface on the touch screen having an input window and a keyboard, in response to a touch input starting from a region outside the keyboard, enable a handwriting input mode and disable a text input mode through the keyboard to allow the touch input to extend into the keyboard, while in the handwriting input, acquire one or more paths of the touch input, and identify a first character using character recognition based on the acquired one or more paths, and input the first character in the input window.",
+    "18. The electronic device of claim 17, wherein, after the first character is identified, the processor is configured to disable the handwriting input mode and enable the text input mode through the keyboard, and while the text input mode through the keyboard is enabled, and in response to a touch input starting from the keyboard, the controller is configured to identify a second character on the keyboard that corresponds to the touch input, and input the second character in the input window.",
+    "19. The electronic device of claim 17, wherein the processor is configured to maintain an image of the keyboard while the handwriting input mode is enabled.",
+    "20. The electronic device of claim 17, wherein the processor is configured to use both an area of the keyboard and the region outside the keyboard of the touch screen as a region for receiving one or more paths of the touch input for character recognition."
+  ],
+  "finalClaims": [
+    "1. (Cancelled)",
+    "2. (Cancelled)",
+    "3. (Cancelled)",
+    "4. (Cancelled)",
+    "5. (Cancelled)",
+    "6. (Cancelled)",
+    "7. (Cancelled)",
+    "8. (Cancelled)",
+    "9. (Cancelled)",
+    "10. (Cancelled)",
+    "11. An electronic device comprising: a touch screen; and a controller configured to: provide a user interface on the touch screen having an input window and a keyboard, detect whether a touch input is started from the keyboard or a region outside the keyboard, in response to detecting the touch input starting from the keyboard, identify a first character on the keyboard that corresponds to the detected touch input, in response to detecting the touch input starting from the region outside the keyboard, disable a text input mode through the keyboard to allow the touch input to extend into the keyboard, acquire at least one or more paths of the detected touch input, and identify a second character using character recognition based on the acquired one or more paths, and input the first or second character in the input window.",
+    "12. The electronic device of claim 11, wherein the controller is configured to maintain a form of the keyboard while a handwriting input mode is enabled.",
+    "13. The electronic device of claim 11, wherein the controller is configured to maintain a character key of the keyboard while the text input mode is disabled.",
+    "14. The electronic device of claim 11, wherein the controller is configured to, in response to detecting the touch input starting from the region outside an English keyboard, disable the text input mode through the English keyboard, recognize a Chinese character as the second character using character recognition based on the acquired one or more paths, and enable the text input mode to receive another touch input corresponding to at least one key of the English keyboard after the inputting of the second character.",
+    "15. The electronic device of claim 11, wherein the controller is configured to determine a range or position of the touch input in the region outside the keyboard.",
+    "16. The electronic device of claim 11, wherein the controller is configured to determine an entire display area of the touch screen as the region for character recognition.",
+    "17. An electronic device, comprising: a touch screen; and a processor configured to: provide a user interface on the touch screen having an input window and a keyboard, in response to a touch input starting from a region outside the keyboard, enable a handwriting input mode and disable a text input mode through the keyboard to allow the touch input to extend into the keyboard, while in the handwriting input, acquire one or more paths of the touch input, and identify a first character using character recognition based on the acquired one or more paths, and input the first character in the input window.",
+    "18. The electronic device of claim 17, wherein, after the first character is identified, the processor is configured to disable the handwriting input mode and enable the text input mode through the keyboard, and while the text input mode through the keyboard is enabled, and in response to a touch input starting from the keyboard, the controller processor is configured to identify a second character on the keyboard that corresponds to the touch input, and input the second character in the input window.",
+    "19. The electronic device of claim 17, wherein the processor is configured to maintain an image of the keyboard while the handwriting input mode is enabled.",
+    "20. The electronic device of claim 17, wherein the processor is configured to use both an area of the keyboard and the region outside the keyboard of the touch screen as a region for receiving one or more paths of the touch input for character recognition."
+  ],
+  "CTNFDocumentIdentifier": "J34L0U5SRXEAPX2",
+  "CTNFBodyText": "DETAILED ACTION\n\nNotice of Pre-AIA  or AIA  Status\nThe present application is being examined under the pre-AIA  first to invent provisions. \n\nDouble Patenting\nThe nonstatutory double patenting rejection is based on a judicially created doctrine grounded in public policy (a policy reflected in the statute) so as to prevent the unjustified or improper timewise extension of the “right to exclude” granted by a patent and to prevent possible harassment by multiple assignees. A nonstatutory double patenting rejection is appropriate where the conflicting claims are not identical, but at least one examined application claim is not patentably distinct from the reference claim(s) because the examined application claim is either anticipated by, or would have been obvious over, the reference claim(s). See, e.g., In re Berg, 140 F.3d 1428, 46 USPQ2d 1226 (Fed. Cir. 1998); In re Goodman, 11 F.3d 1046, 29 USPQ2d 2010 (Fed. Cir. 1993); In re Longi, 759 F.2d 887, 225 USPQ 645 (Fed. Cir. 1985); In re Van Ornum, 686 F.2d 937, 214 USPQ 761 (CCPA 1982); In re Vogel, 422 F.2d 438, 164 USPQ 619 (CCPA 1970); In re Thorington, 418 F.2d 528, 163 USPQ 644 (CCPA 1969).\nA timely filed terminal disclaimer in compliance with 37 CFR 1.321(c) or 1.321(d) may be used to overcome an actual or provisional rejection based on nonstatutory double patenting provided the reference application or patent either is shown to be  commonly owned with the examined application, or claims an invention made as a result of activities undertaken within the scope of a joint research agreement. See MPEP § 717.02 for applications subject to examination under the first inventor to file provisions of the AIA  as explained in MPEP § 2159.  See MPEP §§ 706.02(l)(1) - 706.02(l)(3) for applications not subject to examination under the first inventor to file provisions of the AIA . A terminal disclaimer must be signed in compliance with 37 CFR 1.321(b). \nThe USPTO Internet website contains terminal disclaimer forms which may be used. Please visit www.uspto.gov/patent/patents-forms. The filing date of the application in which the form is filed determines what form (e.g., PTO/SB/25, PTO/SB/26, PTO/AIA /25, or PTO/AIA /26) should be used. A web-based eTerminal Disclaimer may be filled out completely online using web-screens. An eTerminal Disclaimer that meets all requirements is auto-processed and approved immediately upon submission. For more information about eTerminal Disclaimers, refer to www.uspto.gov/patents/process/file/efs/guidance/eTD-info-I.jsp.\n\nClaims 11-20 are rejected on the ground of nonstatutory double patenting as being unpatentable over claim 9 of U.S. Patent No. 9,569,091 in view of US Patent No. 8,547,354. \nAlthough claims 11 and 17 of this instant application are not identical to claim 9 of U.S. Patent No. 9,569,091, they are not patentably distinct from each other because: region on the touch screen recited in claim 9 of U.S. Patent No. 9,569,091  and “a region outside the keyboard” recited in claims 11 and 17 of this instant application are obvious variants in view of Figs. 5FF and 5GG US of Patent No. 8,547,354, wherein center area 5016-C of the integrated input area reads on not only region on the touch screen in claim 9 of U.S. Patent No. 9,569,091 but also “a region outside the keyboard” in claims 11 and 17 of this instant application. With region on the touch screen recited in claim 9 of U.S. Patent No. 9,569,091 and “a region outside the keyboard” recited in claims 11 and 17 of this instant application being equivalent to each other, all features of in claims 11 and 17 of this instant are indistinguishable from claim 9 of U.S. Patent No. 9,569,091.\nClaims 12-16 depend on claim 11 and are rejected accordingly.\nClaims 18-20 depend on claim 17 and are rejected accordingly.\n\nClaim Rejections - 35 USC § 112\nThe following is a quotation of 35 U.S.C. 112(b):\n(b)  CONCLUSION.—The specification shall conclude with one or more claims particularly pointing out and distinctly claiming the subject matter which the inventor or a joint inventor regards as the invention.\n\n\nThe following is a quotation of 35 U.S.C. 112 (pre-AIA ), second paragraph:\nThe specification shall conclude with one or more claims particularly pointing out and distinctly claiming the subject matter which the applicant regards as his invention.\n\n\nClaims 2 and 4 are rejected under 35 U.S.C. 112(b) or 35 U.S.C. 112 (pre-AIA ), second paragraph, as being indefinite for failing to particularly point out and distinctly claim the subject matter which the inventor or a joint inventor, or for pre-AIA  the applicant regards as the invention.\n Claim 2 recites the limitation the other user input in last line.  There is insufficient antecedent basis for this limitation in the claim. For examination purpose, “the another user input” is used to replace “the other user input”.\nClaim 2 also omits an essential operative relationship with the features in the instant claim that are related to a key-stroke based character input with the features of its parent claim 1 that are related to a gesture-based character input. Without the essential operative relationship, one person having an ordinary skill in the art would have wondered how Applicant’s mobile communication device can accurately determine whether a touch input on the touch screen of the device should be evaluated as a gesture input or a key-stroke input.  \nClaim 4 recites the limitation the other area in last line.  There is insufficient antecedent basis for this limitation in the claim. For examination purpose, “the another area” is used to replace “the other area”.\n\nClaim Rejections - 35 USC § 102\nThe following is a quotation of the appropriate paragraphs of pre-AIA  35 U.S.C. 102 that form the basis for the rejections under this section made in this Office action:\nA person shall be entitled to a patent unless –\n(e) the invention was described in (1) an application for patent, published under section 122(b), by another filed in the United States before the invention by the applicant for patent or (2) a patent granted on an application for patent by another filed in the United States before the invention by the applicant for patent, except that an international application filed under the treaty defined in section 351(a) shall have the effects for purposes of this subsection of an application filed in the United States only if the international application designated the United States and was published under Article 21(2) of such treaty in the English language.\n\nClaim(s) 1-3, 6 and 8-10 is/are rejected under pre-AIA  35 U.S.C. 102(e) as being anticipated by Chua (US 2012/0242579).\nRegarding claim 1, Chua teaches a mobile communication device (Fig. 2: device 200; Para. [0024]), comprising:\na touch screen (Fig. 2: touch screen 206); and\na processor (Fig. 2: processor 212) configured to:\npresent, via the touch screen, an input window (Fig. 2: display area 228) and a virtual keypad (Fig. 1: keyboard 100 with virtual keys; Fig. 2: on-screen keyboard with virtual keys 210) including a plurality of keys (Fig. 1: virtual keys; Fig. 2: virtual keys 210 208), receive a user input forming a path from a starting position to an ending positon with respect to the touch screen (Fig. 1: exemplary handwriting gestures 110, 112, 114 and 116 each is an intended character input forming at least a path from a starting point near a respective key corresponding to the intended character input), and\ndisplay a character, a numeral, or a symbol (Fig. 2; Fig. 3: step 316) corresponding to the path in the input window based at least in part on a determination that the starting position is included in a specified area (Fig. 1: “a specified area” near a key corresponding to an intended character input) of the virtual keypad, and that the ending position is included in the virtual keypad (Fig. 1).\nRegarding claim 2, Chua teaches the mobile communication device of claim 1. Chua does not further teach the mobile communication device of claim 1, wherein the processor is configured to:\n receive, via the touch screen, another user input corresponding to at least one key of the plurality of keys (Para. [0028]: 3rd sentence), and\ndisplay a character, a numeral, or a symbol corresponding to the at least one key in the input window in response to the other user input (Fig. 2; Fig. 3: step 316).\nRegarding claim 3, Chua teaches the mobile communication device of claim 1. Chua further teaches the mobile communication device of claim 1, wherein the processor is configured to:\ndisplay, via the touch screen, the path as at least partially overlapped with the virtual keypad in response to the user input (Fig. 1).\nRegarding claim 6, Chua teaches the mobile communication device of claim 1. Chua further teaches the mobile communication device of claim 1, wherein the processor is configured to:\ndisable a text input function to receive another user input corresponding to at least one key of the plurality of keys in response to a determination that at least one portion of the user input is detected (Para. [0048]: Examiner’s Note: in the scenario that a plurality of keys are touched when a path is drawn, a text input function is necessarily disabled for a period before an analysis is completed about what is the character input).\nRegarding claim 8, Chua teaches the mobile communication device of claim 1. Chua further teaches the mobile communication device of claim 1, wherein the processor is configured to:\ndetermine the character, numeral, or symbol corresponding to the path using a character recognition (Fig. 3: steps 310 and 312).\n Regarding claim 9, Chua teaches the mobile communication device of claim 1. Chua further teaches the mobile communication device of claim 1, wherein the user input comprises a drag input, a cursive input, a handwritten input, or any combination thereof (Fig. 1).\nRegarding claim 10, Chua teaches the mobile communication device of claim 1. Chua further teaches the mobile communication device of claim 1, wherein the character comprises an alphabet (Fig. 1), a cursive character (Fig. 1), a Chinese character, or any combination thereof.\n\nClaim Rejections - 35 USC § 103\nThe following is a quotation of pre-AIA  35 U.S.C. 103(a) which forms the basis for all obviousness rejections set forth in this Office action:\n(a) A patent may not be obtained though the invention is not identically disclosed or described as set forth in section 102, if the differences between the subject matter sought to be patented and the prior art are such that the subject matter as a whole would have been obvious at the time the invention was made to a person having ordinary skill in the art to which said subject matter pertains. Patentability shall not be negatived by the manner in which the invention was made.\n\nClaim 4 is rejected under pre-AIA  35 U.S.C. 103(a) as being unpatentable over Chua (US 2012/0242579).\nRegarding claim 4, Chua teaches the mobile communication device of claim 1. Chua does not further explicitly teach the mobile communication device of claim 1, wherein the virtual keypad is divided into the specified area and another area, and wherein the processor is configured to:\ndisregard the user input based at least in part on a determination that the user input is started from the other area.\n However, the current claim language is lack of clarity in terms of definition of the specified area and another area (Examiner’s note: “the other area” is replaced by “the another area”). It is noted that there exists a scenario wherein a user is not familiar with the rule of the gesture based character input method and happens to start a gesture at an area (i.e., “another area”) not in the nearby of an intended character (i.e., the specified area) to be input, disambiguation 224 (Para. [0028]) cannot match the user’s gesture with keys being touched.\nAt the time of the invention, it would have been obvious for one ordinary skill in the art to configure the processor, in the scenario wherein a user starts a gesture at an area not in the nearby of an intended character to be input, to:\ndisregard the user input based at least in part on a determination that the user input is started from the other area.\nDisregarding an unidentifiable input is the most straightforward way to deal with such kind of inputs.\n\nClaim(s) 5 and 7 is/are rejected under pre-AIA  35 U.S.C. 103(a) as being unpatentable over Chua (US 2012/0242579) in view of Sudo (WO 2011/136227, with its equivalent English translation US 2012/0056814 being used for examination purpose).\nRegarding claim 5, Chua teaches the mobile communication device of claim 1. Chua further teaches the mobile communication device of claim 1, wherein the processor is further configured to:\n receive at least one additional user input (Fig. 1: gesture 112 including two separate paths, one after the other) after the user input, the at least one additional user input forming another path with respect to the virtual keypad, and\nchange the character, numeral, or symbol corresponding to the path into a character (Fig. 3; Examiner’s Note: the handwritten character “i” corresponding to the two handwritten paths shown in Fig. 1 is converted to character “i” for display), a numeral, or a symbol corresponding to the path and the other path in response to the additional user input (Fig. 1).\nChua does not explicitly teach the receipt of the at least one additional user input is within a specified time. The feature is to provide a criterion on determining completion of a character input with a plurality of paths, which is not new however.\nSudo, for instances, teaches in Para. [0048], 2nd sentence the receipt of the at least one additional user input is within a specified time after the first user input (i.e., the first path of the character).\nRegarding claim 7, Chua teaches the mobile communication device of claim 3. Chua does not further teach the mobile communication device of claim 3, wherein the processor is configured to:\nenable a text input function to receive another user input corresponding to at least one key of the plurality of keys after the displaying of the path is stopped.\nSudo, however, teaches in Para. [0048] and Fig. 2 enabling a text input function to receive another user input corresponding to at least one key of the plurality of keys after the displaying of the path is stopped (Examiner’s Note: according to the prior art of  record, before an input of character is assumed to be completed, no input from a keystroke is received; furthermore, each path of the input is displayed real time before completing the character input).\nAt the time of the invention, it would have been obvious for one ordinary skill in the art to apply Sudo’s teaching to Chua’s technique enable a text input function to receive another user input corresponding to at least one key of the plurality of keys after the displaying of the path is stopped.\nThe motivation/suggestion would have been to allow the device reliably determine whether it is a gesture based character input or a keystroke based character input and avoid errors of recognizing characters. \n\nConclusion\n",
+  "NOABodyText": "CNTA  15/399,629  NOA  90794  2693    DETAILED ACTION   Notice of Pre-AIA or AIA Status  07-03-fti AIA The present application is being examined under the pre-AIA first to invent provisions.   Reasons for Allowance  12-151-07 AIA 07-97 12-51-07 Claim s 11-20 are allowed.   13-03 AIA The following is an examiner’s statement of reasons for allowance:  The primary reason for allowance of independent claim 11 is the feature “ in response to detecting the touch input starting from the region outside the keyboard, disable a text input mode through the keyboard to allow the touch input to extend into the keyboard ”. The closest prior art found are Koch (US 2012/0113023), Chua (US 2012/0242579) and Chung (US 2007/0075978). Koch teaches in Fig. 5FF detecting the touch input starting from the region outside the keyboard , i.e., from center area 5016-C, but does not further teach disabling a text input mode through the keyboard to allow the touch input to extend into the keyboard . Chua and Chung both teach disabling a text input mode through the keyboard to allow the touch input to extend into the keyboard , but do not teach the disabling the text input mode through the keyboard is in response to in response to detecting the touch input starting from the region outside the keyboard . Instead, In Chua and Chung’s disclosure, the touch input associated with the handwriting input mode starts inside the keyboard. However, no obvious reason has been found to combine the technique of Koch with the technique of Chua and/or Chung to achieve the differentiating feature in the claim 11.  Claims 12-16 are allowed because they depend on claim 11.  Independent claim 17 is allowed for the same rationale as applied to claim 11.  Claims 18-20 are allowed because they depend on claim 17 .   Any comments considered necessary by applicant must be submitted no later than the payment of the issue fee and, to avoid processing delays, should preferably accompany the issue fee.  Such submissions should be clearly labeled “Comments on Statement of Reasons for Allowance.”   Conclusion  Any inquiry concerning this communication or earlier communications from the examiner should be directed to XUEMEI ZHENG whose telephone number is (571)272-1434.  The examiner can normally be reached on Monday through Friday, 8:00 pm to 4:00 pm (EST).  Examiner interviews are available via telephone, in-person, and video conferencing using a USPTO supplied web-based collaboration tool. To schedule an interview, applicant is encouraged to use the USPTO Automated Interview Request (AIR) at http://www.uspto.gov/interviewpractice.  If attempts to reach the examiner by telephone are unsuccessful, the examiner’s supervisor, Benjamin C. Lee can be reached on 571-272-2963.  The fax phone number for the organization where this application or proceeding is assigned is 571-273-8300.  Information regarding the status of an application may be obtained from the Patent Application Information Retrieval (PAIR) system.  Status information for published applications may be obtained from either Private PAIR or Public PAIR.  Status information for unpublished applications is available through Private PAIR only.  For more information about the PAIR system, see http://pair-direct.uspto.gov. Should you have questions on access to the Private PAIR system, contact the Electronic Business Center (EBC) at 866-217-9197 (toll-free). If you would like assistance from a USPTO Customer Service Representative or access to the automated information system, call 800-786-9199 (IN USA OR CANADA) or 571-272-1000.       /XUEMEI ZHENG/  Examiner, Art Unit 2693      Application/Control Number:  15/399,629  Page 2    Art Unit:  2693          Application/Control Number:  15/399,629  Page 3    Art Unit:  2693          Application/Control Number:  15/399,629  Page 4    Art Unit:  2693",
+  "applicationNumber": "15399629",
+  "patentsCitedByExaminer": [
+    {
+      "referenceIdentifier": "20120242579",
+      "abstract": "Text input may be identified from a combination of key stroke information and handwriting gesture information. In one example, a touch screen displays an on-screen keyboard. A user then draws a character on the keyboard over the key that represents the character. In this way, two types of information are provided that identify the character that the user intended to enter: the particular drawing gesture that the user provided, and the location on the keyboard at which the user drew that gesture. These two pieces of information may be used, in combination, to determine which character the user intended to enter, and may help to interpret the input accurately in the case where either the gesture or key information, individually, would have been ambiguous.",
+      "claims": [
+        "1. One or more device-readable storage media that store executable instructions to receive text input, wherein the executable instructions, when executed on a device, cause the device to perform acts comprising:\nreceiving a gesture drawn by a user on a touch screen on which an on-screen keyboard is being displayed at a time at which the gesture is drawn;\nidentifying a character represented by the gesture;\nidentifying a key over which the gesture is drawn;\ndetermining that the user entered the character based on the gesture and also based on the key; and\nstoring, communicating, or displaying the character.",
+        "2. The one or more device-readable media of claim 1, wherein identifying one or more keys over which the gesture is performed by identifying locations on the touch screen that are touched by the gesture.",
+        "3. The one or more device-readable storage media of claim 1, wherein said acts further comprise:\nidentifying one or more keys over which the gesture is drawn, wherein the one or more keys comprise said key; and\nusing the gesture to determine which one of the one or more keys the user indicated.",
+        "4. The one or more device-readable storage media of claim 1, wherein said acts further comprise:\nidentifying one or more characters that correspond to the gesture, wherein the one or more characters comprise said character; and\nusing information on which one or more keys on the on-screen keyboard the gesture is drawn over to determine which one of the one or more characters the gesture represents.",
+        "5. The one or more device-readable storage media of claim 1, wherein said acts further comprise:\nidentifying one or more characters that correspond to the gesture, wherein each of the one or more characters is associated with a probability that it corresponds to the gesture;\nidentifying one or more keys over which the gesture is drawn, wherein each of the one or more keys is associated with a probability that it is the key that the user intended to indicate; and\nusing a weighted average of probabilities associated with the characters and probabilities associated with the keys to determine which character the user entered.",
+        "6. The one or more device-readable storage media of claim 1, wherein the device comprises a wireless telephone.",
+        "7. The one or more device-readable storage media of claim 1, wherein the device comprises a tablet computer.",
+        "8. The one or more device-readable storage media of claim 1, wherein the touch screen is part of the device.",
+        "9. A method of processing text input, the method comprising:\nreceiving a gesture drawn by a user on a touch screen on which an on-screen keyboard is being displayed at a time at which the gesture is drawn;\ndetermining, based on one or more keys on the on-screen keyboard over which the gesture is drawn or that the gesture surrounds, and also based on one or more characters in an alphabet that correspond to the gesture, which character the user indicated on the touch screen; and\nstoring, communicating, or displaying the character.",
+        "10. The method of claim 9, further comprising:\nidentifying the one or more keys on the on-screen keyboard over which the gesture is drawn by identifying locations on the touch screen that are touched by the gesture.",
+        "11. The method of claim 9, further comprising:\nusing the gesture to determine which one of the one or more keys the user indicated.",
+        "12. The method of claim 9, further comprising:\nusing information on which one or more keys on the on-screen keyboard the gesture is drawn over to determine which one of the one or more characters the gesture represents.",
+        "13. The method of claim 9, wherein each of the one or more characters is associated with a probability that it corresponds to the gesture, wherein each of the one or more keys is associated with a probability that it is a key that the user intended to indicate, and wherein the method comprises:\nusing a weighted average of probabilities associated with the characters and probabilities associated with the keys to determine which character the user entered.",
+        "14. The method of claim 9, wherein the method is performed by a device that comprises a dashboard-mounted interface of a motor vehicle, or is performed by a device that has a dashboard-mounted display and that provides a keypad in a steering wheel.",
+        "15. A device for receiving text input, the device comprising:\na processor;\na memory;\na touch screen; and\na component that is stored in said memory and that executes on said processor, wherein the component displays an on-screen keyboard on said touch screen, receives a gesture drawn by a user on said touch screen, identifies a character represented by the gesture, identifies a key over which the gesture is drawn, determines that the user entered the character based on the gesture and also based on the key, and either stores the character in the memory, communicates the character over a network, or displays the character on said touch screen.",
+        "16. The device of claim 15, wherein the component identifies one or more keys over which the gesture is performed by identifying locations on the touch screen that are touched by the gesture.",
+        "17. The device of claim 15, wherein the component identifies one or more keys over which the gesture is drawn, wherein the one or more keys comprise said key, and wherein the component uses the gesture to determine which one of the one or more keys the user indicated.",
+        "18. The device of claim 15, wherein the component identifies one or more characters that correspond to the gesture, wherein the one or more characters comprise said character, and wherein the component uses information on which one or more keys on the on-screen keyboard the gesture is drawn over to determine which one of the one or more characters the gesture represents.",
+        "19. The device of claim 15, wherein the component identifies one or more characters that correspond to the gesture, wherein each of the one or more characters is associated with a probability that it corresponds to the gesture, wherein the component identifies one or more keys over which the gesture is drawn, wherein each of the one or more keys is associated with a probability that it is the key that the user intended to indicate, and wherein the component uses a weighted average of probabilities associated with the characters and probabilities associated with the keys to determine which character the user entered.",
+        "20. The device of claim 15, wherein the device comprises a wireless telephone."
+      ],
+      "title": "TEXT INPUT USING KEY AND GESTURE INFORMATION"
+    },
+    {
+      "referenceIdentifier": "20120056814",
+      "abstract": "According to one embodiment, a character input device includes a touch panel and a control unit. The touch panel detects contact with respect to a surface thereof. The control unit performs, when detection of contact is started on the touch panel, character recognition processing based on a trajectory connecting each position at which the contact is detected. The control unit displays, when a character is recognized by the character recognition processing, a virtual keyboard on a display surface of the touch panel to receive input of a character from the virtual keyboard.",
+      "claims": [
+        "1. A character input device comprising:\na touch panel for detecting contact with respect to a surface thereof; and\na control unit for performing, when detection of contact is started on the touch panel, character recognition processing based on a trajectory connecting each position at which the contact is detected, and for displaying, when a character is recognized by the character recognition processing, a virtual keyboard on a display surface of the touch panel to receive input of a character from the virtual keyboard.",
+        "2. The character input device according to claim 1, wherein the control unit receives the character recognized by the character recognition processing and the character input from the virtual keyboard as input of a combined, consecutive character string.",
+        "3. The character input device according to claim 1, wherein the control unit, when the contact on the touch panel is detected in a state of an operation screen being displayed on the touch panel and the character recognition processing is started, defers performing processing corresponding to the operation screen based on a position at which the contact is detected, and performs the processing thus deferred when no character is recognized by the character recognition processing.",
+        "4. The character input device according to claim 1, wherein the control unit, when the input of the character from the virtual keyboard is completed, displays a screen for receiving selection of processing performed by using the character recognized by the character recognition processing and the character input from the virtual keyboard on the display surface of the touch panel.",
+        "5. The character input device according to claim 1, wherein the control unit, when the input of the character from the virtual keyboard is completed, performs processing corresponding to the character recognized by the character recognition processing and the character input from the virtual keyboard.",
+        "6. The character input device according to claim 1, wherein the control unit, when an object displayed on the touch panel is selected in advance, saves a character string obtained by combining the character recognized by the character recognition processing and the character input from the virtual keyboard as attribute information of the object.",
+        "7. The character input device according to claim 1, wherein the control unit, when a character is recognized by the character recognition processing, adjusts a position at which the virtual keyboard is displayed depending on a position at which a last contact is detected by the touch panel.",
+        "8. The character input device according to claim 1, wherein the control unit, when the touch panel detects a gesture in which contact is started at a first position on the surface of the touch panel and is terminated at a second position on the surface of the touch panel while the virtual keyboard is being displayed on the display surface of the touch panel, receives a character string including characters corresponding to buttons of the virtual keyboard displayed on a consecutive input trajectory connecting each position at which the contact is detected from when the contact is started at the first position to when the contact is terminated at the second position as input from the virtual keyboard.",
+        "9. The character input device according to claim 8, wherein the control unit receives the character string including a character corresponding to a button displayed at a position where a specific gesture is detected among the characters corresponding to the buttons displayed on the consecutive input trajectory as the input from the virtual keyboard.",
+        "10. The character input device according to claim 3, wherein the control unit, when no character is recognized by the character recognition processing, performs processing corresponding to an object displayed on the trajectory.",
+        "11. A character input method performed by a character input device including a touch panel for detecting contact with respect to a surface thereof, the character input method comprising:\nperforming, when detection of contact is started on the touch panel, character recognition processing by a control unit included in the character input device based on a trajectory connecting each position at which the contact is detected; and\ndisplaying, when a character is recognized by the character recognition processing, a virtual keyboard on a display surface of the touch panel to receive input of a character from the virtual keyboard by the control unit."
+      ],
+      "title": "CHARACTER INPUT DEVICE AND CHARACTER INPUT METHOD"
+    },
+    {
+      "referenceIdentifier": "9569091",
+      "abstract": "A method and an apparatus input test in a touch screen terminal. The method comprises designating a certain region on a keyboard interface picture, not permitting text input through a keyboard when touch drag started from the designated region is sensed and acquiring a path of the touch drag, acquiring a path of following touch drag when at least the one or more following touch drag are sensed, and reading out at least the acquired one or more paths by cursive character recognition, deducing a character, determining the deduced character as an input target, and permitting the text input through the keyboard.",
+      "claims": [
+        "1. A method to input a text in an electronic device including a touch screen, the method comprising:\ndesignating an input window, a keyboard, and a region on the touch screen;\ndetecting whether a touch input is started from the keyboard or the designated region, wherein the designated region is a region on the touch screen having an area that is less than a total area of the touch screen;\nin response to detecting the touch input starting from the keyboard, detecting a key on the keyboard that corresponds to the detected touch input and identifying a first character that corresponds to the detected key;\nin response to detecting the touch input starting from the designated region, disabling a text input mode through the keyboard to allow the touch input to extend into the keyboard, acquiring at least one or more paths of the detected touch input, and identifying a second character using character recognition based on the acquired one or more paths; and\ninputting the first or second character in the input window.",
+        "2. The method of claim 1, further comprising displaying at least the one or more paths of the detected touch input.",
+        "3. The method of claim 2, further comprising removing a display of the at least one or more paths of the detected touch input after inputting the first or second character.",
+        "4. The method of claim 1, further comprising enabling the text input mode through the keyboard after inputting the second character that is identified using character recognition based on the acquired one or more paths.",
+        "5. The method of claim 1, wherein inputting the second character which is identified using character recognition based on the acquired one or more paths is performed in response to identifying that no touch input is sensed within a threshold time after a previous touch input is released.",
+        "6. The method of claim 1, further comprising resizing or repositioning the designated region in response to a request from a user input.",
+        "7. The method of claim 1, further comprising determining when the touch input is continued toward a new point on the touch screen that is out of the designated region from an original point of the designated region.",
+        "8. The method of claim 1, wherein the touch input is capable of being input via an entire region of the touch screen.",
+        "9. An electronic device comprising:\na touch screen; and\na controller configured to:\ndesignate an input window, a keyboard, and a region on the touch screen, detect whether a touch input is started from the keyboard or the designated region, wherein the designated region is a region on the touch screen having an area that is less than a total area of the touch screen, in response to detecting the touch input starting from the keyboard, detect a key on the keyboard that corresponds to the detected touch input and identify a first character that corresponds to the detected key, in response to detecting the touch input starting from the designated region, disable a text input mode through the keyboard to allow the touch input to extend into the keyboard, acquire at least one or more paths of the detected touch input, and identify a second character using character recognition based on the acquired one or more paths, and input the first or second character in the input window.",
+        "10. The electronic device of claim 9, wherein the controller is configured to display the at least one or more paths of the detected touch input.",
+        "11. The electronic device of claim 10, wherein the controller is configured to remove a display of the one or more paths of the detected touch input after inputting the first or second character.",
+        "12. The electronic device of claim 9, wherein the controller is configured to enable the text input through the keyboard after inputting the second character which is identified using character recognition based on the acquired one or more paths.",
+        "13. The electronic device of claim 9, wherein the controller is configured to input the second character which is identified using character recognition based on the acquired one or more paths in response to identifying that no touch input is sensed within a threshold time after a previous touch input is released.",
+        "14. The electronic device of claim 9, wherein the controller is configured to resize or reposition the designated region in response to a request from a user input.",
+        "15. The electronic device of claim 9, wherein the controller is configured to determine when the touch input is continued toward a new point on the touch screen that is out of the designated region from an original point of the designated region.",
+        "16. The electronic device of claim 9, wherein the touch input is capable of being input via an entire region of the touch screen.",
+        "17. An electronic device, comprising:\na touch screen; and\na controller configured to:\ndesignate an input window, a keyboard, and a region on the touch screen, detect whether a touch input is started from the keyboard or the designated region, wherein the designated region is a region on the touch screen having an area that is less than a total area of the touch screen, in response to detecting the touch input starting from the keyboard, detect a key on the keyboard that corresponds to the detected touch input and identify a first character that corresponds to the detected key, in response to detecting the touch input starting from the designated region, disable a text input mode through the keyboard, acquire at least one or more paths of the detected touch input on the keyboard and the designated region, and identify a second character using character recognition based on the acquired one or more paths, and input the first or second character in the input window."
+      ],
+      "title": "Text input method in touch screen terminal and apparatus therefor"
+    },
+    {
+      "referenceIdentifier": "8547354",
+      "abstract": "A method includes, at an electronic device with a display and a touch-sensitive surface: concurrently displaying a first text entry area and an unsplit keyboard on the display; detecting a gesture on the touch-sensitive surface; and, in response to detecting the gesture on the touch-sensitive surface, replacing the unsplit keyboard with an integrated input area. The integrated input area includes a left portion with a left side of a split keyboard, a right portion with a right side of the split keyboard, and a center portion in between the left portion and the right portion.",
+      "claims": [
+        "1. An electronic device, comprising:\na display;\na touch-sensitive surface;\none or more processors;\nmemory; and\none or more programs, wherein the one or more programs are stored in the memory and configured to be executed by the one or more processors, the one or more programs including instructions for:\nconcurrently displaying a first text entry area and an unsplit keyboard on the display, the first text entry area displaying text at a first size;\ndetecting a gesture on the touch-sensitive surface; and\n, in response to detecting the gesture on the touch-sensitive surface, replacing the unsplit keyboard with an integrated input area, the integrated input area including:\na left portion with a left side of a split keyboard;\na right portion with a right side of the split keyboard;\na center portion in between the left portion and the right portion; and\na second text entry area that displays a portion of the text in the first text entry area at a second size that is larger than the first size.",
+        "2. The device of claim 1, including instructions for:\nwhile displaying the integrated input area, detecting a gesture at a location on the touch-sensitive surface that corresponds to a location of a character key in the split keyboard; and\n, in response to detecting the gesture at the location on the touch-sensitive surface that corresponds to the location of the character key in the split keyboard, inputting and concurrently displaying the corresponding character in the first text entry area and the second text entry area on the display.",
+        "3. The device of claim 1, wherein the gesture is a multifinger depinch gesture at a location on the touch-sensitive surface that corresponds to the location of the unsplit keyboard on the display.",
+        "4. The device of claim 1, wherein replacing the unsplit keyboard with the integrated input area includes displaying an animation that transitions the unsplit keyboard to the integrated input area.",
+        "5. The device of claim 1, including instructions for:\nwhile displaying the integrated input area, detecting a second gesture on the touch-sensitive surface; and\n, in response to detecting the second gesture on the touch-sensitive surface, replacing the integrated input area with the unsplit keyboard.",
+        "6. The device of claim 5, wherein the second gesture is a multifinger pinch gesture at a location on the touch-sensitive surface that corresponds to the location of the integrated input area on the display.",
+        "7. The device of claim 5, wherein replacing the integrated input area with the unsplit keyboard includes displaying an animation that transitions the integrated input area to the unsplit keyboard.",
+        "8. A method, comprising:\nat an electronic device with a display and a touch-sensitive surface:\nconcurrently displaying a first text entry area and an unsplit keyboard on the display, the first text entry area displaying text at a first size;\ndetecting a gesture on the touch-sensitive surface; and\n, in response to detecting the gesture on the touch-sensitive surface, replacing the unsplit keyboard with an integrated input area, the integrated input area including:\na left portion with a left side of a split keyboard;\na right portion with a right side of the split keyboard;\na center portion in between the left portion and the right portion; and\na second text entry area that displays a portion of the text in the first text entry area at a second size that is larger than the first size.",
+        "9. The method of claim 8, including:\nwhile displaying the integrated input area, detecting a gesture at a location on the touch-sensitive surface that corresponds to a location of a character key in the split keyboard; and\n, in response to detecting the gesture at the location on the touch-sensitive surface that corresponds to the location of the character key in the split keyboard, inputting and concurrently displaying the corresponding character in the first text entry area and the second text entry area on the display.",
+        "10. The method of claim 8, wherein the gesture is a multifinger depinch gesture at a location on the touch-sensitive surface that corresponds to the location of the unsplit keyboard on the display.",
+        "11. The method of claim 8, wherein replacing the unsplit keyboard with the integrated input area includes displaying an animation that transitions the unsplit keyboard to the integrated input area.",
+        "12. The method of claim 8, including:\nwhile displaying the integrated input area, detecting a second gesture on the touch-sensitive surface; and\n, in response to detecting the second gesture on the touch-sensitive surface, replacing the integrated input area with the unsplit keyboard.",
+        "13. The method of claim 12, wherein the second gesture is a multifinger pinch gesture at a location on the touch-sensitive surface that corresponds to the location of the integrated input area on the display.",
+        "14. The method of claim 12, wherein replacing the integrated input area with the unsplit keyboard includes displaying an animation that transitions the integrated input area to the unsplit keyboard.",
+        "15. A graphical user interface on an electronic device with a display, a touch-sensitive surface, a memory, and one or more processors to execute one or more programs stored in the memory, the graphical user interface comprising:\nconcurrently displayed:\na first text entry area and an unsplit keyboard, the first text entry area displaying text at a first size;\nwherein:\nin response to detection of a gesture on the touch-sensitive surface, the unsplit keyboard is replaced with an integrated input area, the integrated input area including:\na left portion with a left side of a split keyboard;\na right portion with a right side of the split keyboard;\na center portion in between the left portion and the right portion; and\na second text entry area that displays a portion of the text in the first text entry area at a second size that is larger than the first size.",
+        "16. A non-transitory computer readable storage medium storing one or more programs, the one or more programs comprising instructions, which when executed by an electronic device with a display and a touch-sensitive surface, cause the device to:\nconcurrently display a first text entry area and an unsplit keyboard on the display, the first text entry area displaying text at a first size;\ndetect a gesture on the touch-sensitive surface; and\n, in response to detecting the gesture on the touch-sensitive surface, replace the unsplit keyboard with an integrated input area, the integrated input area including:\na left portion with a left side of a split keyboard;\na right portion with a right side of the split keyboard;\na center portion in between the left portion and the right portion; and\na second text entry area that displays a portion of the text in the first text entry area at a second size that is larger than the first size.",
+        "17. The non-transitory computer readable storage medium of claim 16, including instructions which cause the device to:\nwhile displaying the integrated input area, detect a gesture at a location on the touch-sensitive surface that corresponds to a location of a character key in the split keyboard; and\n, in response to detecting the gesture at the location on the touch-sensitive surface that corresponds to the location of the character key in the split keyboard, input and concurrently display the corresponding character in the first text entry area and the second text entry area on the display.",
+        "18. The non-transitory computer readable storage medium of claim 16, wherein the gesture is a multifinger depinch gesture at a location on the touch-sensitive surface that corresponds to the location of the unsplit keyboard on the display.",
+        "19. The non-transitory computer readable storage medium of claim 16, wherein replacing the unsplit keyboard with the integrated input area includes displaying an animation that transitions the unsplit keyboard to the integrated input area.",
+        "20. The non-transitory computer readable storage medium of claim 16, including instructions which cause the device to:\nwhile displaying the integrated input area, detect a second gesture on the touch-sensitive surface; and\n, in response to detecting the second gesture on the touch-sensitive surface, replacing the integrated input area with the unsplit keyboard.",
+        "21. The non-transitory computer readable storage medium of claim 20, wherein the second gesture is a multifinger pinch gesture at a location on the touch-sensitive surface that corresponds to the location of the integrated input area on the display.",
+        "22. The non-transitory computer readable storage medium of claim 20, wherein replacing the integrated input area with the unsplit keyboard includes displaying an animation that transitions the integrated input area to the unsplit keyboard."
+      ],
+      "title": "Device, method, and graphical user interface for manipulating soft keyboards"
+    }
+  ],
+  "firstInventorToFileIndicator": "N",
+  "applicationStatusCode": 150,
+  "applicationTypeCode": "UTL",
+  "entityStatusData": {
+    "smallEntityStatusIndicator": false,
+    "businessEntityStatusCategory": "Regular Undiscounted"
+  },
+  "filingDate": "2017-01-05",
+  "class/subclass": "345/168",
+  "nationalStageIndicator": false,
+  "firstInventorName": "Tae-Gon Ha",
+  "cpcClassificationBag": [
+    "G06F3/04883",
+    "G06F3/0488",
+    "G06F3/018",
+    "G06F3/04886"
+  ],
+  "effectiveFilingDate": "2017-01-05",
+  "publicationDateBag": [
+    "2017-04-27"
+  ],
+  "publicationSequenceNumberBag": [
+    "0115875"
+  ],
+  "earliestPublicationDate": "2017-04-27",
+  "applicationTypeLabelName": "Utility",
+  "applicationStatusDate": "2018-02-28",
+  "class": "345",
+  "applicationTypeCategory": "REGULAR",
+  "applicationStatusDescriptionText": "Patented Case",
+  "patentNumber": "9921744",
+  "grantDate": "2018-03-20",
+  "applicantBag": [
+    {
+      "applicantNameText": "Samsung Electronics Co., Ltd.",
+      "correspondenceAddressBag": [
+        {
+          "cityName": "Gyeonggi-do",
+          "countryCode": "KR",
+          "postalCode": "16677",
+          "nameLineOneText": "Samsung Electronics Co., Ltd.",
+          "countryName": "KOREA, REPUBLIC OF",
+          "postalAddressCategory": "postal"
+        }
+      ]
+    }
+  ],
+  "firstApplicantName": "Samsung Electronics Co., Ltd.",
+  "customerNumber": 135249,
+  "groupArtUnitNumber": "2693",
+  "earliestPublicationNumber": "US20170115875A1",
+  "inventionTitle": "TEXT INPUT METHOD IN TOUCH SCREEN TERMINAL AND APPARATUS THEREFOR",
+  "applicationConfirmationNumber": 1064,
+  "examinerNameText": "ZHENG, XUEMEI",
+  "subclass": "168",
+  "publicationCategoryBag": [
+    "Granted/Issued",
+    "Pre-Grant Publications - PGPub"
+  ],
+  "docketNumber": "SP11422-US-CA",
+  "title": "TEXT INPUT METHOD IN TOUCH SCREEN TERMINAL AND APPARATUS THEREFOR",
+  "parsed_CTNF": [
+    {
+      "claimNumber": 1,
+      "parentClaim": -1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 102,
+          "citedPatents": [
+            {
+              "patentNum": "US 20120242579",
+              "text": [
+                24
+              ],
+              "img": [
+                "2",
+                "1",
+                "3"
+              ]
+            }
+          ],
+          "reason": "Regarding Claim 1, Chua teaches a mobile communication device (Fig. 2: device 200; Para. [0024]), comprising: a touch screen (Fig. 2: touch screen 206); and a processor (Fig. 2: processor 212) configured to: present, via the touch screen, an input window (Fig. 2: display area 228) and a virtual keypad (Fig. 1: keyboard 100 with virtual keys; Fig. 2: on-screen keyboard with virtual keys 210) including a plurality of keys (Fig. 1: virtual keys; Fig. 2: virtual keys 210 208), receive a user input forming a path from a starting position to an ending positon with respect to the touch screen (Fig. 1: exemplary handwriting gestures 110, 112, 114 and 116 each is an intended character input forming at least a path from a starting point near a respective key corresponding to the intended character input), and display a character, a numeral, or a symbol (Fig. 2; Fig. 3: step 316) corresponding to the path in the input window based at least in part on a determination that the starting position is included in a specified area (Fig. 1: “a specified area” near a key corresponding to an intended character input) of the virtual keypad, and that the ending position is included in the virtual keypad (Fig. 1)."
+        }
+      ]
+    },
+    {
+      "claimNumber": 2,
+      "parentClaim": 1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 102,
+          "citedPatents": [
+            {
+              "patentNum": "US 20120242579",
+              "text": [
+                28
+              ],
+              "img": [
+                "2",
+                "3"
+              ]
+            }
+          ],
+          "reason": "Regarding Claim 2, Chua teaches the mobile communication device of claim 1. Chua does not further teach the mobile communication device of claim 1, wherein the processor is configured to: receive, via the touch screen, another user input corresponding to at least one key of the plurality of keys (Para. [0028]: 3rd sentence), and display a character, a numeral, or a symbol corresponding to the at least one key in the input window in response to the other user input (Fig. 2; Fig. 3: step 316)."
+        }
+      ]
+    },
+    {
+      "claimNumber": 3,
+      "parentClaim": 1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 102,
+          "citedPatents": [
+            {
+              "patentNum": "US 20120242579",
+              "text": [],
+              "img": [
+                "1"
+              ]
+            }
+          ],
+          "reason": "Regarding Claim 3, Chua teaches the mobile communication device of claim 1. Chua further teaches the mobile communication device of claim 1, wherein the processor is configured to: display, via the touch screen, the path as at least partially overlapped with the virtual keypad in response to the user input (Fig. 1)."
+        }
+      ]
+    },
+    {
+      "claimNumber": 4,
+      "parentClaim": 1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20120242579",
+              "text": [
+                28
+              ],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 4, Chua teaches the mobile communication device of claim 1. Chua does not further explicitly teach the mobile communication device of claim 1, wherein the virtual keypad is divided into the specified area and another area, and wherein the processor is configured to: disregard the user input based at least in part on a determination that the user input is started from the other area. However, the current claim language is lack of clarity in terms of definition of the specified area and another area (Examiner’s note: “the other area” is replaced by “the another area”). It is noted that there exists a scenario wherein a user is not familiar with the rule of the gesture based character input method and happens to start a gesture at an area (i.e., “another area”) not in the nearby of an intended character (i.e., the specified area) to be input, disambiguation 224 (Para. [0028]) cannot match the user’s gesture with keys being touched. At the time of the invention, it would have been obvious for one ordinary skill in the art to configure the processor, in the scenario wherein a user starts a gesture at an area not in the nearby of an intended character to be input, to: disregard the user input based at least in part on a determination that the user input is started from the other area. Disregarding an unidentifiable input is the most straightforward way to deal with such kind of inputs."
+        }
+      ]
+    },
+    {
+      "claimNumber": 5,
+      "parentClaim": 1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20120242579",
+              "text": [],
+              "img": [
+                "1",
+                "3"
+              ]
+            },
+            {
+              "patentNum": "US 20120056814",
+              "text": [
+                48
+              ],
+              "img": [
+                "2"
+              ]
+            }
+          ],
+          "reason": "Regarding Claim 5, Chua teaches the mobile communication device of claim 1. Chua further teaches the mobile communication device of claim 1, wherein the processor is further configured to: receive at least one additional user input (Fig. 1: gesture 112 including two separate paths, one after the other) after the user input, the at least one additional user input forming another path with respect to the virtual keypad, and change the character, numeral, or symbol corresponding to the path into a character (Fig. 3; Examiner’s Note: the handwritten character “i” corresponding to the two handwritten paths shown in Fig. 1 is converted to character “i” for display), a numeral, or a symbol corresponding to the path and the other path in response to the additional user input (Fig. 1). Chua does not explicitly teach the receipt of the at least one additional user input is within a specified time. The feature is to provide a criterion on determining completion of a character input with a plurality of paths, which is not new however. Sudo, for instances, teaches in Para. [0048], 2nd sentence the receipt of the at least one additional user input is within a specified time after the first user input (i.e., the first path of the character)."
+        }
+      ]
+    },
+    {
+      "claimNumber": 6,
+      "parentClaim": 1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 102,
+          "citedPatents": [
+            {
+              "patentNum": "US 20120242579",
+              "text": [
+                48
+              ],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 6, Chua teaches the mobile communication device of claim 1. Chua further teaches the mobile communication device of claim 1, wherein the processor is configured to: disable a text input function to receive another user input corresponding to at least one key of the plurality of keys in response to a determination that at least one portion of the user input is detected (Para. [0048]: Examiner’s Note: in the scenario that a plurality of keys are touched when a path is drawn, a text input function is necessarily disabled for a period before an analysis is completed about what is the character input)."
+        }
+      ]
+    },
+    {
+      "claimNumber": 7,
+      "parentClaim": 3,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20120242579",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20120056814",
+              "text": [
+                48
+              ],
+              "img": [
+                "2"
+              ]
+            }
+          ],
+          "reason": "Regarding Claim 7, Chua teaches the mobile communication device of claim 3. Chua does not further teach the mobile communication device of claim 3, wherein the processor is configured to: enable a text input function to receive another user input corresponding to at least one key of the plurality of keys after the displaying of the path is stopped. Sudo, however, teaches in Para. [0048] and Fig. 2 enabling a text input function to receive another user input corresponding to at least one key of the plurality of keys after the displaying of the path is stopped (Examiner’s Note: according to the prior art of record, before an input of character is assumed to be completed, no input from a keystroke is received; furthermore, each path of the input is displayed real time before completing the character input). At the time of the invention, it would have been obvious for one ordinary skill in the art to apply Sudo’s teaching to Chua’s technique enable a text input function to receive another user input corresponding to at least one key of the plurality of keys after the displaying of the path is stopped. The motivation/suggestion would have been to allow the device reliably determine whether it is a gesture based character input or a keystroke based character input and avoid errors of recognizing characters."
+        }
+      ]
+    },
+    {
+      "claimNumber": 8,
+      "parentClaim": 1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 102,
+          "citedPatents": [
+            {
+              "patentNum": "US 20120242579",
+              "text": [],
+              "img": [
+                "3"
+              ]
+            }
+          ],
+          "reason": "Regarding Claim 8, Chua teaches the mobile communication device of claim 1. Chua further teaches the mobile communication device of claim 1, wherein the processor is configured to: determine the character, numeral, or symbol corresponding to the path using a character recognition (Fig. 3: steps 310 and 312)."
+        }
+      ]
+    },
+    {
+      "claimNumber": 9,
+      "parentClaim": 1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 102,
+          "citedPatents": [
+            {
+              "patentNum": "US 20120242579",
+              "text": [],
+              "img": [
+                "1"
+              ]
+            }
+          ],
+          "reason": "Regarding Claim 9, Chua teaches the mobile communication device of claim 1. Chua further teaches the mobile communication device of claim 1, wherein the user input comprises a drag input, a cursive input, a handwritten input, or any combination thereof (Fig. 1)."
+        }
+      ]
+    },
+    {
+      "claimNumber": 10,
+      "parentClaim": 1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 102,
+          "citedPatents": [
+            {
+              "patentNum": "US 20120242579",
+              "text": [],
+              "img": [
+                "1"
+              ]
+            }
+          ],
+          "reason": "Regarding Claim 10, Chua teaches the mobile communication device of claim 1. Chua further teaches the mobile communication device of claim 1, wherein the character comprises an alphabet (Fig. 1), a cursive character (Fig. 1), a Chinese character, or any combination thereof."
+        }
+      ]
+    },
+    {
+      "claimNumber": 11,
+      "parentClaim": -1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 9569091",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 8547354",
+              "text": [],
+              "img": [
+                "5FF",
+                "5GG"
+              ]
+            }
+          ],
+          "reason": "Regarding Claim 11, although claims 11 and 17 of this instant application are not identical to claim 9 of U.S. Patent No. 9,569,091, they are not patentably distinct from each other because: region on the touch screen recited in claim 9 of U.S. Patent No. 9,569,091 and “a region outside the keyboard” recited in claims 11 and 17 of this instant application are obvious variants in view of Figs. 5FF and 5GG US of Patent No. 8,547,354, wherein center area 5016-C of the integrated input area reads on not only region on the touch screen in claim 9 of U.S. Patent No. 9,569,091 but also “a region outside the keyboard” in claims 11 and 17 of this instant application. With region on the touch screen recited in claim 9 of U.S. Patent No. 9,569,091 and “a region outside the keyboard” recited in claims 11 and 17 of this instant application being equivalent to each other, all features of in claims 11 and 17 of this instant are indistinguishable from claim 9 of U.S. Patent No. 9,569,091."
+        }
+      ]
+    },
+    {
+      "claimNumber": 12,
+      "parentClaim": 11,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 9569091",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 8547354",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 12, claims 12-16 depend on claim 11 and are rejected accordingly."
+        }
+      ]
+    },
+    {
+      "claimNumber": 13,
+      "parentClaim": 11,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 9569091",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 8547354",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 13, claims 12-16 depend on claim 11 and are rejected accordingly."
+        }
+      ]
+    },
+    {
+      "claimNumber": 14,
+      "parentClaim": 11,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 9569091",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 8547354",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 14, claims 12-16 depend on claim 11 and are rejected accordingly."
+        }
+      ]
+    },
+    {
+      "claimNumber": 15,
+      "parentClaim": 11,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 9569091",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 8547354",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 15, claims 12-16 depend on claim 11 and are rejected accordingly."
+        }
+      ]
+    },
+    {
+      "claimNumber": 16,
+      "parentClaim": 11,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 9569091",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 8547354",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 16, claims 12-16 depend on claim 11 and are rejected accordingly."
+        }
+      ]
+    },
+    {
+      "claimNumber": 17,
+      "parentClaim": -1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 9569091",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 8547354",
+              "text": [],
+              "img": [
+                "5FF",
+                "5GG"
+              ]
+            }
+          ],
+          "reason": "Regarding Claim 17, although claims 11 and 17 of this instant application are not identical to claim 9 of U.S. Patent No. 9,569,091, they are not patentably distinct from each other because: region on the touch screen recited in claim 9 of U.S. Patent No. 9,569,091 and “a region outside the keyboard” recited in claims 11 and 17 of this instant application are obvious variants in view of Figs. 5FF and 5GG US of Patent No. 8,547,354, wherein center area 5016-C of the integrated input area reads on not only region on the touch screen in claim 9 of U.S. Patent No. 9,569,091 but also “a region outside the keyboard” in claims 11 and 17 of this instant application. With region on the touch screen recited in claim 9 of U.S. Patent No. 9,569,091 and “a region outside the keyboard” recited in claims 11 and 17 of this instant application being equivalent to each other, all features of in claims 11 and 17 of this instant are indistinguishable from claim 9 of U.S. Patent No. 9,569,091."
+        }
+      ]
+    },
+    {
+      "claimNumber": 18,
+      "parentClaim": 17,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 9569091",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 8547354",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 18, claims 18-20 depend on claim 17 and are rejected accordingly."
+        }
+      ]
+    },
+    {
+      "claimNumber": 19,
+      "parentClaim": 17,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 9569091",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 8547354",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 19, claims 18-20 depend on claim 17 and are rejected accordingly."
+        }
+      ]
+    },
+    {
+      "claimNumber": 20,
+      "parentClaim": 17,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 9569091",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 8547354",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 20, claims 18-20 depend on claim 17 and are rejected accordingly."
+        }
+      ]
+    }
+  ]
+}

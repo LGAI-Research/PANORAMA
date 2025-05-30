@@ -1,0 +1,429 @@
+{
+    "claims": [
+        {
+            "claimNumber": 1,
+            "parentClaim": -1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20130021153",
+                            "text": [
+                                85,
+                                93,
+                                94,
+                                96,
+                                100,
+                                103
+                            ],
+                            "img": [
+                                "10"
+                            ]
+                        },
+                        {
+                            "patentNum": "US 20140281523",
+                            "text": [
+                                20,
+                                96
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 1, Keays teaches a method for remotely monitoring intoxication of a user, comprising: at a breath sample acquisition device in communication with a mobile computing device of the user, transmitting a breath sample signal derived from reception of a breath sample from the user, to the mobile computing device, and broadcasting a unique signature indicative of the breath sample acquisition device. Keays lacks teaching that the sensor of the mobile computing device derived unique signature is used to generate the authentication signal. However, Golino teaches methods for data transfer and authentication for use with breathalyzer and breathalyzer peripherals such as cell phones including a device number for a user’s device which may be based on unique device information. Therefore, before the effective filing date of the claimed invention it would have been obvious to one of ordinary skill in the art to modify the authentication key for a device used in breathalyzing of Keays with the DISN derived from unique device information for use with breathalyzing devices or peripherals of Golino."
+                }
+            ]
+        },
+        {
+            "claimNumber": 2,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20130021153",
+                            "text": [
+                                116
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 2, Keays teaches collecting a location dataset at the mobile device, and prompting the user, at the mobile device, to provide the breath sample based on the location dataset."
+                }
+            ]
+        },
+        {
+            "claimNumber": 3,
+            "parentClaim": 2,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20130021153",
+                            "text": [
+                                93
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 3, Keays teaches that prompting the user to provide the breath sample comprises emitting light with a light emitting module of the breath sample acquisition device at a first time point, and wherein broadcasting the unique signature comprises emitting a light signature with the light emitting module of the breath sample acquisition device."
+                }
+            ]
+        },
+        {
+            "claimNumber": 4,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20130021153",
+                            "text": [
+                                93
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 4, Keays teaches broadcasting the unique signature comprises emitting a light signature with a light emitting module of the breath sample acquisition device."
+                }
+            ]
+        },
+        {
+            "claimNumber": 5,
+            "parentClaim": 4,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20130021153",
+                            "text": [
+                                93
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 5, Keays teaches that the light emitting module operates between an on state and an off state, and emitting the light signature comprises operating the light emitting in a specific pattern of on states and off states of the light emitting module."
+                }
+            ]
+        },
+        {
+            "claimNumber": 6,
+            "parentClaim": -1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20130021153",
+                            "text": [
+                                85,
+                                93,
+                                94,
+                                96,
+                                100,
+                                103
+                            ],
+                            "img": [
+                                "10"
+                            ]
+                        },
+                        {
+                            "patentNum": "US 20140281523",
+                            "text": [
+                                20,
+                                96
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 6, Keays teaches a method for remotely monitoring intoxication of a user, comprising: at a breath sample acquisition device in communication with a mobile computing device of the user, transmitting a breath sample signal derived from reception of a breath sample from the user, to the mobile computing device, and broadcasting a unique signature indicative of the breath sample acquisition device. Keays lacks teaching that the sensor of the mobile computing device derived unique signature is used to generate the authentication signal. However, Golino teaches methods for data transfer and authentication for use with breathalyzer and breathalyzer peripherals such as cell phones including a device number for a user’s device which may be based on unique device information. Therefore, before the effective filing date of the claimed invention it would have been obvious to one of ordinary skill in the art to modify the authentication key for a device used in breathalyzing of Keays with the DISN derived from unique device information for use with breathalyzing devices or peripherals of Golino."
+                }
+            ]
+        },
+        {
+            "claimNumber": 7,
+            "parentClaim": 6,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20130021153",
+                            "text": [
+                                105
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 7, Keays teaches collecting a communication dataset at the mobile device, and prompting the user, at the mobile device, to provide the breath sample based on the communication dataset."
+                }
+            ]
+        },
+        {
+            "claimNumber": 8,
+            "parentClaim": 6,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20130021153",
+                            "text": [
+                                48,
+                                93,
+                                103
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 8, Keays teaches generating a second authentication signal that validates the identity of the user, based upon analyzing an action performed by the user."
+                }
+            ]
+        },
+        {
+            "claimNumber": 9,
+            "parentClaim": 8,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20130021153",
+                            "text": [
+                                48,
+                                93,
+                                103
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 9, Keays lacks teaching that generating the second authentication signal in association with a fingerprint pattern signature collected from the user at the mobile device, and generating the verification assessment that validates provision of the breath sample by the user, based upon the breath sample signal, the authentication signal, and the second authentication signal. However, Keays does disclose a variety of authentication signals. Therefore, at the time the invention was made, it would have been obvious to a person of ordinary skill in the art to modify the various authentication and verification concepts of Keays with any variety of combinations of such known biometric and data driven authentications."
+                }
+            ]
+        },
+        {
+            "claimNumber": 10,
+            "parentClaim": 6,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20130021153",
+                            "text": [],
+                            "img": [
+                                "10"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 10, Keays teaches that generating the authentication signal comprises detecting the unique signature in a configuration wherein the breath sample acquisition device is physically uncoupled from the mobile computing device."
+                }
+            ]
+        },
+        {
+            "claimNumber": 11,
+            "parentClaim": 6,
+            "isReject": false,
+            "reasons": []
+        },
+        {
+            "claimNumber": 12,
+            "parentClaim": 6,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20130021153",
+                            "text": [
+                                93
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 12, Keays teaches that prompting the user to provide the breath sample comprises emitting light with a light emitting module of the breath sample acquisition device at a first time point, and wherein broadcasting the unique signature comprises emitting a light signature with the light emitting module of the breath sample acquisition device."
+                }
+            ]
+        },
+        {
+            "claimNumber": 13,
+            "parentClaim": 6,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20130021153",
+                            "text": [
+                                105
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 13, Keays teaches that broadcasting the unique signature comprises broadcasting at least one of: a light emission signature at the breath sample acquisition device, an audio signal signature at the breath sample acquisition device, and a vibration signal signature at the breath sample acquisition device, proximal in time to the time point of breath sample provision from the user."
+                }
+            ]
+        },
+        {
+            "claimNumber": 14,
+            "parentClaim": 6,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20130021153",
+                            "text": [],
+                            "img": [
+                                "10"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 14, Keays teaches that generating the authentication signal comprises detecting the unique signature in a configuration wherein the breath sample acquisition device is physically uncoupled from the mobile computing device."
+                }
+            ]
+        },
+        {
+            "claimNumber": 15,
+            "parentClaim": 6,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20130021153",
+                            "text": [
+                                103
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 15, Keays teaches blocking pairing of a second breath sample acquisition device with the mobile computing device, in enabling validation of a source of the breath sample provided by the user."
+                }
+            ]
+        },
+        {
+            "claimNumber": 16,
+            "parentClaim": 6,
+            "isReject": false,
+            "reasons": []
+        },
+        {
+            "claimNumber": 17,
+            "parentClaim": -1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20130021153",
+                            "text": [
+                                85,
+                                93,
+                                94,
+                                96,
+                                100,
+                                103
+                            ],
+                            "img": [
+                                "10"
+                            ]
+                        },
+                        {
+                            "patentNum": "US 20140281523",
+                            "text": [
+                                20,
+                                96
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 17, Keays teaches a method for remotely monitoring intoxication of a user, comprising: at a sample acquisition device in communication with a mobile computing device, transmitting a sample signal derived from reception of a sample from the user, to the mobile computing device, and broadcasting a unique signature, comprising a pattern of light emission emitted from light emitters of the sample acquisition device. Keays lacks teaching that the sensor of the mobile computing device derived unique signature is used to generate the authentication signal. However, Golino teaches methods for data transfer and authentication for use with breathalyzer and breathalyzer peripherals such as cell phones including a device number for a user’s device which may be based on unique device information. Therefore, before the effective filing date of the claimed invention it would have been obvious to one of ordinary skill in the art to modify the authentication key for a device used in breathalyzing of Keays with the DISN derived from unique device information for use with breathalyzing devices or peripherals of Golino."
+                }
+            ]
+        },
+        {
+            "claimNumber": 18,
+            "parentClaim": 17,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20130021153",
+                            "text": [
+                                93
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 18, Keays teaches that broadcasting a unique signature occurs within a time interval, and wherein the time interval is proximal in time to a time point of sample provision from the user."
+                }
+            ]
+        },
+        {
+            "claimNumber": 19,
+            "parentClaim": 17,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20130021153",
+                            "text": [
+                                85,
+                                93,
+                                94,
+                                100,
+                                105
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 19, Keays teaches that the sample is a breath sample, and wherein the method further comprises prompting the user to provide the breath sample, and wherein prompting the user to provide the breath sample comprises emitting light with a light emitting module of the breath sample acquisition device at a first time point outside the time interval, and wherein broadcasting the unique signature comprises emitting a light signature with the light emitting module of the breath sample acquisition device at a second time point within the time interval."
+                }
+            ]
+        },
+        {
+            "claimNumber": 20,
+            "parentClaim": 17,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20130021153",
+                            "text": [
+                                116
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 20, Keays teaches that collecting location data at the mobile device, triggering the mobile device of the user to prompt the user to provide the sample based on the location data, and prompting the user to provide the sample."
+                }
+            ]
+        }
+    ]
+}

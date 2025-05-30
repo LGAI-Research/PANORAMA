@@ -1,0 +1,565 @@
+{
+  "id": 11,
+  "abstract": "ABSTRACT Embodiments of the present invention provide methods, computer program products,  and systems for leveraging social networks in physical gatherings. Embodiments of the present  invention generate profiles for participants at the physical gathering. Embodiments of the  present invention can enrich the participants experience at the physical gathering by providing  information to the participant, based on the profile for the participant. END920140251US1 Page 30 of 30",
+  "initialClaims": [
+    "1. A method for leveraging social networks in physical gatherings, the method comprising: generating, by one or more computer processors, a profile for each participant of one or more participants at a physical gathering; receiving, by one or more computer processors, data from one or more computer systems associated with the one or more participants of the physical gathering, wherein each participant of the one or more participants is associated with a computer system; receiving, by one or more computer processors, a request for information from a computer system associated with a first participant of the one or more participants of the physical gathering; determining, by one or more computer processors, whether the first participant has access to the information requested based on the profile for the first participant; responsive to determining that the first participant has access to the information requested, analyzing, by one or more computer processors, the data received from the one or more computer systems associated with the one or more participants of the physical gathering to identify data to provide to the first participant to fulfill the request for information; and providing, by one or more computer processors, the identified data to the computer system associated with the first participant of the physical gathering.",
+    "2. The method of claim 1, wherein the step of generating the profile for each participant of the one or more participants at the physical gathering comprises: for each participant of the one or more participants at the physical gathering: receiving, by one or more computer processors, a first information associated with a participant of the one or more participants at a first time; creating, by one or more computer processors, the profile for the participant of the one or more participants; receiving, by one or more computer processors, a second information associated with the participant of the one or more participants a second time; and updating, by one or more computer processors, the profile for the participant of the one or more participants based on the second information.",
+    "3. The method of claim 1, wherein the data from the one or more computer systems associated with the one or more participants of the physical gathering includes one or more of the following: location data, contact data, mapping data, status data, and active conversation data.",
+    "4. The method of claim 1, wherein the step for analyzing the data received from the one or more computer systems associated with the one or more participants of the physical gathering to identify data to provide to the first participant to fulfill the request for information comprises: identifying, by one or more computer processors, a conversation between two or more participants at the physical gathering discussing a topic based on the data received from the one or more computer systems; analyzing, by one or more computer processors, a profile for each participant of the two or more participants to identify profile information for each of the two or more participants; and storing, by one or more computer processors, the conversation and the identified profile information for each participant of the two or more participants of the conversation.",
+    "5. The method of claim 4, wherein the request for information received from the computer system associated with the first participant of the one or more participants of the physical gathering includes a request for conversations of a particular topic.",
+    "6. The method of claim 5, wherein the step for providing the identified data to the computer system associated with the first participant of the physical gathering comprises: providing, by one or more computer processors, the identified conversation and the identified profile information for each participant of the two or more participants of the conversation to the computer system associated with the first participant.",
+    "7. The method of claim 1, further comprising: aggregating, by one or more computer processors, the received data from each participant of the one or more participants of the physical gathering to create a summary of the physical gathering; receiving, by one or more computer processors, a request for summary information from a second participant of the one or more participants, wherein the second request for information includes one or more portions of the created summary of the physical gathering; determining, by one or more computer processors, whether the second participant has access to the summary information requested based on the profile for the second participant; responsive to determining that the first participant has access to the summary information requested, analyzing, by one or more computer processors, the created summary to identify one or more portions of the summary to provide to the second participant to fulfill the request for summary information; and providing, by one or more computer processors, the identified one or more portions of summary to the computer system associated with the second participant of the physical gathering.",
+    "8. A computer program product for leveraging social networks in physical gatherings, the computer program product comprising: one or more computer readable storage media and program instructions stored on the one or more computer readable storage media, the program instructions comprising: program instructions to generate a profile for each participant of one or more participants at a physical gathering; program instructions to receive data from one or more computer systems associated with the one or more participants of the physical gathering, wherein each participant of the one or more participants is associated with a computer system; program instructions to receive a request for information from a computer system associated with a first participant of the one or more participants of the physical gathering; program instructions to determine whether the first participant has access to the information requested based on the profile for the first participant; program instructions to, responsive to determining that the first participant has access to the information requested, analyze the data received from the one or more computer systems associated with the one or more participants of the physical gathering to identify data to provide to the first participant to fulfill the request for information; and program instructions to provide the identified data to the computer system associated with the first participant of the physical gathering.",
+    "9. The computer program product of claim 8, wherein the program instructions to generate the profile for each participant of the one or more participants at the physical gathering comprise: for each participant of the one or more participants at the physical gathering: program instructions to receive a first information associated with a participant of the one or more participants at a first time; program instructions to create the profile for the participant of the one or more participants; program instructions to receive a second information associated with the participant of the one or more participants a second time; and program instructions to update the profile for the participant of the one or more participants based on the second information.",
+    "10. The computer program product of claim 8, wherein the data from the one or more computer systems associated with the one or more participants of the physical gathering includes one or more of the following: location data, contact data, mapping data, status data, and active conversation data.",
+    "11. The computer program product of claim 8, wherein the program instructions to analyze the data received from the one or more computer systems associated with the one or more participants of the physical gathering to identify data to provide to the first participant to fulfill the request for information comprise: program instructions to identify a conversation between two or more participants at the physical gathering discussing a topic based on the data received from the one or more computer systems; program instructions to analyze a profile for each participant of the two or more participants to identify profile information for each of the two or more participants; and program instructions to store the conversation and the identified profile information for each participant of the two or more participants of the conversation.",
+    "12. The computer program product of claim 11, wherein the request for information received from the computer system associated with the first participant of the one or more participants of the physical gathering includes a request for conversations of a particular topic.",
+    "13. The computer program product of claim 12, wherein the program instructions to provide the identified data to the computer system associated with the first participant of the physical gathering comprise: program instructions to provide the identified conversation and the identified profile information for each participant of the two or more participants of the conversation to the computer system associated with the first participant.",
+    "14. The computer program product of claim 8, wherein the program instructions stored on the one or more computer readable storage media further comprise: program instructions to aggregate the received data from each participant of the one or more participants of the physical gathering to create a summary of the physical gathering; program instructions to receive a request for summary information from a second participant of the one or more participants, wherein the second request for information includes one or more portions of the created summary of the physical gathering; program instructions to determine whether the second participant has access to the summary information requested based on the profile for the second participant; program instructions to, responsive to determining that the first participant has access to the summary information requested, analyze the created summary to identify one or more portions of the summary to provide to the second participant to fulfill the request for summary information; and program instructions to provide the identified one or more portions of summary to the computer system associated with the second participant of the physical gathering.",
+    "15. A computer system for leveraging social networks in physical gatherings, the computer system comprising: one or more computer processors; one or more computer readable storage media; program instructions stored on the one or more computer readable storage media for execution by at least one of the one or more processors, the program instructions comprising: program instructions to generate a profile for each participant of one or more participants at a physical gathering; program instructions to receive data from one or more computer systems associated with the one or more participants of the physical gathering, wherein each participant of the one or more participants is associated with a computer system; program instructions to receive a request for information from a computer system associated with a first participant of the one or more participants of the physical gathering; program instructions to determine whether the first participant has access to the information requested based on the profile for the first participant; program instructions to, responsive to determining that the first participant has access to the information requested, analyze the data received from the one or more computer systems associated with the one or more participants of the physical gathering to identify data to provide to the first participant to fulfill the request for information; and program instructions to provide the identified data to the computer system associated with the first participant of the physical gathering.",
+    "16. The computer system of claim 15, wherein the program instructions to generate the profile for each participant of the one or more participants at the physical gathering comprise: for each participant of the one or more participants at the physical gathering: program instructions to receive a first information associated with a participant of the one or more participants at a first time; program instructions to create the profile for the participant of the one or more participants; program instructions to receive a second information associated with the participant of the one or more participants a second time; and program instructions to update the profile for the participant of the one or more participants based on the second information.",
+    "17. The computer system of claim 15, wherein the data from the one or more computer systems associated with the one or more participants of the physical gathering includes one or more of the following: location data, contact data, mapping data, status data, and active conversation data.",
+    "18. The computer system of claim 15, wherein the program instructions to analyze the data received from the one or more computer systems associated with the one or more participants of the physical gathering to identify data to provide to the first participant to fulfill the request for information comprise: program instructions to identify a conversation between two or more participants at the physical gathering discussing a topic based on the data received from the one or more computer systems; program instructions to analyze a profile for each participant of the two or more participants to identify profile information for each of the two or more participants; and program instructions to store the conversation and the identified profile information for each participant of the two or more participants of the conversation.",
+    "19. The computer system of claim 18, wherein the request for information received from the computer system associated with the first participant of the one or more participants of the physical gathering includes a request for conversations of a particular topic.",
+    "20. The computer system of claim 19, wherein the program instructions to provide the identified data to the computer system associated with the first participant of the physical gathering comprise: program instructions to provide the identified conversation and the identified profile information for each participant of the two or more participants of the conversation to the computer system associated with the first participant."
+  ],
+  "finalClaims": [
+    "1. (Cancelled)",
+    "2. The method of claim 1, wherein the step of generating the profile for each participant of the one or more participants at the physical gathering comprises: for each participant of the one or more participants at the physical gathering: receiving, by one or more computer processors, a first information associated with a participant of the one or more participants at a first time; creating, by one or more computer processors, the profile for the participant of the one or more participants; receiving, by one or more computer processors, a second information associated with the participant of the one or more participants a second time; and updating, by one or more computer processors, the profile for the participant of the one or more participants based on the second information.",
+    "3. The method of claim 1, wherein the data from the one or more computer systems associated with the one or more participants of the physical gathering includes one or more of the following: location data, contact data, mapping data, status data, and active conversation data.",
+    "4. (Cancelled)",
+    "5. The method of claim 1, wherein the request for information received from the computer system associated with the first participant of the one or more participants of the physical gathering includes a request for conversations of a particular topic.",
+    "6. The method of claim 5, wherein the step for providing the identified data to the computer system associated with the first participant of the physical gathering comprises: providing, by one or more computer processors, the identified conversation and the identified profile information for each participant of the two or more participants of the conversation to the computer system associated with the first participant.",
+    "7. The method of claim 1, further comprising: aggregating, by one or more computer processors, the received data from each participant of the one or more participants of the physical gathering to create a summary of the physical gathering; receiving, by one or more computer processors, a request for summary information from a second participant of the one or more participants, wherein the second request for information includes one or more portions of the created summary of the physical gathering; determining, by one or more computer processors, whether the second participant has access to the summary information requested based on the profile for the second participant; responsive to determining that the first participant has access to the summary information requested, analyzing, by one or more computer processors, the created summary to identify one or more portions of the summary to provide to the second participant to fulfill the request for summary information; and providing, by one or more computer processors, the identified one or more portions of summary to the computer system associated with the second participant of the physical gathering.",
+    "8. A computer program product for leveraging social networks in physical gatherings, the computer program product comprising: one or more computer readable storage media and program instructions stored on the one or more computer readable storage media, the program instructions comprising: program instructions to generate a profile for each participant of one or more participants at a physical gathering; program instructions to receive data from one or more computer systems associated with the one or more participants of the physical gathering, wherein each participant of the one or more participants is associated with a computer system; program instructions to receive a request for information from a computer system associated with a first participant of the one or more participants of the physical gathering; program instructions to determine whether the first participant has access to the information requested based on the profile for the first participant; program instructions to, responsive to determining that the first participant has access to the information requested, analyze the data received from the one or more computer systems associated with the one or more participants of the physical gathering to identify data to provide to the first participant to fulfill the request for information, wherein the program instructions to analyze the data comprise: program instructions to identify a conversation between two or more participants at the physical gathering discussing a topic based on the data received from the one or more computer systems; program instructions to analyze a profile for each participant of the two or more participants to identify profile information for each of the two or more participants; and program instructions to store the conversation and the identified profile information for each participant of the two or more participants of the conversation; and program instructions to provide the identified data to the computer system associated with the first participant of the physical gathering.",
+    "9. The computer program product of claim 8, wherein the program instructions to generate the profile for each participant of the one or more participants at the physical gathering comprise: for each participant of the one or more participants at the physical gathering: program instructions to receive a first information associated with a participant of the one or more participants at a first time; program instructions to create the profile for the participant of the one or more participants; program instructions to receive a second information associated with the participant of the one or more participants a second time; and program instructions to update the profile for the participant of the one or more participants based on the second information.",
+    "10. The computer program product of claim 8, wherein the data from the one or more computer systems associated with the one or more participants of the physical gathering includes one or more of the following: location data, contact data, mapping data, status data, and active conversation data.",
+    "11. (Cancelled)",
+    "12. The computer program product of claim 8, wherein the request for information received from the computer system associated with the first participant of the one or more participants of the physical gathering includes a request for conversations of a particular topic.",
+    "13. The computer program product of claim 12, wherein the program instructions to provide the identified data to the computer system associated with the first participant of the physical gathering comprise: program instructions to provide the identified conversation and the identified profile information for each participant of the two or more participants of the conversation to the computer system associated with the first participant.",
+    "14. The computer program product of claim 8, wherein the program instructions stored on the one or more computer readable storage media further comprise: program instructions to aggregate the received data from each participant of the one or more participants of the physical gathering to create a summary of the physical gathering; program instructions to receive a request for summary information from a second participant of the one or more participants, wherein the second request for information includes one or more portions of the created summary of the physical gathering; program instructions to determine whether the second participant has access to the summary information requested based on the profile for the second participant; program instructions to, responsive to determining that the first participant has access to the summary information requested, analyze the created summary to identify one or more portions of the summary to provide to the second participant to fulfill the request for summary information; and program instructions to provide the identified one or more portions of summary to the computer system associated with the second participant of the physical gathering.",
+    "15. A computer system for leveraging social networks in physical gatherings, the computer system comprising: one or more computer processors; one or more computer readable storage media; program instructions stored on the one or more computer readable storage media for execution by at least one of the one or more processors, the program instructions comprising: program instructions to generate a profile for each participant of one or more participants at a physical gathering; program instructions to receive data from one or more computer systems associated with the one or more participants of the physical gathering, wherein each participant of the one or more participants is associated with a computer system; program instructions to receive a request for information from a computer system associated with a first participant of the one or more participants of the physical gathering; program instructions to determine whether the first participant has access to the information requested based on the profile for the first participant; program instructions to, responsive to determining that the first participant has access to the information requested, analyze the data received from the one or more computer systems associated with the one or more participants of the physical gathering to identify data to provide to the first participant to fulfill the request for information, wherein the program instructions to analyze the data comprise: program instructions to identify a conversation between two or more participants at the physical gathering discussing a topic based on the data received from the one or more computer systems; program instructions to analyze a profile for each participant of the two or more participants to identify profile information for each of the two or more participants; and program instructions to store the conversation and the identified profile information for each participant of the two or more participants of the conversation; and program instructions to provide the identified data to the computer system associated with the first participant of the physical gathering.",
+    "16. The computer system of claim 15, wherein the program instructions to generate the profile for each participant of the one or more participants at the physical gathering comprise: for each participant of the one or more participants at the physical gathering: program instructions to receive a first information associated with a participant of the one or more participants at a first time; program instructions to create the profile for the participant of the one or more participants; program instructions to receive a second information associated with the participant of the one or more participants a second time; and program instructions to update the profile for the participant of the one or more participants based on the second information.",
+    "17. The computer system of claim 15, wherein the data from the one or more computer systems associated with the one or more participants of the physical gathering includes one or more of the following: location data, contact data, mapping data, status data, and active conversation data.",
+    "18. (Cancelled)",
+    "19. The computer system of claim 15, wherein the request for information received from the computer system associated with the first participant of the one or more participants of the physical gathering includes a request for conversations of a particular topic.",
+    "20. The computer system of claim 19, wherein the program instructions to provide the identified data to the computer system associated with the first participant of the physical gathering comprise: program instructions to provide the identified conversation and the identified profile information for each participant of the two or more participants of the conversation to the computer system associated with the first participant."
+  ],
+  "CTNFDocumentIdentifier": "IWXSYSRSRXEAPX2",
+  "CTNFBodyText": "DETAILED ACTION\nThe present application, filed on or after March 16, 2013, is being examined under the first inventor to file provisions of the AIA .\nThis Action is in response to the communication filed 5/5/2015.  Claims 1-20 are pending.  Claims 1-3, 8-10, 15-17 are rejected.  Claims 4-7, 11-14 and 18-20 are objected to.\nThe computer readable storage medium, “as used herein, is not to be construed as being transitory signals per se, such as radio waves or other freely propagating electromagnetic waves, electromagnetic waves propagating through a waveguide or other transmission media (e.g., light pulses passing through a fiber-optic cable), or electrical signals transmitted through a wire.”  See the published specification (US 20160330290 A1).\n\nClaim Rejections - 35 USC § 103\n\nThe following is a quotation of 35 U.S.C. 103 which forms the basis for all obviousness rejections set forth in this Office action:\nA patent for a claimed invention may not be obtained, notwithstanding that the claimed invention is not identically disclosed as set forth in section 102, if the differences between the claimed invention and the prior art are such that the claimed invention as a whole would have been obvious before the effective filing date of the claimed invention to a person having ordinary skill in the art to which the claimed invention pertains. Patentability shall not be negated by the manner in which the invention was made.\n\n USPQ 459 (1966), that are applied for establishing a background for determining obviousness under 35 U.S.C. 103(a) are summarized as follows:\n1.\tDetermining the scope and contents of the prior art.\n2.\tAscertaining the differences between the prior art and the claims at issue.\n3.\tResolving the level of ordinary skill in the pertinent art.\n4.\tConsidering objective evidence present in the application indicating obviousness or nonobviousness.\n\n\nClaims 1-3, 8-10, 15-17 are rejected under 35 U.S.C. 103 as being unpatentable over Graff (US Patent Publication No. 20140358632 A1) and Klemm (US Patent Publication No. 20150379478 A1).\n\nRegarding claim 1, Graff discloses a method for leveraging social networks in physical gatherings, the method comprising: \ngenerating, by one or more computer processors, a profile (user profile) for each participant (an event participant) of one or more participants at a physical gathering (an event); (paragraphs 0104-0108 and Fig. 4, see also paragraphs 0110-0116 and Fig. 5).\nreceiving, by one or more computer processors, data from one or more computer systems associated with the one or more participants of the physical gathering, (paragraphs 0103-0108.  By using a native application or app on mobile communication device to set the user profile, the data is received by the database from the mobile communication device.) wherein each participant of the one or more participants is associated with a computer system; (paragraph 0117. “Based on the GPS location information supplied by the mobile communication devices for each event  attendee, the location of each event attendee can be plotted on a map of one or more venues at the event.”  As such, each participant is associated with a mobile communication device.\nGraff does not disclose receiving, by one or more computer processors, a request for information from a computer system associated with a first participant of the one or more participants of the physical gathering; \ndetermining, by one or more computer processors, whether the first participant has access to the information requested based on the profile for the first participant; \nresponsive to determining that the first participant has access to the information requested, analyzing, by one or more computer processors, the data received from the one or more computer systems associated with the one or more participants of the physical gathering to identify data to provide to the first participant to fulfill the request for information; and \nproviding, by one or more computer processors, the identified data to the computer system associated with the first participant of the physical gathering. \nKlemm discloses receiving, by one or more computer processors, a request for information (requests and queries for information) from a computer system (communication terminal) associated with a first participant (event attendee) of the one or more participants of the physical gathering (the event); (see paragraphs 0010, 0011, 0033-0035, Fig. 1A)\n determining, by one or more computer processors, whether the first participant has access to the information requested based on the profile for the first participant; (paragraphs 0063, 0064)\nresponsive to determining that the first participant has access to the information requested, analyzing, by one or more computer processors, the data received from the one or more computer systems associated with the one or more participants of the physical gathering to identify data to provide to the first participant to fulfill the request for information; and (paragraphs 0061, 0063-0065)\nproviding, by one or more computer processors, the identified data to the computer system associated with the first participant of the physical gathering. (paragraphs 0061, 0063-0065)\nIt would have been obvious to a person of ordinary skill in the art before the effective filing date of the claimed invention to modify Graff in view of Klemm in order to receive, by one or more computer processors, a request for information from a computer system associated with a first participant of the one or more participants of the physical gathering; determine, by one or more computer processors, whether the first participant has access to the information requested based on the profile for the first participant; responsive to determining that the first participant has access to the information requested, analyze, by one or more computer processors, the data received from the one or more computer systems associated with the one or more participants of the physical gathering to identify data to provide to the first participant to fulfill the request for information; and provide, by one or more computer processors, the identified  data to the computer system associated with the first participant of the physical gathering.  One of ordinary skill in the art would have been motivated because it would further enhance an event participant user experience of by allowing to request specific information in addition to receiving information that is pushed to the event participant.  \n\n\nRegarding claim 2, Graff discloses wherein the step of generating the profile for each participant of the one or more participants at the physical gathering comprises: \nfor each participant of the one or more participants at the physical gathering: receiving, by one or more computer processors, a first information associated with a participant of the one or more participants at a first time; (paragraphs 0106-0108, Fig. 4)\ncreating, by one or more computer processors, the profile for the participant of the one or more participants; (paragraphs 0106-0108, Fig. 4)\nEND920140251US1 Page 22 of 30receiving, by one or more computer processors, a second information associated with the participant of the one or more participants a second time; and (paragraph 0126, Fig. 5D)\nupdating, by one or more computer processors, the profile for the participant of the one or more participants based on the second information. (paragraph 0126, Fig. 5D)\n\nRegarding claim 3, Graff discloses wherein the data from the one or more computer systems associated with the one or more participants of the physical  gathering includes one or more of the following: location data, contact data, mapping data, status data, and active conversation data. (paragraphs 0115, 0126.  Location and status data of event attendees is included in the data from the attendees’ communication devices.)\n\nRegarding claim 8, it is rejected for reasons similar as these for claim 1.\n\nRegarding claim 9, it is rejected for reasons similar as these for claim 2.\n\nRegarding claim 10, it is rejected for reasons similar as these for claim 3.\n\nRegarding claim 15, it is rejected for reasons similar as these for claim 8.\n\nRegarding claim 16, it is rejected for reasons similar as these for claim 9.\n\nRegarding claim 17, it is rejected for reasons similar as these for claim 10.\n\t\nClaim Objections\nClaims 4-7, 11-14 and 18-20 are objected to as being dependent upon a rejected base claim, but would be allowable if rewritten in independent form including all of the limitations of the base claim and any intervening claims.\n\n Conclusion\nThe prior art made of record and not relied upon is considered pertinent to applicant's disclosure.\n",
+  "NOABodyText": "CNTA  14/704,145  NOA  88980  2451    DETAILED ACTION   This is in response to the Amendment filed 3/21/2017, in which claims 1-3, 5-10, 12-17, 19, 20 are presented for examination.   Allowable Subject Matter  12-151-07 07-97 12-51-07 Claim s 1-3, 5-10, 12-17, 19, 20 are allowed.   Reasons for Allowance  13-03 The following is an examiner’s statement of reasons for allowance:   The prior art or record fails to reasonably disclose the combination of elements as claimed and arranged by the applicant.  The examiner has found the following prior art best matching the applicant’s claims:  Graff (US Patent Publication No. 20140358632 A1) and  Klemm (US Patent Publication No. 20150379478 A1).   Regarding claim 1, Graff discloses a method for leveraging social networks In physical gatherings, the method comprising:  generating, by one or more computer processors, a profile (user profile) for each participant (an event participant) of one or more participants at a physical gathering (an event); (paragraphs 0104-0108 and Fig. 4, see also paragraphs 0110-0116 and Fig. 5)  receiving, by one or more computer processors, data from one or more computer systems associated with the one or more participants of the physical gathering, (paragraphs 0103-0108) wherein each participant of the one or more participants is associated with a computer system: (paragraph 0117)  Kiemm discloses receiving, by one or more computer processors, a request for information (requests and queries for information) from a compufer system (communication terminal) associated with a first participant (event attendee) of the one or more participants of the physical gathering (the event); (see paragraphs 0010, 0011, 0033-0035, Fig. 1A)  determining, by one or more computer processors, whether the first participant has access to the information requested based on the profile for the first participant; (paragraphs 0063, 0064)  responsive to determining that the first participant has access to the information requested, analyzing, by one or more computer processors, the data received from the one or more computer systems associated with the one or more participants of the physical gathering to identify data to provide to the first participant to fulfill the request for information; and (paragraphs 0061,0063-0065)  providing, by one or more computer processors, the identified data to the computer system associated with the first participant of the physical gathering, (paragraphs 0061,0063-0065)  However, the prior art of record fails to reasonably suggest or teach identifying, by one or more computer processors, a conversation between two or more participants at the physical gathering discussing a topic based on the data received from the one or more computer systems; analyzing, by one or more computer processors, a profile for each participant of the two or more participants to identify profile information for each of the two or more participants; and storing, by one or more computer processors, the conversation and the identified profile information for each participant of the two or more participants of the conversation, in combination with other elements in the claims.  As such, claim 1 is allowed.  Claims 8 and 15 are allowed for reasons similar as these for claim 1.  The remaining claims are allowed because of their respective dependencies .  Any comments considered necessary by applicant must be submitted no later than the payment of the issue fee and, to avoid processing delays, should preferably accompany the issue fee.  Such submissions should be clearly labeled “Comments on Statement of Reasons for Allowance.”    Conclusion   Any inquiry concerning this communication or earlier communications from the examiner should be directed to Weiwei Stiltner whose telephone number is (571)272-2855. The examiner can normally be reached on Monday-Friday 8:00-4:30.  If attempts to reach the examiner by telephone are unsuccessful, the examiner's supervisor, Christopher Parry can be reached on (571)272-8328. The fax phone number for the organization where this application or proceeding is assigned is 571-273-8300.  Information regarding the status of an application may be obtained from the Patent Application Information Retrieval (PAIR) system. Status information for published applications may be obtained from either Private PAIR or Public PAIR. Status information for unpublished applications is available through Private PAIR only. For more information about the PAIR system, see http://pair-direct.uspto.gov. Should you have questions on access to the Private PAIR system, contact the Electronic Business Center (EBC) at 866-217-9197 (toll-free). If you would like assistance from a USPTO Customer Service Representative or access to the automated information system, call 800-786-9199 (IN USA OR CANADA) or 571-272-1000.   /Weiwei Stiltner/  Examiner, Art Unit 2451   /CHRIS PARRY/  Supervisory Patent Examiner, Art Unit 2451      Application/Control Number:  14/704,145  Page 2    Art Unit:  2451          Application/Control Number:  14/704,145  Page 3    Art Unit:  2451          Application/Control Number:  14/704,145  Page 4    Art Unit:  2451          Application/Control Number:  14/704,145  Page 5    Art Unit:  2451",
+  "applicationNumber": "14704145",
+  "patentsCitedByExaminer": [
+    {
+      "referenceIdentifier": "20140358632",
+      "abstract": "The various implementations of the present invention are provided as a computer-based system for enhanced communications and event management that focuses on customization of the event attendee experience. Each event attendee is provided with the tools necessary to effectively and efficiently create an event experience that most closely matches their goals and objectives. For example, a variety of dynamic event activity maps provide event attendees with the ability to quickly and easily identify and locate the most interesting and pertinent seminars, classes, speakers, vendors, exhibitors, etc. Additionally, event attendees can update and control their event schedule, customize communications that are sent and received, set up meetings with other event attendees, and receive updates about event activities and schedules. Vendors, exhibitors, and event organizers are provided with a series of tools, including \"gamification\" tools, that will allow them engage event attendees in event activities to increase attendee participation.",
+      "claims": [
+        "1. A method of engaging a plurality of event attendees in a plurality of event activities conducted at an event venue, the method comprising the steps of:\nproviding a vendor app to a plurality of event attendees, the vendor app being selectively enabled or disabled depending on at least one predetermined factor;\ncreating a booth chase activity directing each of the plurality of event attendees to a plurality of vendor booths based on a user profile for each of the plurality of event attendees wherein at least one of the plurality of vendor booths is a sponsored booth;\ntracking a plurality of physical locations for each of the plurality of event attendees as each of the plurality of event attendees moves about the event venue and storing the plurality of physical locations for each of the plurality of event attendees in a database to create a movement database;\ncreating an elapsed time profile for each of the plurality of event attendee, the elapsed time profile detailing the amount of time that each of the plurality of event attendees spends at each of the plurality of event activities and storing the elapsed time profile for each of the plurality of event attendees in a database to create a time database; and\nawarding each of the plurality of attendees a pre-determined number of points based on the plurality of positions stored in the movement database and the time database.",
+        "2. The method of claim 1 wherein the at least one predetermined factor is selected from the group consisting of a physical location enforced by a geo-fenced perimeter, a time window, and a pre-determined amount of interaction with a vendor at the sponsored booth.",
+        "3. The method of claim 1 wherein the at least one predetermined factor comprises:\na physical location as determined by a geo-fenced perimeter;\na time window; and\na pre-determined amount of interaction with a vendor at the sponsored booth.",
+        "4. The method of claim 1 further comprising the step of awarding at least one of the plurality of event attendees a prize based on the pre-determined number of points awarded to the at least one of the plurality of event attendees.",
+        "5. The method of claim 1 wherein the vendor app is selectively disabled for at least one of the plurality of event attendees based on the physical location of the at least one event attendee and based on a time window.",
+        "6. The method of claim 1 wherein a pre-determined schedule of events for the plurality of event activities is altered based on the plurality of physical locations for each of the plurality of event attendees contained in the movement database and the elapsed time profile for each of the plurality of event attendees contained in the time database.",
+        "7. The method of claim 1 wherein a plurality of vendor booths are included in the booth chase activity based on at least one of a selection of prizes and gifts being offered at each of the plurality of vendor booths and an inventory of goods offered for sale at each of the plurality of vendor booths.",
+        "8. The method of claim 1 further comprising the steps of:\nextracting the plurality of physical locations for each of the plurality of event attendees from the movement database;\nextracting the elapsed time profile for each of the plurality of event attendees from the time database;\ncorrelating the plurality of physical locations and the elapsed time profile for each of the event attendees to create a time and event database; and\nadding a plurality of entries to a digital event notebook based on the time and event database, the digital event notebook containing an historical record of event activity for each of the plurality of event attendees.",
+        "9. The method of claim 8 further comprising the steps of:\nidentifying at least some of the plurality of entries in the digital notebook as private entries;\nidentifying at least some of the plurality of entries in the digital notebook as public entries;\nidentifying at least some of the plurality of entries in the digital notebook as group entries.",
+        "10. The method of claim 9 further comprising the steps of:\nsharing the public entries with all other event attendees;\nsharing the group entries with a plurality of members of a pre-determined group."
+      ],
+      "title": "SYSTEM AND METHOD FOR ENHANCED EVENT PARTICIPATION"
+    },
+    {
+      "referenceIdentifier": "20160330290",
+      "abstract": "Embodiments of the present invention provide methods, computer program products, and systems for leveraging social networks in physical gatherings. Embodiments of the present invention generate profiles for participants at the physical gathering. Embodiments of the present invention can enrich the participants experience at the physical gathering by providing information to the participant, based on the profile for the participant.",
+      "claims": [
+        "1. A method for leveraging social networks in physical gatherings, the method comprising:\ngenerating, by one or more computer processors, a profile for each participant of one or more participants at a physical gathering;\nreceiving, by one or more computer processors, data from one or more computer systems associated with the one or more participants of the physical gathering, wherein each participant of the one or more participants is associated with a computer system;\nreceiving, by one or more computer processors, a request for information from a computer system associated with a first participant of the one or more participants of the physical gathering;\ndetermining, by one or more computer processors, whether the first participant has access to the information requested based on the profile for the first participant;\nresponsive to determining that the first participant has access to the information requested, analyzing, by one or more computer processors, the data received from the one or more computer systems associated with the one or more participants of the physical gathering to identify data to provide to the first participant to fulfill the request for information; and\nproviding, by one or more computer processors, the identified data to the computer system associated with the first participant of the physical gathering.",
+        "2. The method of claim 1, wherein the step of generating the profile for each participant of the one or more participants at the physical gathering comprises:\nfor each participant of the one or more participants at the physical gathering:\nreceiving, by one or more computer processors, a first information associated with a participant of the one or more participants at a first time;\ncreating, by one or more computer processors, the profile for the participant of the one or more participants;\nreceiving, by one or more computer processors, a second information associated with the participant of the one or more participants a second time; and\nupdating, by one or more computer processors, the profile for the participant of the one or more participants based on the second information.",
+        "3. The method of claim 1, wherein the data from the one or more computer systems associated with the one or more participants of the physical gathering includes one or more of the following:\nlocation data, contact data, mapping data, status data, and active conversation data.",
+        "4. The method of claim 1, wherein the step for analyzing the data received from the one or more computer systems associated with the one or more participants of the physical gathering to identify data to provide to the first participant to fulfill the request for information comprises:\nidentifying, by one or more computer processors, a conversation between two or more participants at the physical gathering discussing a topic based on the data received from the one or more computer systems;\nanalyzing, by one or more computer processors, a profile for each participant of the two or more participants to identify profile information for each of the two or more participants; and\nstoring, by one or more computer processors, the conversation and the identified profile information for each participant of the two or more participants of the conversation.",
+        "5. The method of claim 4, wherein the request for information received from the computer system associated with the first participant of the one or more participants of the physical gathering includes a request for conversations of a particular topic.",
+        "6. The method of claim 5, wherein the step for providing the identified data to the computer system associated with the first participant of the physical gathering comprises:\nproviding, by one or more computer processors, the identified conversation and the identified profile information for each participant of the two or more participants of the conversation to the computer system associated with the first participant.",
+        "7. The method of claim 1, further comprising:\naggregating, by one or more computer processors, the received data from each participant of the one or more participants of the physical gathering to create a summary of the physical gathering;\nreceiving, by one or more computer processors, a request for summary information from a second participant of the one or more participants, wherein the second request for information includes one or more portions of the created summary of the physical gathering;\ndetermining, by one or more computer processors, whether the second participant has access to the summary information requested based on the profile for the second participant;\nresponsive to determining that the first participant has access to the summary information requested, analyzing, by one or more computer processors, the created summary to identify one or more portions of the summary to provide to the second participant to fulfill the request for summary information; and\nproviding, by one or more computer processors, the identified one or more portions of summary to the computer system associated with the second participant of the physical gathering.",
+        "8. A computer program product for leveraging social networks in physical gatherings, the computer program product comprising:\none or more computer readable storage media and program instructions stored on the one or more computer readable storage media, the program instructions comprising:\nprogram instructions to generate a profile for each participant of one or more participants at a physical gathering;\nprogram instructions to receive data from one or more computer systems associated with the one or more participants of the physical gathering, wherein each participant of the one or more participants is associated with a computer system;\nprogram instructions to receive a request for information from a computer system associated with a first participant of the one or more participants of the physical gathering;\nprogram instructions to determine whether the first participant has access to the information requested based on the profile for the first participant;\nprogram instructions to, responsive to determining that the first participant has access to the information requested, analyze the data received from the one or more computer systems associated with the one or more participants of the physical gathering to identify data to provide to the first participant to fulfill the request for information; and\nprogram instructions to provide the identified data to the computer system associated with the first participant of the physical gathering.",
+        "9. The computer program product of claim 8, wherein the program instructions to generate the profile for each participant of the one or more participants at the physical gathering comprise:\nfor each participant of the one or more participants at the physical gathering:\nprogram instructions to receive a first information associated with a participant of the one or more participants at a first time;\nprogram instructions to create the profile for the participant of the one or more participants;\nprogram instructions to receive a second information associated with the participant of the one or more participants a second time; and\nprogram instructions to update the profile for the participant of the one or more participants based on the second information.",
+        "10. The computer program product of claim 8, wherein the data from the one or more computer systems associated with the one or more participants of the physical gathering includes one or more of the following:\nlocation data, contact data, mapping data, status data, and active conversation data.",
+        "11. The computer program product of claim 8, wherein the program instructions to analyze the data received from the one or more computer systems associated with the one or more participants of the physical gathering to identify data to provide to the first participant to fulfill the request for information comprise:\nprogram instructions to identify a conversation between two or more participants at the physical gathering discussing a topic based on the data received from the one or more computer systems;\nprogram instructions to analyze a profile for each participant of the two or more participants to identify profile information for each of the two or more participants; and\nprogram instructions to store the conversation and the identified profile information for each participant of the two or more participants of the conversation.",
+        "12. The computer program product of claim 11, wherein the request for information received from the computer system associated with the first participant of the one or more participants of the physical gathering includes a request for conversations of a particular topic.",
+        "13. The computer program product of claim 12, wherein the program instructions to provide the identified data to the computer system associated with the first participant of the physical gathering comprise:\nprogram instructions to provide the identified conversation and the identified profile information for each participant of the two or more participants of the conversation to the computer system associated with the first participant.",
+        "14. The computer program product of claim 8, wherein the program instructions stored on the one or more computer readable storage media further comprise:\nprogram instructions to aggregate the received data from each participant of the one or more participants of the physical gathering to create a summary of the physical gathering;\nprogram instructions to receive a request for summary information from a second participant of the one or more participants, wherein the second request for information includes one or more portions of the created summary of the physical gathering;\nprogram instructions to determine whether the second participant has access to the summary information requested based on the profile for the second participant;\nprogram instructions to, responsive to determining that the first participant has access to the summary information requested, analyze the created summary to identify one or more portions of the summary to provide to the second participant to fulfill the request for summary information; and\nprogram instructions to provide the identified one or more portions of summary to the computer system associated with the second participant of the physical gathering.",
+        "15. A computer system for leveraging social networks in physical gatherings, the computer system comprising:\none or more computer processors;\none or more computer readable storage media;\nprogram instructions stored on the one or more computer readable storage media for execution by at least one of the one or more processors, the program instructions comprising:\nprogram instructions to generate a profile for each participant of one or more participants at a physical gathering;\nprogram instructions to receive data from one or more computer systems associated with the one or more participants of the physical gathering, wherein each participant of the one or more participants is associated with a computer system;\nprogram instructions to receive a request for information from a computer system associated with a first participant of the one or more participants of the physical gathering;\nprogram instructions to determine whether the first participant has access to the information requested based on the profile for the first participant;\nprogram instructions to, responsive to determining that the first participant has access to the information requested, analyze the data received from the one or more computer systems associated with the one or more participants of the physical gathering to identify data to provide to the first participant to fulfill the request for information; and\nprogram instructions to provide the identified data to the computer system associated with the first participant of the physical gathering.",
+        "16. The computer system of claim 15, wherein the program instructions to generate the profile for each participant of the one or more participants at the physical gathering comprise:\nfor each participant of the one or more participants at the physical gathering:\nprogram instructions to receive a first information associated with a participant of the one or more participants at a first time;\nprogram instructions to create the profile for the participant of the one or more participants;\nprogram instructions to receive a second information associated with the participant of the one or more participants a second time; and\nprogram instructions to update the profile for the participant of the one or more participants based on the second information.",
+        "17. The computer system of claim 15, wherein the data from the one or more computer systems associated with the one or more participants of the physical gathering includes one or more of the following:\nlocation data, contact data, mapping data, status data, and active conversation data.",
+        "18. The computer system of claim 15, wherein the program instructions to analyze the data received from the one or more computer systems associated with the one or more participants of the physical gathering to identify data to provide to the first participant to fulfill the request for information comprise:\nprogram instructions to identify a conversation between two or more participants at the physical gathering discussing a topic based on the data received from the one or more computer systems;\nprogram instructions to analyze a profile for each participant of the two or more participants to identify profile information for each of the two or more participants; and\nprogram instructions to store the conversation and the identified profile information for each participant of the two or more participants of the conversation.",
+        "19. The computer system of claim 18, wherein the request for information received from the computer system associated with the first participant of the one or more participants of the physical gathering includes a request for conversations of a particular topic.",
+        "20. The computer system of claim 19, wherein the program instructions to provide the identified data to the computer system associated with the first participant of the physical gathering comprise:\nprogram instructions to provide the identified conversation and the identified profile information for each participant of the two or more participants of the conversation to the computer system associated with the first participant."
+      ],
+      "title": "LEVERAGING SOCIAL NETWORKS IN PHYSICAL GATHERINGS"
+    },
+    {
+      "referenceIdentifier": "20150379478",
+      "abstract": "Systems and methods for dynamically responding to requests for information, derived from one or more data sources, relating to at least one event participant. A notification of a scheduled event is received at a server. The notification identities a plurality of individuals invited to attend or participate in an event. Data attributes relating to the event participants are retrieved from one or more data sources and stored. The data attributes can include personal attributes, professional attributes, and social interaction attributes. Before, during or after an event, requests are received and processed to provide event participants and other interested parties access to contextual information relating event participants to one another, the identities of event participants possessing one or more attributes, and lists of attributes for one or more known event participants. The requests can include images and sound recordings captured during the event.",
+      "claims": [
+        "1. A computer implemented method comprising:\nreceiving, at a server, a notification of a scheduled event and identities of a plurality of invited event participants;\nretrieving and storing, from multiple data sources, data attributes relating to at least some of the invited event participants;\nreceiving, at the server, a request for contextual information relating a first event participant to at least a second event participant, or at least one data attribute pertaining to the first event participant;\nif the request received was for contextual information, generating the contextual information; and\ntransmitting a response to the request.",
+        "2. The method according to claim 1, wherein the received request includes at least one image captured during the event.",
+        "3. The method according to claim 2, further including a step of analyzing an image, received as part of the request, to identify at least the first event participant.",
+        "4. The method according to claim 3, wherein the request is received during the event and the transmitting is performed during the event.",
+        "5. The method according to claim 1, wherein the request is received during the event and the transmitting is performed during the event.",
+        "6. The method according to claim 1, wherein the received request includes a sound recording captured during the event.",
+        "7. The method according to claim 6, further including a step of analyzing the sound recording, received as part of the request, to identify at least the first event participant.",
+        "8. The method according to claim 1, wherein the request specifies identities of the first and second participants.",
+        "9. The method according to claim 1, wherein data attributes of the at least some invited event participants are retrieved from at least one data repository associated with a social network during the retrieving.",
+        "10. The method according to claim 9, further including a step of requesting authorization, from an invited event participant, before retrieving respective data attributes from a corresponding data source.",
+        "11. The method according to claim 1, wherein the generating includes performing at least one of intersect analysis and difference analysis by reference to the retrieved data attributes.",
+        "12. An apparatus comprising:\na computer having one or more processors, memory and at least one network interface, and further comprising:\nan augmented event request processing module configured to:\nretrieve and store, from multiple data sources, data attributes relating to at least some participants invited to an event;\nreceive requests for contextual information relating a first event participant to at least a second event participant;\ngenerate contextual information responsive to received requests; and\ntransmit generated contextual information in response to received requests.",
+        "13. The apparatus of claim 12, wherein the augmented event processing module is configured to receive an image captured during the event and to analyze a received image to identify at least the first event participant.",
+        "14. The apparatus of claim 12, wherein the augmented event processing module is configured to receive a sound recording captured during the event and to analyze a received sound recording to identify at least the first event participant.",
+        "15. A computer implemented method comprising:\nretrieving and storing, from at least one data source, data attributes relating to at least some participants in an event;\nreceiving, at the server, an inquiry during the event for contextual information relating a first event participant to at least a second event participant, or at least one data attribute pertaining to the first event participant;\nif the inquiry was a request for contextual information, generating the contextual information; and\ntransmitting a response to the inquiry, wherein the inquiry is received from a communication terminal operated by a first participant and includes at least one of text input, an image of a second participant, or a voice recording of a second participant.",
+        "16. The method according to claim 15, wherein the at least one data source includes a social networking site.",
+        "17. The method according to claim 15, wherein the at least one data source includes an enterprise server containing data attributes corresponding to its employees.",
+        "18. The method according to claim 15, wherein the event is a conference call wherein at least some of the participants are remotely located relative to one another.",
+        "19. The method according to claim 15, wherein the communication terminal is a mobile communication terminal, and wherein the inquiry includes an image of two or more event participants.",
+        "20. The method according to claim 15, wherein the event is a web conference or an audio only conference."
+      ],
+      "title": "Systems and Methods For Presenting Information Extracted From One or More Data Sources to Event Participants"
+    }
+  ],
+  "firstInventorToFileIndicator": "Y",
+  "applicationStatusCode": 250,
+  "applicationTypeCode": "UTL",
+  "entityStatusData": {
+    "smallEntityStatusIndicator": false,
+    "businessEntityStatusCategory": "Regular Undiscounted"
+  },
+  "filingDate": "2015-05-05",
+  "class/subclass": "79/204",
+  "nationalStageIndicator": false,
+  "firstInventorName": "Christina I. Flores",
+  "cpcClassificationBag": [
+    "H04N21/2393",
+    "H04N7/147",
+    "H04N7/15",
+    "H04L67/125",
+    "H04L63/104",
+    "H04L67/10",
+    "H04L65/403",
+    "H04L67/34",
+    "H04L12/1822",
+    "G06F8/61",
+    "G06F16/1794",
+    "H04L67/06",
+    "H04L63/102",
+    "H04L67/306",
+    "H04L51/52",
+    "H04L67/1097",
+    "H04L65/612",
+    "G06F9/44521",
+    "H04N1/00"
+  ],
+  "effectiveFilingDate": "2015-05-05",
+  "publicationDateBag": [
+    "2016-11-10"
+  ],
+  "publicationSequenceNumberBag": [
+    "0330290"
+  ],
+  "earliestPublicationDate": "2016-11-10",
+  "applicationTypeLabelName": "Utility",
+  "applicationStatusDate": "2022-03-21",
+  "class": "79",
+  "applicationTypeCategory": "REGULAR",
+  "applicationStatusDescriptionText": "Patent Expired Due to NonPayment of Maintenance Fees Under 37 CFR 1.362",
+  "patentNumber": "9894178",
+  "grantDate": "2018-02-13",
+  "applicantBag": [
+    {
+      "applicantNameText": "International Business Machines Corporation",
+      "correspondenceAddressBag": [
+        {
+          "cityName": "Armonk",
+          "geographicRegionName": "NEW YORK",
+          "geographicRegionCode": "NY",
+          "countryCode": "US",
+          "postalCode": "10504",
+          "nameLineOneText": "International Business Machines Corporation",
+          "countryName": "UNITED STATES",
+          "postalAddressCategory": "postal"
+        }
+      ]
+    }
+  ],
+  "firstApplicantName": "International Business Machines Corporation",
+  "customerNumber": 104079,
+  "groupArtUnitNumber": "OPA",
+  "earliestPublicationNumber": "US20160330290A1",
+  "inventionTitle": "LEVERAGING SOCIAL NETWORKS IN PHYSICAL GATHERINGS",
+  "applicationConfirmationNumber": 9936,
+  "examinerNameText": "STILTNER, WEIWEI YE",
+  "subclass": "204",
+  "publicationCategoryBag": [
+    "Granted/Issued",
+    "Pre-Grant Publications - PGPub"
+  ],
+  "docketNumber": "END920140251US1",
+  "title": "LEVERAGING SOCIAL NETWORKS IN PHYSICAL GATHERINGS",
+  "parsed_CTNF": [
+    {
+      "claimNumber": 1,
+      "parentClaim": -1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20140358632",
+              "text": [
+                104,
+                105,
+                106,
+                107,
+                108,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116
+              ],
+              "img": [
+                "4",
+                "5"
+              ]
+            },
+            {
+              "patentNum": "US 20150379478",
+              "text": [
+                10,
+                11,
+                33,
+                34,
+                35,
+                61,
+                63,
+                64,
+                65
+              ],
+              "img": [
+                "1A"
+              ]
+            }
+          ],
+          "reason": "Regarding claim 1, Graff (US 20140358632) discloses a method for leveraging social networks in physical gatherings, the method comprising: generating, by one or more computer processors, a profile (user profile) for each participant (an event participant) of one or more participants at a physical gathering (an event); (paragraphs 0104-0108 and Fig. 4, see also paragraphs 0110-0116 and Fig. 5). Graff does not disclose receiving, by one or more computer processors, a request for information from a computer system associated with a first participant of the one or more participants of the physical gathering; determining, by one or more computer processors, whether the first participant has access to the information requested based on the profile for the first participant; responsive to determining that the first participant has access to the information requested, analyzing, by one or more computer processors, the data received from the one or more computer systems associated with the one or more participants of the physical gathering to identify data to provide to the first participant to fulfill the request for information; and providing, by one or more computer processors, the identified data to the computer system associated with the first participant of the physical gathering. Klemm (US 20150379478) discloses receiving, by one or more computer processors, a request for information (requests and queries for information) from a computer system (communication terminal) associated with a first participant (event attendee) of the one or more participants of the physical gathering (the event); (see paragraphs 0010, 0011, 0033-0035, Fig. 1A) determining, by one or more computer processors, whether the first participant has access to the information requested based on the profile for the first participant; (paragraphs 0063, 0064) responsive to determining that the first participant has access to the information requested, analyzing, by one or more computer processors, the data received from the one or more computer systems associated with the one or more participants of the physical gathering to identify data to provide to the first participant to fulfill the request for information; and (paragraphs 0061, 0063-0065) providing, by one or more computer processors, the identified data to the computer system associated with the first participant of the physical gathering. (paragraphs 0061, 0063-0065) It would have been obvious to a person of ordinary skill in the art before the effective filing date of the claimed invention to modify Graff in view of Klemm in order to receive, by one or more computer processors, a request for information from a computer system associated with a first participant of the one or more participants of the physical gathering; determine, by one or more computer processors, whether the first participant has access to the information requested based on the profile for the first participant; responsive to determining that the first participant has access to the information requested, analyze, by one or more computer processors, the data received from the one or more computer systems associated with the one or more participants of the physical gathering to identify data to provide to the first participant to fulfill the request for information; and provide, by one or more computer processors, the identified data to the computer system associated with the first participant of the physical gathering. One of ordinary skill in the art would have been motivated because it would further enhance an event participant user experience of by allowing to request specific information in addition to receiving information that is pushed to the event participant."
+        }
+      ]
+    },
+    {
+      "claimNumber": 2,
+      "parentClaim": 1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20140358632",
+              "text": [
+                106,
+                107,
+                108,
+                126
+              ],
+              "img": [
+                "4",
+                "5D"
+              ]
+            }
+          ],
+          "reason": "Regarding claim 2, Graff (US 20140358632) discloses wherein the step of generating the profile for each participant of the one or more participants at the physical gathering comprises: for each participant of the one or more participants at the physical gathering: receiving, by one or more computer processors, a first information associated with a participant of the one or more participants at a first time; (paragraphs 0106-0108, Fig. 4) creating, by one or more computer processors, the profile for the participant of the one or more participants; (paragraphs 0106-0108, Fig. 4) receiving, by one or more computer processors, a second information associated with the participant of the one or more participants a second time; and (paragraph 0126, Fig. 5D) updating, by one or more computer processors, the profile for the participant of the one or more participants based on the second information. (paragraph 0126, Fig. 5D)"
+        }
+      ]
+    },
+    {
+      "claimNumber": 3,
+      "parentClaim": 1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20140358632",
+              "text": [
+                115,
+                126
+              ],
+              "img": []
+            }
+          ],
+          "reason": "Regarding claim 3, Graff (US 20140358632) discloses wherein the data from the one or more computer systems associated with the one or more participants of the physical gathering includes one or more of the following: location data, contact data, mapping data, status data, and active conversation data. (paragraphs 0115, 0126. Location and status data of event attendees is included in the data from the attendees’ communication devices.)"
+        }
+      ]
+    },
+    {
+      "claimNumber": 4,
+      "parentClaim": 1,
+      "isReject": false,
+      "reasons": []
+    },
+    {
+      "claimNumber": 5,
+      "parentClaim": 4,
+      "isReject": false,
+      "reasons": []
+    },
+    {
+      "claimNumber": 6,
+      "parentClaim": 5,
+      "isReject": false,
+      "reasons": []
+    },
+    {
+      "claimNumber": 7,
+      "parentClaim": 1,
+      "isReject": false,
+      "reasons": []
+    },
+    {
+      "claimNumber": 8,
+      "parentClaim": -1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20140358632",
+              "text": [
+                104,
+                105,
+                106,
+                107,
+                108,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116
+              ],
+              "img": [
+                "4",
+                "5"
+              ]
+            },
+            {
+              "patentNum": "US 20150379478",
+              "text": [
+                10,
+                11,
+                33,
+                34,
+                35,
+                61,
+                63,
+                64,
+                65
+              ],
+              "img": [
+                "1A"
+              ]
+            }
+          ],
+          "reason": "Regarding claim 8, it is rejected for reasons similar as these for claim 1."
+        }
+      ]
+    },
+    {
+      "claimNumber": 9,
+      "parentClaim": 8,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20140358632",
+              "text": [
+                106,
+                107,
+                108,
+                126
+              ],
+              "img": [
+                "4",
+                "5D"
+              ]
+            }
+          ],
+          "reason": "Regarding claim 9, it is rejected for reasons similar as these for claim 2."
+        }
+      ]
+    },
+    {
+      "claimNumber": 10,
+      "parentClaim": 8,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20140358632",
+              "text": [
+                115,
+                126
+              ],
+              "img": []
+            }
+          ],
+          "reason": "Regarding claim 10, it is rejected for reasons similar as these for claim 3."
+        }
+      ]
+    },
+    {
+      "claimNumber": 11,
+      "parentClaim": 8,
+      "isReject": false,
+      "reasons": []
+    },
+    {
+      "claimNumber": 12,
+      "parentClaim": 11,
+      "isReject": false,
+      "reasons": []
+    },
+    {
+      "claimNumber": 13,
+      "parentClaim": 12,
+      "isReject": false,
+      "reasons": []
+    },
+    {
+      "claimNumber": 14,
+      "parentClaim": 8,
+      "isReject": false,
+      "reasons": []
+    },
+    {
+      "claimNumber": 15,
+      "parentClaim": -1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20140358632",
+              "text": [
+                104,
+                105,
+                106,
+                107,
+                108,
+                110,
+                111,
+                112,
+                113,
+                114,
+                115,
+                116
+              ],
+              "img": [
+                "4",
+                "5"
+              ]
+            },
+            {
+              "patentNum": "US 20150379478",
+              "text": [
+                10,
+                11,
+                33,
+                34,
+                35,
+                61,
+                63,
+                64,
+                65
+              ],
+              "img": [
+                "1A"
+              ]
+            }
+          ],
+          "reason": "Regarding claim 15, it is rejected for reasons similar as these for claim 8."
+        }
+      ]
+    },
+    {
+      "claimNumber": 16,
+      "parentClaim": 15,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20140358632",
+              "text": [
+                106,
+                107,
+                108,
+                126
+              ],
+              "img": [
+                "4",
+                "5D"
+              ]
+            }
+          ],
+          "reason": "Regarding claim 16, it is rejected for reasons similar as these for claim 9."
+        }
+      ]
+    },
+    {
+      "claimNumber": 17,
+      "parentClaim": 15,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20140358632",
+              "text": [
+                115,
+                126
+              ],
+              "img": []
+            }
+          ],
+          "reason": "Regarding claim 17, it is rejected for reasons similar as these for claim 10."
+        }
+      ]
+    },
+    {
+      "claimNumber": 18,
+      "parentClaim": 15,
+      "isReject": false,
+      "reasons": []
+    },
+    {
+      "claimNumber": 19,
+      "parentClaim": 18,
+      "isReject": false,
+      "reasons": []
+    },
+    {
+      "claimNumber": 20,
+      "parentClaim": 15,
+      "isReject": false,
+      "reasons": []
+    }
+  ]
+}

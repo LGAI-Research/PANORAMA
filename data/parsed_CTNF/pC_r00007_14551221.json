@@ -1,0 +1,839 @@
+{
+    "claims": [
+        {
+            "claimNumber": 1,
+            "parentClaim": -1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [
+                                16,
+                                18,
+                                19,
+                                31,
+                                36,
+                                40,
+                                52,
+                                57
+                            ],
+                            "img": [
+                                "1",
+                                "2"
+                            ]
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [
+                                3,
+                                41,
+                                44,
+                                58,
+                                71,
+                                77,
+                                79,
+                                80
+                            ],
+                            "img": [
+                                "9A",
+                                "9B"
+                            ]
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [
+                                14,
+                                51
+                            ],
+                            "img": [
+                                "7"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 1, Agarwal et al. (US 20110228696) discloses a method related to the apparatus comprising network interfaces, processor and memory. Hui et al. (US 20130010615) discloses network formation after a power outage using metrics for rapid startup. Vasseur et al. (US 20110231573) discloses selecting metrics to provide to the first node for reestablishing connectivity. Therefore, it would have been obvious to modify Agarwal to include features from Hui and Vasseur to build network topology after a power outage event."
+                }
+            ]
+        },
+        {
+            "claimNumber": 2,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 2, see rejection of Claim 15. The method claim is related to the apparatus of Claim 15. Therefore, the same rejection applies as the rejection of Claim 15."
+                }
+            ]
+        },
+        {
+            "claimNumber": 3,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 3, see rejection of Claim 16. The method claim is related to the apparatus of Claim 16. Therefore, the same rejection applies as the rejection of Claim 16."
+                }
+            ]
+        },
+        {
+            "claimNumber": 4,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 4, see rejection of Claim 17. The method claim is related to the apparatus of Claim 17. Therefore, the same rejection applies as the rejection of Claim 17."
+                }
+            ]
+        },
+        {
+            "claimNumber": 5,
+            "parentClaim": 4,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 5, see rejection of Claim 18. The method claim is related to the apparatus of Claim 18. Therefore, the same rejection applies as the rejection of Claim 18."
+                }
+            ]
+        },
+        {
+            "claimNumber": 6,
+            "parentClaim": 5,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 6, see rejection of Claim 19. The method claim is related to the apparatus of Claim 19. Therefore, the same rejection applies as the rejection of Claim 19."
+                }
+            ]
+        },
+        {
+            "claimNumber": 7,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20100074194",
+                            "text": [
+                                24
+                            ],
+                            "img": [
+                                "2",
+                                "6"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 7, see rejection of Claim 20. The method claim is related to the apparatus of Claim 20 with additional features from Liu et al. (US 20100074194) regarding determining variation in metrics over time."
+                }
+            ]
+        },
+        {
+            "claimNumber": 8,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 8, see rejection of Claim 21. The method claim is related to the apparatus of Claim 21. Therefore, the same rejection applies as the rejection of Claim 21."
+                }
+            ]
+        },
+        {
+            "claimNumber": 9,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 9, see rejection of Claim 22. The method claim is related to the apparatus of Claim 22. Therefore, the same rejection applies as the rejection of Claim 22."
+                }
+            ]
+        },
+        {
+            "claimNumber": 10,
+            "parentClaim": -1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 10, see rejection of Claim 23. The method claim is related to the apparatus of Claim 23. Therefore, the same rejection applies as the rejection of Claim 23."
+                }
+            ]
+        },
+        {
+            "claimNumber": 11,
+            "parentClaim": 10,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 11, see rejection of Claim 24. The method claim is related to the apparatus of Claim 24. Therefore, the same rejection applies as the rejection of Claim 24."
+                }
+            ]
+        },
+        {
+            "claimNumber": 12,
+            "parentClaim": 10,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 12, see rejection of Claim 25. The method claim is related to the apparatus of Claim 25. Therefore, the same rejection applies as the rejection of Claim 25."
+                }
+            ]
+        },
+        {
+            "claimNumber": 13,
+            "parentClaim": 10,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 13, see rejection of Claim 26. The method claim is related to the apparatus of Claim 26. Therefore, the same rejection applies as the rejection of Claim 26."
+                }
+            ]
+        },
+        {
+            "claimNumber": 14,
+            "parentClaim": -1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [
+                                16,
+                                18,
+                                19,
+                                31,
+                                36,
+                                40,
+                                52,
+                                57
+                            ],
+                            "img": [
+                                "1",
+                                "2"
+                            ]
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [
+                                3,
+                                41,
+                                44,
+                                58,
+                                71,
+                                77,
+                                79,
+                                80
+                            ],
+                            "img": [
+                                "9A",
+                                "9B"
+                            ]
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [
+                                14,
+                                51
+                            ],
+                            "img": [
+                                "7"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 14, Agarwal et al. (US 20110228696) discloses an apparatus with network interfaces, processor, and memory. Hui et al. (US 20130010615) discloses network formation after power outage using metrics. Vasseur et al. (US 20110231573) discloses selecting metrics for reestablishing connectivity. It would have been obvious to one of ordinary skill to combine these teachings for network topology adjustment."
+                }
+            ]
+        },
+        {
+            "claimNumber": 15,
+            "parentClaim": 14,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 15, Agarwal, Hui, and Vasseur disclose an apparatus with metrics used by the first node to select routing links, including ETX metric, for reestablishing connectivity. Therefore, the same rejection applies as the rejection of Claim 14."
+                }
+            ]
+        },
+        {
+            "claimNumber": 16,
+            "parentClaim": 14,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 16, Agarwal, Hui, and Vasseur disclose an apparatus with metrics for adjacent nodes to establish routing links after a power outage. Therefore, the same rejection applies as the rejection of Claim 14."
+                }
+            ]
+        },
+        {
+            "claimNumber": 17,
+            "parentClaim": 14,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 17, Agarwal, Hui, and Vasseur disclose an apparatus where a subset of metrics is used for routing link selection. Therefore, the same rejection applies as the rejection of Claim 16."
+                }
+            ]
+        },
+        {
+            "claimNumber": 18,
+            "parentClaim": 17,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 18, Agarwal, Hui, and Vasseur disclose a subset of metrics associated with a subset of neighboring nodes. Therefore, the same rejection applies as the rejection of Claim 17."
+                }
+            ]
+        },
+        {
+            "claimNumber": 19,
+            "parentClaim": 18,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 19, Agarwal, Hui, and Vasseur disclose a request for metrics regarding additional neighboring nodes. Therefore, the same rejection applies as the rejection of Claim 18."
+                }
+            ]
+        },
+        {
+            "claimNumber": 20,
+            "parentClaim": 14,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20100074194",
+                            "text": [
+                                24
+                            ],
+                            "img": [
+                                "2",
+                                "6"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 20, Agarwal, Hui, and Vasseur disclose selecting and providing metrics for connectivity after power outage. Liu et al. (US 20100074194) discloses determining variation in metrics over time. It would have been obvious to combine these teachings for route stability."
+                }
+            ]
+        },
+        {
+            "claimNumber": 21,
+            "parentClaim": 14,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 21, Agarwal, Hui, and Vasseur disclose providing a notification to the first node about apparatus protection against power outages. Therefore, the same rejection applies as the rejection of Claim 14."
+                }
+            ]
+        },
+        {
+            "claimNumber": 22,
+            "parentClaim": 14,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 22, Agarwal, Hui, and Vasseur disclose a node without persistent memory for storing metrics. Therefore, the same rejection applies as the rejection of Claim 14."
+                }
+            ]
+        },
+        {
+            "claimNumber": 23,
+            "parentClaim": -1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [
+                                16,
+                                18,
+                                19,
+                                31,
+                                36,
+                                40,
+                                52,
+                                57
+                            ],
+                            "img": [
+                                "1",
+                                "2"
+                            ]
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [
+                                3,
+                                41,
+                                44,
+                                58,
+                                71,
+                                77,
+                                79,
+                                80
+                            ],
+                            "img": [
+                                "9A",
+                                "9B"
+                            ]
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [
+                                14,
+                                51
+                            ],
+                            "img": [
+                                "7"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 23, Agarwal discloses an apparatus with network interfaces, processor, and memory. Hui discloses metrics request and receipt after power outage. Vasseur discloses requesting metrics from the network device. It would have been obvious to combine these teachings for network topology adjustment."
+                }
+            ]
+        },
+        {
+            "claimNumber": 24,
+            "parentClaim": 23,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 24, see rejection of Claim 15. The method claim is related to the apparatus of Claim 15. Therefore, the same rejection applies as the rejection of Claim 15."
+                }
+            ]
+        },
+        {
+            "claimNumber": 25,
+            "parentClaim": 23,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 25, Agarwal, Hui, and Vasseur disclose metrics provision to the network device in response to receiving a notification about protection against power outages. Therefore, the same rejection applies as the rejection of Claim 23."
+                }
+            ]
+        },
+        {
+            "claimNumber": 26,
+            "parentClaim": 16,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20110228696",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130010615",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20110231573",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 26, see rejection of Claim 16. Therefore, the same rejection applies as the rejection of Claim 16."
+                }
+            ]
+        }
+    ]
+}

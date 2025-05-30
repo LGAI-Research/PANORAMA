@@ -1,0 +1,364 @@
+{
+    "claims": [
+        {
+            "claimNumber": 1,
+            "parentClaim": -1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140358632",
+                            "text": [
+                                104,
+                                105,
+                                106,
+                                107,
+                                108,
+                                110,
+                                111,
+                                112,
+                                113,
+                                114,
+                                115,
+                                116
+                            ],
+                            "img": [
+                                "4",
+                                "5"
+                            ]
+                        },
+                        {
+                            "patentNum": "US 20150379478",
+                            "text": [
+                                10,
+                                11,
+                                33,
+                                34,
+                                35,
+                                61,
+                                63,
+                                64,
+                                65
+                            ],
+                            "img": [
+                                "1A"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding claim 1, Graff (US 20140358632) discloses a method for leveraging social networks in physical gatherings, the method comprising: generating, by one or more computer processors, a profile (user profile) for each participant (an event participant) of one or more participants at a physical gathering (an event); (paragraphs 0104-0108 and Fig. 4, see also paragraphs 0110-0116 and Fig. 5). Graff does not disclose receiving, by one or more computer processors, a request for information from a computer system associated with a first participant of the one or more participants of the physical gathering; determining, by one or more computer processors, whether the first participant has access to the information requested based on the profile for the first participant; responsive to determining that the first participant has access to the information requested, analyzing, by one or more computer processors, the data received from the one or more computer systems associated with the one or more participants of the physical gathering to identify data to provide to the first participant to fulfill the request for information; and providing, by one or more computer processors, the identified data to the computer system associated with the first participant of the physical gathering. Klemm (US 20150379478) discloses receiving, by one or more computer processors, a request for information (requests and queries for information) from a computer system (communication terminal) associated with a first participant (event attendee) of the one or more participants of the physical gathering (the event); (see paragraphs 0010, 0011, 0033-0035, Fig. 1A) determining, by one or more computer processors, whether the first participant has access to the information requested based on the profile for the first participant; (paragraphs 0063, 0064) responsive to determining that the first participant has access to the information requested, analyzing, by one or more computer processors, the data received from the one or more computer systems associated with the one or more participants of the physical gathering to identify data to provide to the first participant to fulfill the request for information; and (paragraphs 0061, 0063-0065) providing, by one or more computer processors, the identified data to the computer system associated with the first participant of the physical gathering. (paragraphs 0061, 0063-0065) It would have been obvious to a person of ordinary skill in the art before the effective filing date of the claimed invention to modify Graff in view of Klemm in order to receive, by one or more computer processors, a request for information from a computer system associated with a first participant of the one or more participants of the physical gathering; determine, by one or more computer processors, whether the first participant has access to the information requested based on the profile for the first participant; responsive to determining that the first participant has access to the information requested, analyze, by one or more computer processors, the data received from the one or more computer systems associated with the one or more participants of the physical gathering to identify data to provide to the first participant to fulfill the request for information; and provide, by one or more computer processors, the identified data to the computer system associated with the first participant of the physical gathering. One of ordinary skill in the art would have been motivated because it would further enhance an event participant user experience of by allowing to request specific information in addition to receiving information that is pushed to the event participant."
+                }
+            ]
+        },
+        {
+            "claimNumber": 2,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140358632",
+                            "text": [
+                                106,
+                                107,
+                                108,
+                                126
+                            ],
+                            "img": [
+                                "4",
+                                "5D"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding claim 2, Graff (US 20140358632) discloses wherein the step of generating the profile for each participant of the one or more participants at the physical gathering comprises: for each participant of the one or more participants at the physical gathering: receiving, by one or more computer processors, a first information associated with a participant of the one or more participants at a first time; (paragraphs 0106-0108, Fig. 4) creating, by one or more computer processors, the profile for the participant of the one or more participants; (paragraphs 0106-0108, Fig. 4) receiving, by one or more computer processors, a second information associated with the participant of the one or more participants a second time; and (paragraph 0126, Fig. 5D) updating, by one or more computer processors, the profile for the participant of the one or more participants based on the second information. (paragraph 0126, Fig. 5D)"
+                }
+            ]
+        },
+        {
+            "claimNumber": 3,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140358632",
+                            "text": [
+                                115,
+                                126
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding claim 3, Graff (US 20140358632) discloses wherein the data from the one or more computer systems associated with the one or more participants of the physical gathering includes one or more of the following: location data, contact data, mapping data, status data, and active conversation data. (paragraphs 0115, 0126. Location and status data of event attendees is included in the data from the attendees’ communication devices.)"
+                }
+            ]
+        },
+        {
+            "claimNumber": 4,
+            "parentClaim": 1,
+            "isReject": false,
+            "reasons": []
+        },
+        {
+            "claimNumber": 5,
+            "parentClaim": 4,
+            "isReject": false,
+            "reasons": []
+        },
+        {
+            "claimNumber": 6,
+            "parentClaim": 5,
+            "isReject": false,
+            "reasons": []
+        },
+        {
+            "claimNumber": 7,
+            "parentClaim": 1,
+            "isReject": false,
+            "reasons": []
+        },
+        {
+            "claimNumber": 8,
+            "parentClaim": -1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140358632",
+                            "text": [
+                                104,
+                                105,
+                                106,
+                                107,
+                                108,
+                                110,
+                                111,
+                                112,
+                                113,
+                                114,
+                                115,
+                                116
+                            ],
+                            "img": [
+                                "4",
+                                "5"
+                            ]
+                        },
+                        {
+                            "patentNum": "US 20150379478",
+                            "text": [
+                                10,
+                                11,
+                                33,
+                                34,
+                                35,
+                                61,
+                                63,
+                                64,
+                                65
+                            ],
+                            "img": [
+                                "1A"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding claim 8, it is rejected for reasons similar as these for claim 1."
+                }
+            ]
+        },
+        {
+            "claimNumber": 9,
+            "parentClaim": 8,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140358632",
+                            "text": [
+                                106,
+                                107,
+                                108,
+                                126
+                            ],
+                            "img": [
+                                "4",
+                                "5D"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding claim 9, it is rejected for reasons similar as these for claim 2."
+                }
+            ]
+        },
+        {
+            "claimNumber": 10,
+            "parentClaim": 8,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140358632",
+                            "text": [
+                                115,
+                                126
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding claim 10, it is rejected for reasons similar as these for claim 3."
+                }
+            ]
+        },
+        {
+            "claimNumber": 11,
+            "parentClaim": 8,
+            "isReject": false,
+            "reasons": []
+        },
+        {
+            "claimNumber": 12,
+            "parentClaim": 11,
+            "isReject": false,
+            "reasons": []
+        },
+        {
+            "claimNumber": 13,
+            "parentClaim": 12,
+            "isReject": false,
+            "reasons": []
+        },
+        {
+            "claimNumber": 14,
+            "parentClaim": 8,
+            "isReject": false,
+            "reasons": []
+        },
+        {
+            "claimNumber": 15,
+            "parentClaim": -1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140358632",
+                            "text": [
+                                104,
+                                105,
+                                106,
+                                107,
+                                108,
+                                110,
+                                111,
+                                112,
+                                113,
+                                114,
+                                115,
+                                116
+                            ],
+                            "img": [
+                                "4",
+                                "5"
+                            ]
+                        },
+                        {
+                            "patentNum": "US 20150379478",
+                            "text": [
+                                10,
+                                11,
+                                33,
+                                34,
+                                35,
+                                61,
+                                63,
+                                64,
+                                65
+                            ],
+                            "img": [
+                                "1A"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding claim 15, it is rejected for reasons similar as these for claim 8."
+                }
+            ]
+        },
+        {
+            "claimNumber": 16,
+            "parentClaim": 15,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140358632",
+                            "text": [
+                                106,
+                                107,
+                                108,
+                                126
+                            ],
+                            "img": [
+                                "4",
+                                "5D"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding claim 16, it is rejected for reasons similar as these for claim 9."
+                }
+            ]
+        },
+        {
+            "claimNumber": 17,
+            "parentClaim": 15,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140358632",
+                            "text": [
+                                115,
+                                126
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding claim 17, it is rejected for reasons similar as these for claim 10."
+                }
+            ]
+        },
+        {
+            "claimNumber": 18,
+            "parentClaim": 15,
+            "isReject": false,
+            "reasons": []
+        },
+        {
+            "claimNumber": 19,
+            "parentClaim": 18,
+            "isReject": false,
+            "reasons": []
+        },
+        {
+            "claimNumber": 20,
+            "parentClaim": 15,
+            "isReject": false,
+            "reasons": []
+        }
+    ]
+}

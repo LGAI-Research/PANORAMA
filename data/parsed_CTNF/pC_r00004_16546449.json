@@ -1,0 +1,98 @@
+{
+    "claims": [
+        {
+            "claimNumber": 1,
+            "parentClaim": -1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20180179985",
+                            "text": [
+                                22
+                            ],
+                            "img": [
+                                "3d",
+                                "6"
+                            ]
+                        },
+                        {
+                            "patentNum": "US 20180298842",
+                            "text": [
+                                35,
+                                38
+                            ],
+                            "img": [
+                                "3A"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 1, Rebmann (US 20180179985) discloses a cylinder liner (see Figs 3d and 6) that is casted in a block (Paragraph 0022) and defines a cylinder bore (2a, Fig 3d) corresponding to one cylinder, comprising: a cylindrical liner body (1, Figs 3d and 6); an outer peripheral surface (best seen in Fig 6, to include generally the inner walls of gap 6a between each bore, along with the 'bulk' of the exterior of the liner) a bore adjacent part (gap 6a, Figs 3d and 6) formed such that the outer peripheral surface at an upper side end of the liner body is positioned more on an inner side of the liner body than the outer peripheral surface below the upper side end (gap 6a generally forming a step 'in towards' the bore 2a (best seen in Fig 3d), versus the thickness at the 'bottom' of gap 6a). Rebmann does not positively disclose: a projection part provided so as to include a plurality of projections on the outer peripheral surface of a part of the liner body; or wherein the projections are absent on at least a part of the outer peripheral surface at the upper side end, in a predetermined range of the outer peripheral surface of the liner body, which faces another cylinder bore to be adjacent when casted in the block. However, it is very well known in the art to configure cylinder liners with 'projections' formed on the exterior surfaces, where said surfaces mate with engine blocks into which they are installed. Wang (US 20180298842) discloses a cylinder liner (Title) arrangement, wherein the exterior surfaces of the liner elements are provided with projections (see Fig 3a). Wang teaches that: (Paragraph 0035) such a configuration 'provides an excellent structural and thermal bond through mechanical locking between the liner and the engine block material' and (Paragraph 0038) 'FIG. 3A clearly illustrates the intimacy that results from the use of a cylinder liner having an as-cast rough surface which provides a relatively high coefficient of thermal transfer between the cylinder liner 304 and the engine block 300.'. It would have been obvious to one of ordinary skill in the art at the time the invention was made to configure the portions of the outer surfaces of the liner with such projections where the liner mates with its engine block (so, not the area of gaps 6a) in order to provide an excellent structural and thermal bond between the liner and block as taught by Wang."
+                }
+            ]
+        },
+        {
+            "claimNumber": 2,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20180179985",
+                            "text": [],
+                            "img": [
+                                "6"
+                            ]
+                        },
+                        {
+                            "patentNum": "US 20180298842",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 2, Rebmann (US 20180179985) modified supra discloses the liner of claim 1, further comprising a positioning part (considered to be the 'flange' surrounding the liner sections, as seen in Fig 6) provided so as to be at a predetermined relative position to the bore adjacent part (all being formed as a single structure, the flange generally keeping the position of each liner section relative to the others) such that the bore adjacent part is positioned at a predetermined position facing the other adjacent cylinder bore when casted in the block (gaps 6a being located between each of bores 2a-2d)."
+                }
+            ]
+        },
+        {
+            "claimNumber": 3,
+            "parentClaim": 2,
+            "isReject": false,
+            "reasons": []
+        },
+        {
+            "claimNumber": 4,
+            "parentClaim": 3,
+            "isReject": false,
+            "reasons": []
+        },
+        {
+            "claimNumber": 5,
+            "parentClaim": 4,
+            "isReject": false,
+            "reasons": []
+        },
+        {
+            "claimNumber": 6,
+            "parentClaim": 5,
+            "isReject": false,
+            "reasons": []
+        },
+        {
+            "claimNumber": 7,
+            "parentClaim": -1,
+            "isReject": false,
+            "reasons": []
+        },
+        {
+            "claimNumber": 8,
+            "parentClaim": 7,
+            "isReject": false,
+            "reasons": []
+        }
+    ]
+}

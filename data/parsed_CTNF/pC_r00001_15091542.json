@@ -1,0 +1,411 @@
+{
+    "claims": [
+        {
+            "claimNumber": 1,
+            "parentClaim": -1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20050025220",
+                            "text": [
+                                66,
+                                8,
+                                31,
+                                34,
+                                65
+                            ],
+                            "img": [
+                                "2",
+                                "3",
+                                "4",
+                                "5"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 1, Laroia (US 2005/0025220 A1) discloses a computer-implemented method comprising: associating a first communication subchannel with a first bandwidth region; associating a second communication subchannel with a second bandwidth region; transmitting and receiving a first dataset associated with the first communication subchannel in the first bandwidth region; transmitting and receiving a second dataset associated with the second communication subchannel in the second bandwidth region; assessing a load imposed on the first communication subchannel and the second communication subchannel; and reassigning at least a portion of the first communication subchannel based on the assessment of the load; wherein the first bandwidth region and the second bandwidth region are receivable by a WLAN device operating in approximately the 5GHz bandwidth region."
+                }
+            ]
+        },
+        {
+            "claimNumber": 2,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20050025220",
+                            "text": [
+                                9
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 2, Laroia (US 2005/0025220 A1) further discloses wherein the first bandwidth region and the second bandwidth region are non-overlapping subdivisions of the 5GHz bandwidth region encompassing one or more center frequencies and separated by a cutoff region."
+                }
+            ]
+        },
+        {
+            "claimNumber": 3,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20050025220",
+                            "text": [
+                                9
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 3, Laroia (US 2005/0025220 A1) further discloses wherein signals received by the WLAN device that are at frequencies in the cutoff region are excluded before being amplified."
+                }
+            ]
+        },
+        {
+            "claimNumber": 4,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20050025220",
+                            "text": [
+                                9
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 4, Laroia (US 2005/0025220 A1) further discloses applying a bandpass filter (BPF) to at least a portion of the first dataset and the second dataset."
+                }
+            ]
+        },
+        {
+            "claimNumber": 5,
+            "parentClaim": 2,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20050025220",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 5, with the same reasons as set forth in The computer-implemented method of Claim 4."
+                }
+            ]
+        },
+        {
+            "claimNumber": 6,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20050025220",
+                            "text": [
+                                36
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 6, although Laroia does not explicitly disclose wherein the first subchannel includes a region between 5170 and 5330MHz and the second subchannel includes a region between 5490MHz and 5835MHz, it would have been common in practice that Laroia could apply the bandpass filter to a selected bandpass signal corresponding to the desirable subcarrier."
+                }
+            ]
+        },
+        {
+            "claimNumber": 7,
+            "parentClaim": -1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20050025220",
+                            "text": [
+                                66,
+                                8,
+                                31,
+                                34,
+                                65
+                            ],
+                            "img": [
+                                "2",
+                                "3",
+                                "4",
+                                "5"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 7, Laroia (US 2005/0025220 A1) discloses a computer-implemented method comprising: associating a first communication subchannel with a first bandwidth region; associating a second communication subchannel with a second bandwidth region; transmitting and receiving a first dataset associated with the first communication subchannel in the first bandwidth region; transmitting and receiving a second dataset associated with the second communication subchannel in the second bandwidth region; assessing a load imposed on the first communication subchannel and the second communication subchannel; and reassigning at least a portion of the first communication subchannel based on the assessment of the load; wherein the first bandwidth region and the second bandwidth region are receivable by a WLAN device operating in approximately the 5GHz bandwidth region."
+                }
+            ]
+        },
+        {
+            "claimNumber": 8,
+            "parentClaim": 7,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20050025220",
+                            "text": [
+                                9
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 8, Laroia (US 2005/0025220 A1) further discloses wherein the first bandwidth region and the second bandwidth region are non-overlapping subdivisions of the 5GHz bandwidth region encompassing one or more center frequencies and separated by a cutoff region."
+                }
+            ]
+        },
+        {
+            "claimNumber": 9,
+            "parentClaim": 7,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20050025220",
+                            "text": [
+                                9
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 9, Laroia (US 2005/0025220 A1) further discloses wherein signals received by the WLAN device that are at frequencies in the cutoff region are excluded before being amplified."
+                }
+            ]
+        },
+        {
+            "claimNumber": 10,
+            "parentClaim": 7,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20050025220",
+                            "text": [
+                                9
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 10, Laroia (US 2005/0025220 A1) further discloses applying a bandpass filter (BPF) to at least a portion of the first dataset and the second dataset."
+                }
+            ]
+        },
+        {
+            "claimNumber": 11,
+            "parentClaim": 10,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20050025220",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 11, with the same reasons as set forth in The non-transitory computer-readable medium of Claim 10."
+                }
+            ]
+        },
+        {
+            "claimNumber": 12,
+            "parentClaim": 10,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20050025220",
+                            "text": [
+                                36
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 12, although Laroia does not explicitly disclose wherein the first subchannel includes a region between 5170 and 5330MHz and the second subchannel includes a region between 5490MHz and 5835MHz, it would have been common in practice that Laroia could apply the bandpass filter to a selected bandpass signal corresponding to the desirable subcarrier."
+                }
+            ]
+        },
+        {
+            "claimNumber": 13,
+            "parentClaim": 7,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20050025220",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20150036514",
+                            "text": [
+                                178,
+                                165
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 13, Laroia does not explicitly disclose wherein the non-transitory computer-readable medium is in communication with one of a USB or Firewire peripheral. However, Zhu (US 2015/0036514 A1) discloses wherein the non-transitory computer-readable medium is in communication with one of a USB or Firewire peripheral. Therefore, it would have been obvious to an ordinary skilled in the art at the time of the invention was made to apply Zhu's teaching to Laroia's system with the motivation being to transmitting data from one device to another 'in coordinate aspects of different connections among different devices in different networks'."
+                }
+            ]
+        },
+        {
+            "claimNumber": 14,
+            "parentClaim": -1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20050025220",
+                            "text": [
+                                66,
+                                8,
+                                31,
+                                34,
+                                65
+                            ],
+                            "img": [
+                                "2",
+                                "3",
+                                "4",
+                                "5"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 14, Laroia (US 2005/0025220 A1) discloses a system comprising: one or more processors; a memory unit having instructions stored thereon, which when executed by the one or more processors cause the system to: associate a first communication subchannel with a first bandwidth region; associate a second communication subchannel with a second bandwidth region; transmit and receive a first dataset associated with the first communication subchannel in the first bandwidth region; transmit and receive a second dataset associated with the second communication subchannel in the second bandwidth region; assess a load imposed on the first communication subchannel and the second communication subchannel; and reassign at least a portion of the first communication subchannel based on the assessment of the load; wherein the first bandwidth region and the second bandwidth region are receivable by a WLAN device operating in approximately the 5GHz bandwidth region."
+                }
+            ]
+        },
+        {
+            "claimNumber": 15,
+            "parentClaim": 14,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20050025220",
+                            "text": [
+                                9
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 15, Laroia (US 2005/0025220 A1) further discloses wherein the first bandwidth region and the second bandwidth region are non-overlapping subdivisions of the 5GHz bandwidth region encompassing one or more center frequencies and separated by a cutoff region."
+                }
+            ]
+        },
+        {
+            "claimNumber": 16,
+            "parentClaim": 14,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20050025220",
+                            "text": [
+                                9
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 16, Laroia (US 2005/0025220 A1) further discloses wherein signals received by the WLAN device that are at frequencies in the cutoff region are excluded before being amplified."
+                }
+            ]
+        },
+        {
+            "claimNumber": 17,
+            "parentClaim": 14,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20050025220",
+                            "text": [
+                                9
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 17, Laroia (US 2005/0025220 A1) further discloses applying a bandpass filter (BPF) to at least a portion of the first dataset and the second dataset."
+                }
+            ]
+        },
+        {
+            "claimNumber": 18,
+            "parentClaim": 17,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20050025220",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 18, with the same reasons as set forth in The system of Claim 17."
+                }
+            ]
+        },
+        {
+            "claimNumber": 19,
+            "parentClaim": 14,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 102,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20050025220",
+                            "text": [
+                                36
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 19, although Laroia does not explicitly disclose wherein the first subchannel includes a region between 5170 and 5330MHz and the second subchannel includes a region between 5490MHz and 5835MHz, it would have been common in practice that Laroia could apply the bandpass filter to a selected bandpass signal corresponding to the desirable subcarrier."
+                }
+            ]
+        }
+    ]
+}

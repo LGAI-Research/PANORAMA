@@ -1,0 +1,169 @@
+IMPORTANT: You must ONLY return the requested JSON structure. Do not include ANY additional text, explanations, or comments before or after the JSON.
+
+Task Overview:
+The task you need to perform is to parse the CTNF txt document into JSON. The corresponding Claims(in array) are provided as a reference, but you are not parsing them.
+The final output should look like the following JSON structure.
+
+OUTPUT FORMAT:
+{
+  "claims": [
+    {
+        "claimNumber": <integer>,
+        "parentClaim": <integer>,
+        "isReject": <boolean>,
+        "reasons": [{
+          "sectionCode": <integer>,
+          "citedPatents": <array of strings>,
+          "reason": <string>
+        }]
+    }
+  ]
+}
+
+Parsing Instructions:
+1. Initial Analysis:
+- Read CTNF document and corresponding Claims carefully.
+- Identify all claim numbers mentioned anywhere in CTNF.
+- Look for Common range formats, such as:
+  * "Claims 1-19"
+  * "Claims 1, 2, and 4-7"
+  * "Claims 1-10 and 15"
+- For claim ranges:
+  * Expand ranges to include all individual claim numbers.
+    - For example, "Claims 1, 2, and 4-7" should be processed as claims 1, 2, 4, 5, 6, 7.
+ * Even if the CTNF bundles multiple claims together, the JSON output should list them as individual claims.
+
+2. Extraction Guidelines for Each Field:
+For claimNumber:
+- Return claim number as an integer.
+- Include ALL claims that appears in the corresponding Claims.
+- Exclude CANCELED claims among the corresponding claims. 
+
+For parentClaim:
+- Determine if the claim is independent or dependent by checking the corresponding Claims.
+  * Dependent claims begin with expressions like "The crossover of claim 7...", "The method of claim 13...", etc.
+- If the claim is dependent, return the number of the referenced claim.
+- If the claim is independent, return -1.
+- Note: Claim 1 is always an independent claim.
+
+For isReject:
+- Look for sections titled "Claim Rejections" or similar in CTNF.
+- Return true if the claim is rejected under any U.S.C. section.
+- Return false if:
+  * The claim is only objected to.
+  * The claim is indicated as allowable.
+  * The claim is not mentioned in the CTNF document.
+  * The claim is allowed but depends on a rejected claim (e.g., "Claims 4 and 17-18 are objected to as being dependent upon a rejected base claim, but would be allowable if rewritten in independent form including all of the limitations of the base claim and any intervening claims.").
+
+For reasons:
+- Find all U.S.C. section codes and corresponding reasons under which the claim is rejected.
+- For each section code, add an object to the reasons array containing sectionCode, citedPatents, and reason.
+- If the claim is not rejected, return an empty array [].
+- In most cases, there will be one reject reason for one section code, but if there are multiple rejections for the same claim with different cited patents, there may be multiple json children with the same section code.
+
+Subfields of reasons:
+For sectionCode:
+- Return the numerical section code under which the claim was rejected.
+- Common formats include "35 U.S.C. § 102a1", "35 U.S.C. § 103", "35 U.S.C. § 101", "35 U.S.C. § 112".
+- Extract only the numerical parts (e.g., 102, 103).
+
+For citedPatents:
+- Return array of all relevant patent citations for each claim.
+- Identify citations in formats such as:
+  * US patent applications: "US 20150048242", "US 2015/0048242".
+  * US patents: "US 9495285", "9,495,285".
+  * Foreign patents: "EP 1234567", "JP 2015-123456".
+- Citation locations:
+  * Usually found in the rejection heading (e.g., "rejected under 35 U.S.C. 103 as being unpatentable over Remillard et al (US 20150048242)").
+  * May appear in combination formats (e.g., "Remillard et al (US 20150048242) in view of HSU et al (US 9495285)").
+  * May be referenced later by author name only (e.g., "Remillard et al").
+- For different rejection types:
+  * 102 rejections: Include the single cited reference.
+  * 103 rejections:
+    - Include all references.
+    - Maintain citation order (primary reference first).
+    - Include references after "in view of", "and further in view of", etc.
+- Special cases:
+  * If only the author name is mentioned, look for the full citation earlier in the document.
+  * Standardize formatting variations to a simplified format.
+  * If no patent/publication number is found but the reference is clearly cited, omit that citation.
+- Return as array of strings in standardized format:
+  * Include the country code (e.g., "JP 2015-123456").
+  * US patent applications: "US" + space + 11-digit number (e.g., "US 20150048242")
+  * US patents: "US" + space + 7 or 8-digit number (e.g., "US 9495285")
+  * Return an empty array [] if no citations are found.
+
+For reason:
+- Extract detailed technical reasoning from the rejection explanation.
+- IMPORTANT: Do not summarize. Keep the rationale sentences from the original document intact.
+- The reason must start with "Regarding Claim #" followed by the single corresponding claimNumber.
+- Include specific elements and their relationships mentioned in the rejection.
+- Do not include the phrase "claim _ rejected under 35 U.S.C § _" in the reason field.
+- Even if a reason is written for multiple claims in the original document, the reason should only pertain to the corresponding claimNumber.
+- Add references to specific cited patents by replacing author citations with full patent numbers:
+  * Original text: "Walberg et al. teaches an electrosurgical device..."
+  * Should become: "Walberg et al. (US 20150151601) teaches an electrosurgical device..."
+  * Always include the full patent number in parentheses after the author name
+  * Do this for all author citations in the reason text
+- Look for patterns such as:
+  * Component definitions with reference numbers (e.g., "first electrode (16)").
+  * Paragraph references (e.g., "paragraph 0013").
+  * Figure references (e.g., "Figure 11B").
+  * Technical relationships between components.
+  * Material specifications.
+  * Functional descriptions.
+- When multiple components are described:
+  * Include their structural relationships (e.g., "disposed between", "disposed on").
+  * Include their functional relationships.
+  * Include reference numbers and paragraph citations.
+- For claim dependencies:
+  * Include which parent claim is being referenced.
+  * Include any specific limitations being added.
+- Return the reason as a string, maintaining technical detail while being concise.
+- For claims in a range, also indicate the range reference.
+
+3. Example Scenarios:
+Claim Range with Multiple Rejections:
+CTNF Text:
+"Claims 1-5 are rejected under 35 U.S.C. 112... Claims 1-5 are rejected under 35 U.S.C. 103..."
+
+Example JSON for Claim 1:
+{
+    "claimNumber": 1,
+    "parentClaim": -1,
+    "isReject": true,
+    "reasons": [
+      {
+        "sectionCode": 112,
+        "citedPatents": [],
+        "reason": "Regarding Claim 1, the phrase or other laydown area required for transfer cask operations renders the claim(s) indefinite because the claim(s) include(s) elements not actually disclosed (those encompassed by or other laydown area), thereby rendering the scope of the claim(s) unascertainable."
+      },
+      {
+        "sectionCode": 103,
+        "citedPatents": ["US 20150048242", "US 9495285"],
+        "reason": "Regarding Claim 1, US 20150048242 discloses a method, the method comprising: loading a container of spent fuel (waste canister) into a cavity of a transfer cask (transporter cask) (pg. 5.57, paras [0001]-[0002]); placing a shielding sleeve around the transfer cask (pg. 5.57, para [0002]); simultaneously lifting the transfer cask and the shielding sleeve over a storage cask (dry well) (pg. 5.57, paras [0001]-[0002], [0004]); and transferring the container of spent fuel from the transfer cask to the storage cask (pg. 5.57, para [0004]-pg. 5.58, para [0000]).  US 20150048242 does not specifically disclose the method is for transferring spent fuel from wet storage to dry storage; however, US 9495285 discloses transferring spent fuel from wet storage to dry storage (Abstract, para [0022]).  It would have been obvious to a person skilled in the art to modify the method of Rasmussen in accordance with the teachings of 340 such that the method is for transferring spent fuel from wet storage to dry storage, since it would allow the fuel to be placed in long term or off site storage (see 340 para [0002])."
+      }
+    ]
+}
+
+Allowed Claims Range:
+CTNF Text:
+"Claims 1-19 are allowed..."
+Example JSON for Claim 6:
+{
+    "claimNumber": 6,
+    "parentClaim": 1,
+    "isReject": false,
+    "reasons": []
+}
+
+4. Special Instructions:
+- For claims not mentioned in the CTNF document, use the following defaults:
+  * isReject: false
+  * reasons: []
+- Maintain claim number order in the output array.
+- If rejected for multiple reasons, they are arranged in the following order: 101, 112, 102, 103, etc.
+- Be precise in extracting section codes and patent numbers.
+- Return ONLY the JSON structure with NO additional text.
+
+Now, analyze the provided CTNF document and extract the requested information into ONLY the JSON structure. Return nothing but the JSON.

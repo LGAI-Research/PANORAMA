@@ -1,0 +1,1096 @@
+{
+  "id": 7,
+  "abstract": "ABSTRACTABST  14551221  1  2   2014-11-24   PATENT  0140660.U  CPOL 996444  ABSTRA CT  In one embodiment, a device that is protected against a power outage event in a network receives metrics used by a first node in the network to select a routing link to a second node in the network. The device stores the metrics used by the first node to select s  the routing link to the second node. The device selects a set of one or more of the metrics to provide to the first node during network formation after a power outage event in the network. The device provides the selected set of one or more of the metrics to the first node, wherein the first node uses the provided set to reestablish connectivity to the network.  10  34",
+  "initialClaims": [
+    "1. A method, comprising: receiving, at a device that is protected against a power outage event in a network, metrics used by a first node in the network to select a routing link to a second node in the network; storing, at the device, the metrics used by the first node to select the routing link to the second node; selecting, by the device, a set of one or more of the metrics to provide to the first node during network formation after the power outage event in the network; and providing, by the device, the selected set of one or more of the metrics to the first node, wherein the first node uses the provided set to reestablish connectivity to the network.",
+    "2. The method as in claim 1, wherein the metrics used by the first node to select the routing link to the second node comprise an expected transmission count (ETX) associated with the second node or an average of a metric associated with the routing link over a period of time.",
+    "3. The method as in claim 1, wherein the set of one or more of the metrics provided to the first node comprise data indicative of one or more adjacent nodes of the first node, wherein the first node uses the set to cause the one or more adjacent nodes to reestablish 4 routing links between the one or more adjacent nodes and the first node.",
+    "4. The method as in claim 1, wherein the set of one or more of the metrics provided to the first node is a subset of the metrics used by the first node to select the routing link to the second node.",
+    "5. The method as in claim 4, wherein the metrics used by the first node to select the routing link to the second node are associated with a plurality of neighboring nodes of the first node, and wherein the subset of the metric provided by the device to the first node are associated with only a subset of the plurality of neighboring nodes of the first node.",
+    "6. The method as in claim 5, further comprising: receiving, at the device, a request from the first node for metrics regarding one or more additional neighboring nodes that were not in the subset of the plurality of neighboring nodes; and providing, by the device, the metrics regarding the one or more additional neighboring nodes to the first node.",
+    "7. The method as in claim 1, further comprising: determining, by the device, that a degree of variation in a particular metric received from the first node over time exceeds a threshold amount; and preventing, by the device, the particular metric from being provided to the first node after the power outage event, in response to determining that the degree of variation in the particular metric exceeds the threshold amount.",
+    "8. The method as in claim 1, further comprising: providing, by the device, a notification to the first node that indicates that the 3 device is protected against power outage events.",
+    "9. The method as in claim 1, wherein the first node does not have a persistent memory operable to store the metrics used by the first node to select the routing link to the second node.",
+    "10. A method comprising: determining, by a first node in a network, metrics regarding one or more neighbor nodes of the first node and used by the first node to select a routing link to one of the neighbor nodes; providing, by the first node, the metrics to a network device that is protected against a power outage event in the network; requesting, by the first node, the metrics from the network device, after the power outage event in the network; receiving, at the first node, at least a portion of the metrics from the network device; and reestablishing, by the first node, the routing link based on the at least a portion of the metrics received from the network device.",
+    "11. The method as in claim 10, wherein the metrics used by the first node to select the routing link comprise an expected transmission count (ETX) metric or an average of a metric associated with the routing link over a period of time.",
+    "12. The method as in claim 10, wherein the metrics are provided to the network device in response to receiving a notification from the network device that the network device is protected against power outage events, and wherein the first node does not have a 4 persistent memory operable to store the metrics.",
+    "13. The method as in claim 10, further comprising: receiving, at the first node after the power outage event, data from the network device that is indicative of one or more adjacent nodes of the first node; and causing, by the first node, the one or more adjacent nodes to reestablish routing links between the adjacent nodes and the first node, in response to receiving the data from the network device that is indicative of the one or more adjacent nodes of the first node.",
+    "14. An apparatus, comprising: one or more network interfaces to communicate with a network; a processor coupled to the network interfaces and configured to execute a process; and a memory configured to store the process executable by the processor, the process when executed operable to: receive metrics used by a first node in the network to select a routing link to a second node in the network; store, in the memory, the metrics used by the first node to select the routing link to the second node; select a set of one or more of the metrics to provide to the first node during network formation after a power outage event in the network; and provide the selected set of one or more of the parameters to the first node, wherein the first node uses the provided set to reestablish connectivity to the network.",
+    "15. The apparatus as in claim 14, wherein the metrics used by the first node to select the 2 routing link to the second node comprise an expected transmission count (ETX) metric associated with the second node or an average of a metric associated with the routing link over a period of time.",
+    "16. The apparatus as in claim 14, wherein the set of one or more of the metrics provided to the first node comprise data indicative of one or more adjacent nodes of the first node, wherein the one or more adjacent nodes use the set to establish routing links to the first node after the power outage event in the network.",
+    "17. The apparatus as in claim 14, wherein the set of one or more of the metrics provided to the first node is a subset of the metrics used by the first node to select the routing link to the second node.",
+    "18. The apparatus as in claim 17, wherein the metrics used by the first node to select the routing link to the second node are associated with a plurality of neighboring nodes of the first node, and wherein the subset of the metric provided by the device to the first node are associated with only a subset of the plurality of neighboring nodes of the first node.",
+    "19. The apparatus as in claim 18, wherein the process when executed is further operable to: receive a request from the first node for metrics regarding one or more additional neighboring nodes that were not in the subset of the plurality of neighboring nodes; and provide the metrics regarding the one or more additional neighboring nodes to the first node.",
+    "20. The apparatus as in claim 14, wherein the process when executed is further operable 2 to: determine that a degree of variation in a particular metric received from the first node over time exceeds a threshold amount; and prevent the particular metric from being provided to the first node after the power outage event, in response to determining that the degree of variation in the particular metric exceeds the threshold amount.",
+    "21. The apparatus as in claim 14, wherein the process when executed is further operable to: provide a notification to the first node that indicates that the apparatus is protected against power outage events.",
+    "22. The apparatus as in claim 14, wherein the first node does not have a persistent memory operable to store the metrics used by the first node to select the routing link to the second node.",
+    "23. An apparatus, comprising: one or more network interfaces to communicate with a network; a processor coupled to the one or more network interfaces and configured to execute a process; and a memory configured to store the process executable by the processor, the process when executed operable to: determine metrics regarding one or more neighbor nodes of the apparatus and used by the apparatus to select a routing link to one of the neighbor nodes; provide the metrics to a network device that is protected against a power outage event in the network; request the metrics from the network device, after a power outage event in the network; receive at least a portion of the metrics from the network device; and reestablish the routing link based on the at least a portion of the metrics received from the network device.",
+    "24. The apparatus as in claim 23, wherein the metrics used by the first node to select the routing link comprise an expected transmission count (ETX) metric or an average of a metric associated with the routing link over a period of time.",
+    "25. The apparatus as in claim 23, wherein the metrics are provided to the network device in response to receiving a notification from the network device that the network device is protected against power outage events, and wherein the first node does not have a persistent memory operable to store the metrics.",
+    "26. The apparatus as in claim 23, wherein the process when executed is further operable to: receive, after the power outage event, data from the network device that is indicative of one or more adjacent nodes of the apparatus; and cause the one or more adjacent nodes to reestablish routing links between the adjacent nodes and the apparatus, in response to receiving the data from the network device that is indicative of the one or more adjacent nodes of the apparatus."
+  ],
+  "finalClaims": [
+    "1. (Cancelled)",
+    "2. The method as in claim 1, wherein the metrics used by the first node to select the routing link to the second node comprise an expected transmission count (ETX) associated with the second node or an average of a metric associated with the routing link over a period of time.",
+    "3. The method as in claim 1, wherein the set of one or more of the metrics sent to the first node comprise data indicative of one or more adjacent nodes of the first node, wherein the first node uses the set to cause the one or more adjacent nodes to reestablish routing links between the one or more adjacent nodes and the first node.",
+    "4. The method as in claim 1, wherein the set of one or more of the metrics sent to the first node is a subset of the metrics used by the first node to select the routing link to the second node.",
+    "5. The method as in claim 4, wherein the metrics used by the first node to select the routing link to the second node are associated with a plurality of neighboring nodes of the first node, and wherein the subset of the metric sent by the device to the first node are associated with only a subset of the plurality of neighboring nodes of the first node.",
+    "6. The method as in claim 5, further comprising: receiving, at the device, a request from the first node for metrics regarding one or more additional neighboring nodes that were not in the subset of the plurality of neighboring nodes; and providing, by the device, the metrics regarding the one or more additional neighboring nodes to the first node.",
+    "7. The method as in claim 1, further comprising: determining, by the device, that a degree of variation in a particular metric received from the first node over time exceeds a threshold amount; and preventing, by the device, the particular metric from being sent to the first node after the power outage event, in response to determining that the degree of variation in the particular metric exceeds the threshold amount.",
+    "8. (Cancelled)",
+    "9. The method as in claim 1, wherein the first node does not have a persistent memory operable to store the metrics used by the first node to select the routing link to the second node.",
+    "10. A method comprising: receiving a notification at a first node that indicates that a particular network device in a computer network is protected against a power outage event; determining, by a-the first node in a network, metrics regarding one or more neighbor nodes of the first node and used by the first node to select a routing link to one of the neighbor nodes, wherein the metrics include link quality estimates used by the first node; sending periodically, by the first node, the metrics to a-the particular network device that is protected against a-the power outage event in the network; requesting, by the first node, the previously sent metrics from the particular network device, after the power outage event in the network; based on the request, receiving, at the first node, at least a portion of the metrics back from the particular network device; and based on receiving the portion of the metrics from the particular network device, reestablishing, by the first node, the routing link based on the at least a portion of the metrics received from the particular network device.",
+    "11. The method as in claim 10, wherein the metrics used by the first node to select the routing link comprise an expected transmission count (ETX) metric or an average of a metric associated with the routing link over a period of time.",
+    "12. The method as in claim 10, wherein the metrics are sent to the network device in response to receiving a notification from the network device that the network device is protected against power outage events, and wherein the first node does not have a persistent memory operable to store the metrics.",
+    "13. The method as in claim 10, further comprising: receiving, at the first node after the power outage event, data from the particular network device that is indicative of one or more adjacent nodes of the first node; and causing, by the first node, the one or more adjacent nodes to reestablish routing links between the adjacent nodes and the first node, in response to receiving the data from the particular network device that is indicative of the one or more adjacent nodes of the first node.",
+    "14. An apparatus, comprising: one or more network interfaces to communicate with a network; a processor coupled to the network interfaces and configured to execute a process; and a memory configured to store the process executable by the processor, the process when executed operable to: send a notification to a first node that indicates that the apparatus is protected against a power outage event; receive periodically, from a-the first node, metrics used by a-the first node in the network to select a routing link to a second node in the network, wherein the metrics include link quality estimates used by the first node; store, in the memory, the metrics used by the first node to select the routing link to the second node; select a set of one or more of the metrics to provide to the first node during network formation after a power outage event in the network; and send the selected set of one or more of the parameters metrics back to the first node after the power outage event, wherein the first node uses the set of one or more of the metrics to reestablish connectivity to the network.",
+    "15. The apparatus as in claim 14, wherein the metrics used by the first node to select the routing link to the second node comprise an expected transmission count (ETX) metric associated with the second node or an average of a metric associated with the routing link over a period of time.",
+    "16. The apparatus as in claim 14, wherein the set of one or more of the metrics sent to the first node comprise data indicative of one or more adjacent nodes of the first node, wherein the one or more adjacent nodes use the set to establish routing links to the first node after the power outage event in the network.",
+    "17. The apparatus as in claim 14, wherein the set of one or more of the metrics sent to the first node is a subset of the metrics used by the first node to select the routing link to the second node.",
+    "18. The apparatus as in claim 17, wherein the metrics used by the first node to select the routing link to the second node are associated with a plurality of neighboring nodes of the first node, and wherein the subset of the metric sent by the device to the first node are associated with only a subset of the plurality of neighboring nodes of the first node.",
+    "19. The apparatus as in claim 18, wherein the process when executed is further operable to: receive a request from the first node for metrics regarding one or more additional neighboring nodes that were not in the subset of the plurality of neighboring nodes; and provide the metrics regarding the one or more additional neighboring nodes to the first node.",
+    "20. The apparatus as in claim 14, wherein the process when executed is further operable to: determine that a degree of variation in a particular metric received from the first node over time exceeds a threshold amount; and prevent the particular metric from being sent to the first node after the power outage event, in response to determining that the degree of variation in the particular metric exceeds the threshold amount.",
+    "21. (Cancelled)",
+    "22. The apparatus as in claim 14, wherein the first node does not have a persistent memory operable to store the metrics used by the first node to select the routing link to the second node.",
+    "23. An apparatus, comprising: one or more network interfaces to communicate with a network; a processor coupled to the one or more network interfaces and configured to execute a process; and a memory configured to store the process executable by the processor, the process when executed operable to: receive a notification at the apparatus that indicates that a particular network device in a computer network is protected against a power outage event; determine metrics regarding one or more neighbor nodes of the apparatus and used by the apparatus to select a routing link to one of the neighbor nodes, wherein the metrics are those metrics that are costly to discover, evaluate or compute; send periodically the metrics to the particular a network device that is protected against a-the power outage event in the network; request the previously sent metrics from the particular network device, after a power outage event in the network; receive at least a portion of the metrics back from the particular network device based on the request; and based on to receiving the portion of the metrics from the particular network device, reestablish the routing link based usingen the at least a portion of the metrics received from the particular network device.",
+    "24. The apparatus as in claim 23, wherein the metrics include an expected transmission count (ETX) metric or an average of a metric associated with the routing link over a period of time.",
+    "25. The apparatus as in claim 23, wherein the metrics are sent to the network device in response to receiving a notification from the network device that the network device is protected against power outage events, and wherein the apparatus does not have a persistent memory operable to store the metrics.",
+    "26. The apparatus as in claim 23, wherein the process when executed is further operable to: receive, after the power outage event, data from the particular network device that is indicative of one or more adjacent nodes of the apparatus; and cause the one or more adjacent nodes to reestablish routing links between the adjacent nodes and the apparatus, in response to receiving the data from the particular network device that is indicative of the one or more adjacent nodes of the apparatus."
+  ],
+  "CTNFDocumentIdentifier": "IMP5EFMRPXXIFW4",
+  "CTNFBodyText": "The present application, filed on or after March 16, 2013, is being examined under the first inventor to file provisions of the AIA .\n\n\nDETAILED ACTION\n\nThis office action is a response to the application filed on 11/24/2014. Claims 1-26 are pending and ready for examination.\n\n\nClaim Rejections - 35 USC § 112\n\nThe following is a quotation of 35 U.S.C. 112(b):\n(b)  CONCLUSION.—The specification shall conclude with one or more claims particularly pointing out and distinctly claiming the subject matter which the inventor or a joint inventor regards as the invention.\n\n\n\nClaims 24 and 25 are rejected under 35 U.S.C. 112(b) as being indefinite for failing to particularly point out and distinctly claim the subject matter which the inventor or a joint inventor regards as the invention.\n\nClaim 24 recites the limitation …the metrics used by the first node... in line 1.  There is insufficient antecedent basis for this limitation in the claim.\nClaim 25 recites the limitation …wherein the first node does not have a persistent memory... in line 3.  There is insufficient antecedent basis for this limitation in the claim.\n\n\nClaim Rejections - 35 USC § 103\n\nThe following is a quotation of 35 U.S.C. 103 which forms the basis for all obviousness rejections set forth in this Office action:\nA patent for a claimed invention may not be obtained, notwithstanding that the claimed invention is not identically disclosed as set forth in section 102 of this title, if the differences between the claimed invention and the prior art are such that the claimed invention as a whole would have been obvious before the effective filing date of the claimed invention to a person having ordinary skill in the art to which the claimed invention pertains.  Patentability shall not be negated by the manner in which the invention was made.\n\n\nClaims 1-6, 8-19 and 21-26 are rejected under 35 U.S.C. 103 as being unpatentable over Agarwal et al. (US 2011/0228696, hereinafter Agarwal) in view of Hui et al. (US 2013/0010615, hereinafter Hui), and further in view of Vasseur et al. (US 2011/0231573, hereinafter Vasseur).\n\nRegarding claim 14, Agarwal discloses an apparatus comprising; one or more network interfaces to communicate with a network; a processor coupled to the network interfaces and configured to execute a process; and a memory configured to store the process executable by the processor [Agarwal Figure 1 shows a computer network comprising nodes/devices; Figure 2 shows an example node/device which includes network interface, processor, memory, etc. Agarwal paragraphs 0018, 0019], the process when executed operable to:\nReceive metrics used by a first node in the network to select a routing link to a second node in the network [Agarwal paragraph 0016; certain devices in the network may be more capable such as having larger memories and sustainable power supplies, suggesting a device that may be protected against a power outage. Agarwal paragraph 0031; a directed acyclic graph (DAG) for use in routing data can be built based on an Objective Function (OF) which defines a set of routing metrics and related functions in use in a DAG. OF specify one or more metrics and how the metrics are used to compute a path, which can be between two nodes in the network. Paragraph 0036; control messages such as DAG discovery and discovery reply messages (e.g. DIA/DAO) may be used to build a DAG topology. A sub-option field may be used in these messages to specify any objective function, which indicates that the control messages may include the metrics. Paragraph 0040; root device uses information provided in these control messages to determine a topology. This suggests receiving the metrics information  (objective function) carried in the control messages at a device. Paragraph 0052, 0057 further discloses that the management information included in the control messages (reply messages) such as traffic metrics/statistics regarding the routes are stored at the device and the device may use the information to build a traffic matrix corresponding to network topology]; \nStore in the memory, the metrics used by the first node to select the routing link to the second node [Paragraph 0052, 0057 discloses that the management information included in the control messages (reply messages) such as traffic metrics/statistics regarding the routes are stored at the device and the device may use the information to build a traffic matrix corresponding to network topology. Paragraph 0019 discloses that the device may include a topology management process and store topology information in memory]. \nAgarwal does not expressly disclose regarding selecting a set of one or more of the metrics to provide to the first node during network formation after a power outage event in the network; and providing the selected set of one or more of the metrics to the first node, wherein the first node uses the provided set to reestablish connectivity to the network.\nHowever, in the same or similar field of invention, Hui discloses regarding network formation after a power outage event in the network [Hui paragraph 0044, a warm-start network formation may occur after power restoration to an area of the network, which results in a number of nodes trying to rejoin the network. Hui paragraph 0058; when a node joins the network, it may operate in a rapid startup mode by establishing network configuration rapidly. Hui paragraph 0080; an initial routing topology may be formed in rapid startup mode, and alternatively, a robust topology mode may also be available. These topologies may be represented using different instances, metrics and/or objective functions. Thus, a particular set of metrics and/or objective functions may be associated with an initial routing topology in rapid startup mode]. \nTherefore, it would have been obvious to one of ordinary skill in the art before the effective filing date of the claimed invention to modify Agarwal to have the features of network formation after a power outage event in the network by using a set of metrics associated with an initial routing topology in rapid  startup mode as taught by Hui. The suggestion/motivation would have been to allow properly and rapidly build network topology [Hui paragraph 0003].\nAlthough Agarwal and Hui discloses regarding using metrics and/or objective functions to establish network configuration [As explained above, Hui discloses regarding using metrics and/or objective functions to establish network configuration after a power outage event in the network], which would imply providing the metrics to the node in order to build the network configuration; Agarwal and Hui do not expressly suggest regarding selecting a set of one or more of the metrics to provide to the first node during network formation; and providing the selected set of one or more of the metrics to the first node, wherein the first node uses the provided set to reestablish connectivity to the network.\nHowever, in the same or similar field of invention, Vasseur discloses regarding selecting a set of one or more of the metrics to provide to the first node during network formation and providing the selected set of one or more of the metrics to the first node, wherein the first node uses the provided set to reestablish connectivity to the network [Vasseur paragraph 0051; the root node selects an objective function which consists of optimizing the path using a link metric (e.g. ETX). Based on the feedback from the nodes which may include providing a new objective function (OF) with a different path metric, the new metric may also be selected and used to build the DAG topology. Thus, receiving feedback from the node includes sending new OF to the root node and requesting metrics from the root in order to rebuild the DAG topology. The root node may select new preferred metric to change metrics a DAG’s OF. This is also illustrated in Figure 7]. \nTherefore, it would have been obvious to one of ordinary skill in the art before the effective filing date of the claimed invention to modify Agarwal and Hui to have the features of selecting a set of one or more of the metrics to provide to the first node during network formation after the power outage event in the network, and providing the selected set of one or more of the metrics to the first node, wherein the first node uses the provided set to reestablish connectivity to the network as taught by Vasseur. The suggestion/motivation would have been to enable dynamic adjustment of network topology based on adjusted objective function feedback to allow better load balancing and improved scalability [Vasseur paragraph 0014].\n\nRegarding claim 15, Agarwal, Hui and Vasseur disclose the apparatus as in claim 14. Agarwal, Hui and Vasseur further disclose wherein the metrics used by the first node to select the routing link to the second node comprise an expected transmission count (ETX) metric associated with the second node [Agarwal paragraph 0032; example metrics used to select paths may comprise expected transmission count (ETX). Hui paragraphs 0071 and 0079 also disclose ETX metric] or an average of a metric associated with the routing link over a period of time. In addition, the same motivation is used as the rejection of claim 14. \n\nRegarding claim 16, Agarwal, Hui and Vasseur disclose the apparatus as in claim 14. Agarwal, Hui and Vasseur further disclose wherein the set of one or more of the metrics provided to the first node comprise data indicative of one or more adjacent nodes of the first node, wherein the one or more adjacent nodes use the set to establish routing links to the first node after the power outage event in the network [Hui paragraph 0041; a discovery reply message may be sent to the root node which may contain next hop parent addresses. The root uses this information to build the topology and compute downward routes to all nodes in the network tree. Thus, the root node has the route metrics that includes data related to adjacent nodes of a node in the network. Hui paragraph 0080; an initial routing topology may be formed using a particular set of metrics in a rapid startup mode and figures 9A and 9B show examples of network routing topology in startup mode and over time, which shows that a node uses the route metrics mentioned above to set up routes between the node and one or more adjacent nodes]. In addition, the same motivation is used as the rejection of claim 14. \n\nRegarding claim 17, Agarwal, Hui and Vasseur disclose the apparatus as in claim 16. Agarwal, Hui and Vasseur further disclose wherein the set of one or more of the metrics provided to the first node is a subset of the metrics used by the first node to select the routing link to the second node [Hui paragraphs 0077 and 0080; as mentioned above, an initial routing topology may be formed using a particular set of metrics in a rapid startup mode. As shown in figure 9A, the initial topology includes a  topology that does not include all the routing links with respect to a node but includes only a limited set of routes from any node. This indicates that the set of one or more of the metrics provided to the first node is a subset of the metrics, because during the initial topology formation only a limited set of routing links to a neighboring node is selected based on the metrics received]. In addition, the same motivation is used as the rejection of claim 16.\n\nRegarding claim 18, Agarwal, Hui and Vasseur disclose the apparatus as in claim 17. Agarwal, Hui and Vasseur further disclose wherein the metrics used by the first node to select the routing link to the second node are associated with a plurality of neighboring nodes of the first node, and wherein the subset of the metric provided by the device to the first node are associated with only a subset of the plurality of neighboring nodes of the first node [Hui paragraph 0041; a discovery reply message may be sent to the root node which may contain next hop parent addresses. The root uses this information to build the topology and compute downward routes to all nodes in the network tree. Thus, the route metrics includes data related to adjacent nodes of a node in the network. Hui paragraphs 0077 and 0080; as mentioned above, an initial routing topology may be formed using a particular set of metrics in a rapid startup mode. As shown in figure 9A, the initial topology includes a topology that does not include all the routing links with respect to a node but includes only a limited set of routes from any node. Thus, the initial topology formation does not include all the neighboring nodes of a node (as shown in figure 9A), and therefore the metrics used in the initial topology formation includes only a subset of the neighboring nodes]. In addition, the same motivation is used as the rejection of claim 17.\n\nRegarding claim 19, Agarwal, Hui and Vasseur disclose the apparatus as in claim 18. Agarwal, Hui and Vasseur further disclose regarding a request from the first node for metrics regarding one or more additional neighboring nodes that were not in the subset of the plurality of neighboring nodes; and provide the metrics regarding the one or more additional neighboring nodes to the first node [Hui paragraphs 0077, 0080; a node may communicate with the root node and a central DHCP server to obtain configuration parameters when joining the network following events such as power on. An initial  routing topology may be formed using a different or a particular set of metrics in a rapid startup mode. As shown in Figure 9A, during initial topology creation (e.g. DAG 910), the routing links for some of the neighbors may not be set up. For example, node 11 has a route link to its neighboring node 21, but not to the other neighboring node 22. Hui paragraph 0081 also discloses that a robust topology (e.g. DAG 915 in Figure 9B) can be created iteratively over time, and the route link to the neighbor node 22 can be created from node 11 as shown in Figure 9B. Creating robust topology iteratively suggests that a request for the metrics regarding additional neighboring node that were not in the subset of neighboring node can be made so that route links to additional neighboring nodes can be provided]. In addition, the same motivation is used as the rejection of claim 18. \n\nRegarding claim 21, Agarwal, Hui and Vasseur disclose the apparatus as in claim 14. Agarwal, Hui and Vasseur further disclose regarding providing a notification to the first node that indicates that the apparatus is protected against power outage events [As mentioned in rejection of claim 14, certain devices in the network may be more capable such as having larger memories and sustainable power supplies. Agarwal paragraph 0036 discloses an example of control message format (Figure 3) which includes sub-option field that can be used to carry additional or custom information within the message such as capabilities. A discovery message can be transmitted from the device to the nodes (paragraph 0035) which may carry such capabilities information. This suggests providing a notification to the first node to indicate the capability of protection against power outage]. In addition, the same motivation is used as the rejection of claim 14. \n\nRegarding claim 22, Agarwal, Hui and Vasseur disclose the apparatus as in claim 14. Agarwal, Hui and Vasseur further disclose wherein the first node does not have a persistent memory operable to store the metrics used by the first node to select the routing link to the second node [Hui paragraph 0041; the network includes nodes that are not capable of maintaining routing state. These nodes send DAO messages to the root node which can build topology. The nodes that are not capable of maintaining  routing state suggest that they do not have persistent memory to store metrics]. In addition, the same motivation is used as the rejection of claim 14.  \n\nRegarding claim 23, Agarwal discloses an apparatus, comprising: one or more network interfaces to communicate with a network; a processor coupled to the one or more network interfaces and configured to execute a process; and a memory configured to store the process executable by the processor [Agarwal Figure 1 shows a computer network comprising nodes/devices; Figure 2 shows an example node/device which includes network interface, processor, memory, etc. Agarwal paragraphs 0018, 0019], the process when executed operable to:\nDetermine metrics regarding one or more neighbor nodes of the apparatus and used by the apparatus to select a routing link to one of the neighbor nodes; provide the metrics to a network device that is protected against a power outage event in the network [Agarwal paragraph 0016; Certain devices in the network may be more capable such as having larger memories and sustainable power supplies, suggesting a device that may be protected against a power outage. Agrawal paragraph 0031; a directed acyclic graph (DAG) for use in routing data can be built based on an Objective Function (OF) which defines a set of routing metrics and related functions in use in a DAG. OF specify one or more metrics and how the metrics are used to compute a path, which can be a path to a neighbor node as shown in Figure 1. Paragraph 0036; control messages such as DAG discovery and discovery reply messages (e.g. DIA/DAO) may be used to build a DAG topology. A sub-option field may be used in these messages to specify any objective function, which indicates that the control messages may include the metrics which are used to build topology (topology includes routing links to neighbor nodes). Paragraphs 0034 and 0040; the control messages convey information to the root device and the root device uses information provided in these control messages to determine a topology. Paragraph 0048 further discloses that the root device may receive the discovery reply message from downstream neighbors. Thus, metrics which can be used for selecting paths to neighbor nodes are reported to the root node using objective functions in the discovery reply control messages].\n Agarwal does not expressly disclose regarding requesting the metrics from the network device, after a power outage event in the network; receiving at least a portion of the metrics from the network device; and reestablishing the routing link based on the at least a portion of the metrics received from the network device.\nHowever, in the same or similar field of invention, Hui discloses regarding requesting the metrics from the network device after a power outage event; receiving at least a portion of the metrics from the network device; and reestablishing the routing link based on the at least a portion of the metrics received [Hui paragraph 0044, a warm-start network formation may occur after power restoration to an area of the network, which results in a number of nodes trying to rejoin the network. Hui paragraph 0058; when a node joins the network, it may operate in a rapid startup mode by establishing network configuration rapidly. Hui paragraphs 0077; a node may communicate with the root node and a central DHCP server to obtain configuration parameters when joining the network following events such as power on. Hui paragraph 0080; an initial routing topology may be formed in rapid startup mode, and alternatively, a robust topology mode may also be available. These topologies may be represented using different instances, metrics and/or objective functions. Thus, a particular set of metrics and/or objective functions may be associated with an initial routing topology in rapid startup mode and it could be a portion of the metrics because it represents an initial topology including a limited set of links to neighbor nodes. Communicating with root node to obtain configuration also implies receiving metrics from the network device]. Thus, Hui discloses regarding establishing network configuration after a power outage event by receiving a portion of metrics from a network device by communicating with the network device.\nTherefore, it would have been obvious to one of ordinary skill in the art before the effective filing date of the claimed invention to modify Agarwal to have the features of receiving a portion of metrics from the network device and reestablishing routing link based on the metrics after a power outage event as taught by Hui. The suggestion/motivation would have been to allow properly and rapidly build network topology [Hui paragraph 0003].\nAlthough Agarwal and Hui discloses regarding establishing network configuration after a power outage event by communicating with the root node [see above], which would imply requesting and  receiving metrics from the network device in order to build the network configuration; Agarwal and Hui do not expressly suggest regarding requesting the metrics from the network device.\nHowever, in the same or similar field of invention, Vasseur discloses regarding requesting the metrics from the network device and providing metrics to the node to establish network connectivity [Vasseur paragraph 0051; the root node selects an objective function which consists of optimizing the path using a link metric (e.g. ETX). Based on the feedback from the nodes which may include providing a new objective function (OF) with a different path metric, the new metric may also be selected and used to build the DAG topology. Thus, receiving feedback from the node includes sending new OF to the root node and requesting metrics from the root in order to rebuild the DAG topology. The root node may select new preferred metric to change metrics a DAG’s OF, and request rebuild of DAG. Rebuilding of DAG means that the node is receiving metrics from the root. This is also illustrated in Figure 7]. Thus, Vasseur discloses regarding requesting the metrics from the network device (node sending feedback to the root by sending new OF) and receiving metrics from the network device. \nTherefore, it would have been obvious to one of ordinary skill in the art before the effective filing date of the claimed invention to modify Agarwal and Hui to have the features of requesting the metrics from the network device, and receiving metrics from the network device to reestablish the routing link as taught by Vasseur. The suggestion/motivation would have been to enable dynamic adjustment of network topology based on adjusted objective function feedback to allow better load balancing and improved scalability [Vasseur paragraph 0014].\n\nRegarding claim 24, see rejection of claim 15. Claim 24 includes the same features as claim 15. Therefore, the same rejection applies as the rejection of claim 15.\n\nRegarding claim 25, Agarwal, Hui and Vasseur disclose the apparatus as in claim 23. Agarwal, Hui and Vasseur further disclose wherein the metrics are provided to the network device in response to receiving a notification from the network device that the network device is protected against power outage events [As mentioned in rejection of claim 23, certain devices in the network may be more capable such  as having larger memories and sustainable power supplies. Agarwal paragraph 0036 discloses an example of control message format (Figure 3) which includes sub-option field that can be used to carry additional or custom information within the message such as capabilities. A discovery message can be transmitted from the device to the nodes (paragraph 0035) which may carry such capabilities information. This suggests providing a notification to the first node to indicate the capability of protection against power outage], and wherein the first node does not have a persistent memory operable to store the metrics [Hui paragraph 0041; the network includes nodes that are not capable of maintaining routing state. These nodes send DAO messages to the root node which can build topology. The nodes that are not capable of maintaining routing state suggest that they do not have persistent memory to store metrics]. In addition, the same motivation is used as the rejection of claim 23. \n\nRegarding claim 26, see rejection of claim 16. Claim 26 includes the same features as claim 16. Therefore, the same rejection applies as the rejection of claim 16. \n\nRegarding claim 1, see rejection of claim 14. Claim 1 is a method claim related to the apparatus of claim 14 with the same features. Therefore, the same rejection applies as the rejection of claim 14.\n\nRegarding claim 2, see rejection of claim 15. Claim 2 is a method claim related to the apparatus of claim 15 with the same features. Therefore, the same rejection applies as the rejection of claim 15.\n\nRegarding claim 3, see rejection of claim 16. Claim 3 is a method claim related to the apparatus of claim 16 with the same features. Therefore, the same rejection applies as the rejection of claim 16.\n\nRegarding claim 4, see rejection of claim 17. Claim 4 is a method claim related to the apparatus of claim 17 with the same features. Therefore, the same rejection applies as the rejection of claim 17.\n\nnumber='10'Regarding claim 5, see rejection of claim 18. Claim 5 is a method claim related to the apparatus of claim 18 with the same features. Therefore, the same rejection applies as the rejection of claim 18.\n\nRegarding claim 6, see rejection of claim 19. Claim 6 is a method claim related to the apparatus of claim 19 with the same features. Therefore, the same rejection applies as the rejection of claim 19.\n\nRegarding claim 8, see rejection of claim 21. Claim 8 is a method claim related to the apparatus of claim 21 with the same features. Therefore, the same rejection applies as the rejection of claim 21.\n\nRegarding claim 9, see rejection of claim 22. Claim 9 is a method claim related to the apparatus of claim 22 with the same features. Therefore, the same rejection applies as the rejection of claim 22.\n\nRegarding claim 10, see rejection of claim 23. Claim 10 is a method claim related to the apparatus of claim 23 with the same features. Therefore, the same rejection applies as the rejection of claim 23. \n\nRegarding claim 11, see rejection of claim 24. Claim 11 is a method claim related to the apparatus of claim 24 with the same features. Therefore, the same rejection applies as the rejection of claim 24.\n\nRegarding claim 12, see rejection of claim 25. Claim 12 is a method claim related to the apparatus of claim 25 with the same features. Therefore, the same rejection applies as the rejection of claim 25.\n\nRegarding claim 13, see rejection of claim 26. Claim 13 is a method claim related to the apparatus of claim 26 with the same features. Therefore, the same rejection applies as the rejection of claim 26.\n\nClaims 7 and 20 are rejected under 35 U.S.C. 103 as being unpatentable over Agarwal, Hui, Vasseur and further in view of Liu et al. (US 2010/0074194, hereinafter Liu).\n\nRegarding claim 20, Agarwal, Hui and Vasseur disclose the apparatus as in claim 14. Agarwal, Hui and Vasseur disclose regarding selecting and providing the route metrics to the node in order to reestablish connectivity after the power outage event in the network [see rejection of claim 14]. Agarwal, Hui and Vasseur do not expressly disclose regarding determining a degree of variation in a particular metric received from the first node over time exceeds a threshold amount; and preventing the particular metric from being provided to the first node after the power outage event, in response to determining that the degree of variation in the particular metric exceeds the threshold amount.\nHowever, in the same or similar field of invention, Liu discloses regarding determining variation in a particular metric over time and preventing the particular metric from being provided to the first node when the degree of variation in the particular metric exceeds the threshold amount [Liu paragraph 0024; a node can estimate the utilization of channel used by a link to its neighbors. A weighted radio and bandwidth aware link cost function (RABA) can be calculated based on weight functions of channel utilization and packet error rate (paragraph 0020). Figures 2-6 show that this channel utilization function can be determined over time with periodic measurements to calculate a quantized RABA routing metric. This routing metric can be applied to select path in the network based on a certain minimum value of the metric among the paths between two nodes (paragraph 0035). Determining channel utilization periodically to calculate the routing metric is same as determining variation in a particular metric over time. Calculating the routing metric based on the periodic estimation of channel utilization and selecting a route with a minimum value of the metric also suggests comparing the metric against a threshold and using it to select a route that meets certain threshold, and subsequently not using the route if the metric exceeds certain threshold].\nTherefore, it would have been obvious to one of ordinary skill in the art before the effective filing date of the claimed invention to modify Agarwal, Hui and Vasseur to have the features of determining number='11'variation in a particular metric over time and preventing the particular metric from being provided to the first node when the degree of variation in the particular metric exceeds the threshold amount as taught by Liu. The suggestion/motivation would have been to achieve quick responses to link state and network topology changes and maintain route stability [Liu paragraph 0009]. \n\nRegarding claim 7, see rejection of claim 20. Claim 7 is a method claim related to the apparatus of claim 20 with the same features. Therefore, the same rejection applies as the rejection of claim 20.\n\n\nConclusion\n\n",
+  "NOABodyText": "CNTA  14/551,221  NOA  90414  2414    15-10-aia AIA 07-03-aia  The present application, filed on or after March 16, 2013, is being examined under the first inventor to file provisions of the AIA.    DETAILED ACTION   This office action is a response to the amendment filed on 07/05/2017. Claims 1-7, 9-20 and 22-26 are pending in this application.    Allowable Subject Matter   12-151-07 AIA 07-97 12-51-07 Claim s 1-7, 9-20 and 22-26 (renumbered as 1-24) are allowed.  13-03 AIA The following is an examiner’s statement of reasons for allowance:  Applicant’s amendments received on 07/05/2017 have overcome the cited prior art. An updated search has been performed and no prior art has been found that solely, or in any reasonable combination, reads on the claims.  Claimed invention is directed to a method for facilitating reformation of network nodes after a power outage event in the network. The method involves receiving metrics used by a first node in the network to select a routing link to a second node at a device that is protected against a power outage event. A set of metrics is selected to provide to the first node during network formation after the power outage event in the network. The first node uses the provided set to reestablish connectivity to the network. The method enables using a protected device to communicate stored link quality estimates and initialize link metrics at the nodes, thus avoiding the nodes from making costly link quality estimates after power is restored.  Prior art reference Shaffer discloses that a particular node receiving electrical power from a grid source may determine routing metrics to a plurality of neighbor nodes in a computer network. The root node may receive a message which includes information to build topology and downward routes.  However, Shaffer does not disclose the feature of periodically receiving the metrics from a first node, and selecting a set of one or more of the metrics to provide to the first node during network formation after a power outage event in the network. Although Shaffer disclose a discovery message that can be transmitted from the root device to the leaf nodes which may carry information such as capabilities, Shaffer does not specifically disclose the feature of sending a notification to a first node that the device is protected against a power outage event.  Prior art reference Agarwal discloses that a root device of a directed acyclic graph (DAG) may determine/detect a trigger to learn a network topology. The root device may determine “short-cuts” based on a traffic matrix generated in response to network statistics optionally included within the responses from the devices within the DAG.  However, Agarwal does not disclose the features of sending a notification to a first node that indicates that the device is protected against a power outage event; and sending the selected set of one or more of the metrics back to the first node after the power outage event so that the node can use the metrics to reestablish connectivity to the network.  Prior art reference Hui discloses that when a node joins a communication network, the node can operate in a rapid startup mode which establishes network configurations rapidly by deemphasizing quality of the network configurations. Subsequent to operating in a rapid startup mode, the node then operates in a robust mode by iteratively refining the network configurations to increase the quality of the network configurations.  Prior art reference Vasseur discloses that a root device may request that one or more devices of a computer network build a DAG for routing traffic within the computer network based on an objective function (OF), where the OF has one or more metrics to optimize the DAG against certain constraints.  However, Vasseur and Hui do not teach a process where nodes in the network periodically report the metrics to specifically the nodes in the network that are protected against a power outage event. Hui and Vasseur also do not disclose the feature of sending a notification to a first node that indicates that the device is protected against a power outage event.  Claims 1, 10, 14, 23 and their dependent thereof are allowable because the closest prior art, either alone, or in combination, fails to anticipate or render obvious the above mentioned features of sending, by a device, a notification to a first node that indicates that the device is protected against a power outage event; and sending by the device, the selected set of one or more of the metrics back to the first node after the power outage event, wherein the first node uses the set of one or more of the metrics to reestablish connectivity to the network; in combination with all other limitations in the claims as defined by the Applicant .  Any comments considered necessary by applicant must be submitted no later than the payment of the issue fee and, to avoid processing delays, should preferably accompany the issue fee.  Such submissions should be clearly labeled “Comments on Statement of Reasons for Allowance.”    Conclusion   Any inquiry concerning this communication or earlier communications from the examiner should be directed to SAUMIT SHAH whose telephone number is (571)272-6959.  The examiner can normally be reached on M-F 8:30 AM - 5:00 PM.  Examiner interviews are available via telephone, in-person, and video conferencing using a USPTO supplied web-based collaboration tool. To schedule an interview, applicant is encouraged to use the USPTO Automated Interview Request (AIR) at http://www.uspto.gov/interviewpractice.  If attempts to reach the examiner by telephone are unsuccessful, the examiner’s supervisor, Edan Orgad can be reached on 571-272-7884.  The fax phone number for the organization where this application or proceeding is assigned is 571-273-8300.  Information regarding the status of an application may be obtained from the Patent Application Information Retrieval (PAIR) system.  Status information for published applications may be obtained from either Private PAIR or Public PAIR.  Status information for unpublished applications is available through Private PAIR only.  For more information about the PAIR system, see http://pair-direct.uspto.gov. Should you have questions on access to the Private PAIR system, contact the Electronic Business Center (EBC) at 866-217-9197 (toll-free). If you would like assistance from a USPTO Customer Service Representative or access to the automated information system, call 800-786-9199 (IN USA OR CANADA) or 571-272-1000.       /SAUMIT SHAH/  Examiner, Art Unit 2414        /EDAN ORGAD/  Supervisory Patent Examiner, Art Unit 2414     Application/Control Number:  14/551,221  Page 2    Art Unit:  2414          Application/Control Number:  14/551,221  Page 3    Art Unit:  2414          Application/Control Number:  14/551,221  Page 4    Art Unit:  2414          Application/Control Number:  14/551,221  Page 5    Art Unit:  2414",
+  "applicationNumber": "14551221",
+  "patentsCitedByExaminer": [
+    {
+      "referenceIdentifier": "20100074194",
+      "abstract": "A method and system are described for establishing an end-to-end route for data to traverse a wireless network, including calculating a link cost function, calculating a quantized link cost function using the calculated link cost, function, calculating a quantized cost of each of a plurality, of end-to-end routes for data to traverse the wireless network, wherein the plurality of end-to-end routes include routes between a same set of nodes in the wireless network, wherein, the quantized cost of each of the plurality of end-to-end routes for data to traverse the wireless network is performed using the quantized link cost function and selecting one of the plurality of end-to-end routes, for data to traverse the wireless network based on the quantized cost of each of the plurality of end-to-end routes. Also described is a node in a wireless network configured to participate in the establishment of a bi-directional end-to-end route for data to traverse the wireless network.",
+      "claims": [
+        "1. A method for establishing an end-to-end route for data to traverse a wireless network, said method comprising:\ncalculating a link metric function;\ncalculating a quantized link metric function using said calculated link metric function;\ncalculating a quantized metric of each of a plurality of end-to-end routes for data to traverse said wireless network, wherein said quantized metric of each of said plurality of end-to-end routes for data to traverse said wireless network is performed using said quantized link metric function; and\nselecting one of said plurality of end-to-end routes for data to traverse said wireless network based on said quantized metric of each of said plurality of end-to-end routes.",
+        "2. The method according to claim 1, wherein said wireless network is a wireless mesh network.",
+        "3. The method according to claim 1, wherein said plurality of said end-to-end routes between a same set of nodes in said wireless network over different channels include a plurality of radio interfaces, and further wherein each of said plurality of end-to-end routes is bi-directional.",
+        "4. The method according to claim 1, further comprising:\ndetermining a media access control and physical layer protocol overhead;\ndetermining a data size;\ndetermining a link data rate periodically;\ndetermining a packet error rate periodically;\ndetermining a weight function for channel utilization; and\ndetermining a weight function for said packet error rate.",
+        "5. The method according to claim 4, further comprising estimating channel utilization periodically.",
+        "6. The method according to claim 5, further comprising:\ndetermining channel measurement period; and\ndetermining a channel busy time periodically.",
+        "7. The method according to claim 1, further comprising:\ndetermining a number of quantization levels; and\ndetermining a quantization factor.",
+        "8. The method according to claim 1, further comprising:\ndetermining a first channel change weight function; and\ndetermining a second channel change weight function.",
+        "9. The method according to claim 2, wherein said wireless mesh network is a pro-active network.",
+        "10. The method according to claim 9, further comprising:\nannouncing said results of said calculated link metric function as state information in a control message; and\nusing said calculated link metric function to generate and maintain a routing table.",
+        "11. The method according to claim 10, further comprising immediately announcing said results of said calculated link metric function as state information in a control message if said results are greater than a pre-determined threshold value.",
+        "12. The method according to claim 2, wherein said wireless mesh network is an on-demand network.",
+        "13. The method according to claim 12, further comprising:\ninitiating route discovery; and\nusing said calculated link metric function to generate and maintain a routing table.",
+        "14. The method according to claim 2, wherein said wireless mesh network is a hybrid mesh network.",
+        "15. The method according to claim 2, wherein said wireless mesh network is based on a tree topology.",
+        "16. The method according to claim 15, further comprising:\nperforming one of transmitting a root announcement and initiating a route discovery, including an initialized metric field and a sequence number field;\nupdating said metric field;\nupdating said sequence number field;\nupdating a routing table; and\nestablishing said bi-directional end-to end route.",
+        "17. A system for establishing an end-to-end route for data to traverse a wireless network, comprising:\nmeans for calculating a link metric function;\nmeans for calculating a quantized link metric function using said calculated link metric function;\nmeans for calculating a quantized metric of each of a plurality of routes for data to traverse said wireless network, said quantized metric of each of said plurality of end-to-end routes for data to traverse said wireless network is performed using said quantized link metric function; and\nmeans for selecting one of said plurality of end-to-end routes for data to traverse said wireless network based on said quantized metric of each of said plurality of routes.",
+        "18. The system according to claim 17, wherein said wireless network is a wireless mesh network.",
+        "19. The system according to claim 17, wherein said plurality of said end-to-end routes between a same set over nodes in said wireless network over different channels include a plurality of radio interfaces, and further wherein each of said plurality of end-to-end routes is bi-directional.",
+        "20. The system according to claim 17, further comprising:\nmeans for determining a media access control and physical layer protocol overhead;\nmeans for determining a data size;\nmeans for determining a link data rate periodically;\nmeans for determining a packet error rate periodically;\nmeans for determining a weight function for channel utilization; and\nmeans for determining a weight function for said packet error rate.",
+        "21. The system according to claim 20, further comprising means for estimating channel utilization periodically.",
+        "22. The system according to claim 21, further comprising:\nmeans for determining channel measurement period; and\nmeans for determining a channel busy time periodically.",
+        "23. The system according to claim 17, further comprising:\nmeans for determining a number of quantization levels; and\nmeans for determining a quantization factor.",
+        "24. The system according to claim 17, further comprising:\nmeans for determining a first channel change weight function; and\nmeans for determining a second channel change weight function.",
+        "25. The system according to claim 18, wherein said wireless mesh network is a pro-active network.",
+        "26. The system according to claim 25, further comprising:\nmeans for announcing said results of said calculated link metric function as state information in a control message; and\nmeans for using said calculated link metric function to generate and maintain a routing table.",
+        "27. The system according to claim 26, further comprising means for immediately announcing said results of said calculated link metric function as state information in a control message if said results are greater than a pre-determined threshold value.",
+        "28. The system according to claim 18, wherein said wireless mesh network is an on-demand network.",
+        "29. The system according to claim 28, further comprising:\nmeans for initiating route discovery; and\nmeans for using said calculated link metric function to generate and maintain a routing table.",
+        "30. The system according to claim 18, wherein said wireless mesh network is a hybrid mesh network.",
+        "31. The system according to claim 18, wherein said wireless mesh network is based on a tree topology.",
+        "32. The system according to claim 31, further comprising:\nmeans for performing one of transmitting a root announcement and initiating a route discovery, including an initialized metric field and a sequence number field;\nmeans for updating said metric field;\nmeans for updating said sequence number field; and\nmeans for updating a routing table.",
+        "33. A node in a wireless network configured to participate in the establishment of a bi-directional end-to-end route for data to traverse said wireless network, comprising:\nmeans for periodically measuring the quality and the utilization of each channel of said node, each node having multiple channels;\nmeans for periodically calculating routing metrics using said measured quality and utilization of said each channel;\nmeans for periodically updating routing table with said calculated routing metrics;\nmeans for selecting said bi-directional end-to-end route for data to traverse said wireless network based on said routing table.",
+        "34. The node according to claim 33, wherein said node has at least one radio interface.",
+        "35. A method for establishing an end-to-end route for data to traverse a wireless network, said method comprising:\ncalculating a link metric function;\ncalculating a metric of each of a plurality of end-to-end routes for data to traverse said wireless network, wherein said metric of each of said plurality of end-to-end routes for data to traverse said wireless network is performed using said link metric function; and\nselecting one of said plurality of end-to-end routes for data to traverse said wireless network based on said metric of each of said plurality of end-to-end routes.",
+        "36. A system for establishing an end-to-end route for data to traverse a wireless network, comprising:\nmeans for calculating a link metric function;\nmeans for calculating a metric of each of a plurality of end-to-end routes for data to traverse said wireless network, wherein said metric of each of said plurality of end-to-end routes for data to traverse said wireless network is performed using said link metric function; and\nmeans for selecting one of said plurality of end-to-end routes for data to traverse said wireless network based on said metric of each of said plurality of end-to-end routes."
+      ],
+      "title": "RADIO AND BANDWIDTH AWARE ROUTING METRIC FOR MULTI-RADIO MULTI-CHANNEL MUTLI-HOP WIRELESS NETWORKS"
+    },
+    {
+      "referenceIdentifier": "20110228696",
+      "abstract": "In one embodiment, a root device of a directed acyclic graph (DAG) may determine/detect a trigger to learn a network topology of the DAG. In response, the root device may transmit a DAG discovery request down the DAG with a route record request that requests that each device within the DAG add its device identification (ID) to a reverse route record stack for each route of a DAG discovery reply propagated up the DAG toward the root device. Upon receiving one or more DAG discovery replies, the root device may compile the recorded routes from the reverse route record stacks into a DAG network topology. Also, in one embodiment, the root device may determine \"short-cuts\" based on a traffic matrix generated in response to network statistics optionally included within the responses from the devices within the DAG.",
+      "claims": [
+        "1. A method, comprising:\ndetermining, by a root device of a directed acyclic graph (DAG) in a computer network, a trigger to learn a network topology of the DAG;\nin response, transmitting a DAG discovery request down the DAG, the DAG discovery request having a route record request that requests that each device within the DAG add its device identification (ID) to a reverse route record stack for each route of a DAG discovery reply propagated up the DAG toward the root device;\nreceiving one or more DAG discovery replies at the root device; and\ncompiling recorded routes of the one or more reverse route record stacks of the one or more DAG discovery replies into a DAG network topology.",
+        "2. The method as in claim 1, further comprising:\nreporting the DAG network topology.",
+        "3. The method as in claim 1, further comprising:\ndetermining whether the DAG network topology has changed since a previous DAG network topology.",
+        "4. The method as in claim 1, further comprising:\ndetermining the trigger on demand.",
+        "5. The method as in claim 1, further comprising:\ndetermining the trigger based on a periodic timer.",
+        "6. The method as in claim 1, wherein devices within the DAG that are unable to record state are configured to also add their respective device ID to the reverse route record stack for each route of the DAG discovery reply.",
+        "7. The method as in claim 1, wherein the route record request includes an indication that a reply is to be sent toward the root device by a particular device in the DAG in response to a local repair being performed by the particular device.",
+        "8. The method as in claim 1, wherein the route record request includes a request to include within the DAG discovery replies a set of traffic metrics regarding the routes carried in the DAG discovery replies.",
+        "9. The method as in claim 8, wherein the traffic metrics are selected from a group consisting of:\na number of packets handled, a number of packets redirected, and a rate of packets handled.",
+        "10. The method as in claim 8, further comprising:\nbuilding, at the root device, a traffic matrix corresponding to the DAG network topology based on the traffic metrics.",
+        "11. The method as in claim 1, further comprising:\nutilizing DAG routing according to a Routing Protocol for Low Power and Lossy Networks (RPL).",
+        "12. An apparatus, comprising:\none or more network interfaces adapted to communicate on a directed acyclic graph (DAG) in a computer network;\na processor coupled to the network interfaces and adapted to execute one or more processes; and\na memory adapted to store a root device process executable by the processor, the process when executed operable to:\ndetermine, as a root device of the DAG, a trigger to learn a network topology of the DAG;\ntransmit a DAG discovery request down the DAG in response to the trigger, the DAG discovery request having a route record request that requests that each device within the DAG add its device identification (ID) to a reverse route record stack for each route of a DAG discovery reply propagated up the DAG toward the apparatus;\nreceive one or more DAG discovery replies; and\ncompile recorded routes of the one or more reverse route record stacks of the one or more DAG discovery replies into a DAG network topology.",
+        "13. A method, comprising:\nreceiving, at a particular device of a directed acyclic graph (DAG) in a computer network, a DAG discovery request transmitted down the DAG from a root device of the DAG, the DAG discovery request having a route record request;\nin response to the route record request, adding a device identification (ID) of the particular device to a reverse route record stack for each route of a DAG discovery reply; and\ntransmitting the DAG discovery reply up the DAG toward the root device.",
+        "14. The method as in claim 13, further comprising:\nwaiting for expiration of a timer configured to allow receipt of DAG discovery replies from downstream DAG devices prior to adding the device ID and transmitting the DAG discovery reply.",
+        "15. The method as in claim 13, wherein the device ID is a network address of the device.",
+        "16. The method as in claim 13, further comprising:\ndetermining that a local repair has been performed by the particular device; and\nin response, transmitting a reply message toward the root device from the particular device indicating the local repair.",
+        "17. The method as in claim 13, further comprising:\nincluding within the DAG discovery reply a set of traffic metrics regarding the routes in the reply.",
+        "18. The method as in claim 17, wherein the traffic metrics are selected from a group consisting of:\na number of packets handled, a number of packets redirected, and a rate of packets handled.",
+        "19. The method as in claim 17, further comprising:\ndetermining that a metric threshold has been reached at the particular device; and\nin response, transmitting a reply message toward the root device from the particular device indicating metric.",
+        "20. The method as in claim 13, further comprising:\nutilizing DAG routing according to a Routing Protocol for Low Power and Lossy Networks (RPL).",
+        "21. An apparatus, comprising:\none or more network interfaces adapted to communicate on a directed acyclic graph (DAG) in a computer network;\na processor coupled to the network interfaces and adapted to execute one or more processes; and\na memory adapted to store a root device process executable by the processor, the process when executed operable to:\nreceive a DAG discovery request transmitted down the DAG from a root device of the DAG, the DAG discovery request having a route record request;\nadd, in response to the route record request, a device identification (ID) of the apparatus to a reverse route record stack for each route of a DAG discovery reply; and\ntransmit the DAG discovery reply up the DAG toward the root device."
+      ],
+      "title": "DYNAMIC DIRECTED ACYCLIC GRAPH (DAG) TOPOLOGY REPORTING"
+    },
+    {
+      "referenceIdentifier": "20130010615",
+      "abstract": "In one embodiment, a node joins a communication network, and in response to joining the network, operates in a rapid startup mode, wherein the node in rapid startup mode establishes network configurations rapidly by deemphasizing quality (optimality) of the network configurations. Subsequent to operating in the rapid startup mode (e.g., after some timer or explicit command), the node then operates in a robust mode, wherein the node in robust mode iteratively refines the network configurations to increase the quality of the network configurations.",
+      "claims": [
+        "1. A method, comprising:\njoining a communication network by a node;\nin response to joining the network, operating the node in a rapid startup mode, wherein the node in rapid startup mode establishes network configurations rapidly by deemphasizing quality of the network configurations; and\nsubsequent to operating in the rapid startup mode, operating the node in a robust mode, wherein the node in robust mode iteratively refines the network configurations to increase the quality of the network configurations.",
+        "2. The method as in claim 1, wherein joining comprises one of either powering on the node, or learning of a new field area router (FAR).",
+        "3. The method as in claim 1, further comprising:\nswitching from the rapid startup mode to the robust mode in response to one of either a timer or an explicit command.",
+        "4. The method as in claim 1, wherein operating in the rapid startup mode and the robust mode are per-protocol operating on the node.",
+        "5. The method as in claim 1, wherein operating in the rapid startup mode and the robust mode occurs at least partially in parallel.",
+        "6. The method as in claim 5, further comprising:\nmanaging a first and second routing instance at the node, the first instance being an active instance operating according to the rapid startup mode, and the second instance being built based on the robust mode during operating in the rapid startup mode.",
+        "7. The method as in claim 1, further comprising:\ntransmitting network discovery beacons at a first frequency during the rapid startup mode that is higher than a second frequency during the robust mode.",
+        "8. The method as in claim 1, further comprising:\ntransmitting neighbor discovery messages at a first frequency during the rapid startup mode that is higher than a second frequency during the robust mode.",
+        "9. The method as in claim 8, further comprising:\nreceiving an initiating neighbor discovery message from a particular neighbor node prior to any other neighbor discovery message; and\nselecting a best next hop as the particular node during the rapid startup mode.",
+        "10. The method as in claim 1, further comprising:\ndetermining a link quality estimation for one or more links of the node based on a single transmission during the rapid startup mode; and\ndetermining the link quality estimation for the one or more links based on a plurality of transmissions during the robust mode",
+        "11. The method as in claim 1, further comprising:\ntransmitting a discovery request message during the rapid startup mode, the discovery request message specifying a subset of nodes to answer the request.",
+        "12. The method as in claim 1, further comprising:\nperforming address autoconfiguration for the node during the rapid startup mode using a stateless address autoconfiguration (SLAAC) technique; and\nperforming address autoconfiguration for the node during the robust mode using a centralized dynamic host configuration protocol (DHCP) service.",
+        "13. The method as in claim 1, further comprising:\nperforming address autoconfiguration for the node during the rapid startup mode using a local dynamic host configuration protocol (DHCP) service on each node in the network; and\nperforming address autoconfiguration for the node during the robust mode using a centralized DHCP service.",
+        "14. An apparatus, comprising:\none or more network interfaces to communicate in a communication network;\na processor coupled to the network interfaces and adapted to execute one or more processes; and\na memory configured to store a process executable by the processor, the process when executed operable to:\njoin the communication network as a node;\nin response to joining the network, operate the node in a rapid startup mode, wherein the node in rapid startup mode establishes network configurations rapidly by deemphasizing quality of the network configurations; and\nsubsequent to operating in the rapid startup mode, operate the node in a robust mode, wherein the node in robust mode iteratively refines the network configurations to increase the quality of the network configurations.",
+        "15. The apparatus as in claim 14, wherein the process when executed is further operable to operate in the rapid startup mode and the robust mode at least partially in parallel.",
+        "16. The apparatus as in claim 14, wherein the process when executed is further operable to:\ntransmit network discovery beacons at a first frequency during the rapid startup mode that is higher than a second frequency during the robust mode.",
+        "17. The apparatus as in claim 14, wherein the process when executed is further operable to:\ntransmit neighbor discovery messages at a first frequency during the rapid startup mode that is higher than a second frequency during the robust mode;\nreceive an initiating neighbor discovery message from a particular neighbor node prior to any other neighbor discovery message; and\nselect a best next hop as the particular node during the rapid startup mode.",
+        "18. The apparatus as in claim 14, wherein the process when executed is further operable to:\ndetermine a link quality estimation for one or more links of the node based on a single transmission during the rapid startup mode; and\ndetermine the link quality estimation for the one or more links based on a plurality of transmissions during the robust mode",
+        "19. The apparatus as in claim 14, wherein the process when executed is further operable to:\nperform address autoconfiguration for the node during the rapid startup mode using a technique selected from one of either a stateless address autoconfiguration (SLAAC) technique or a local dynamic host configuration protocol (DHCP) service on each node in the network; and\nperform address autoconfiguration for the node during the robust mode using a centralized DHCP service.",
+        "20. A tangible, non-transitory, computer-readable media having software encoded thereon, the software when executed by a processor on a node operable to:\njoin the communication network;\nin response to joining the network, operate the node in a rapid startup mode, wherein the node in rapid startup mode establishes network configurations rapidly by deemphasizing quality of the network configurations; and\nsubsequent to operating in the rapid startup mode, operate the node in a robust mode, wherein the node in robust mode iteratively refines the network configurations to increase the quality of the network configurations.",
+        "21. The computer-readable media as in claim 20, wherein the software when executed is further operable to operate in the rapid startup mode and the robust mode at least partially in parallel.",
+        "22. The computer-readable media as in claim 20, wherein the software when executed is further operable to:\ntransmit network discovery beacons at a first frequency during the rapid startup mode that is higher than a second frequency during the robust mode.",
+        "23. The computer-readable media as in claim 20, wherein the software when executed is further operable to:\ntransmit neighbor discovery messages at a first frequency during the rapid startup mode that is higher than a second frequency during the robust mode;\nreceive an initiating neighbor discovery message from a particular neighbor node prior to any other neighbor discovery message; and\nselect a best next hop as the particular node during the rapid startup mode.",
+        "24. The computer-readable media as in claim 20, wherein the software when executed is further operable to:\ndetermine a link quality estimation for one or more links of the node based on a single transmission during the rapid startup mode; and\ndetermine the link quality estimation for the one or more links based on a plurality of transmissions during the robust mode",
+        "25. The computer-readable media as in claim 20, wherein the software when executed is further operable to:\nperform address autoconfiguration for the node during the rapid startup mode using a technique selected from one of either a stateless address autoconfiguration (SLAAC) technique or a local dynamic host configuration protocol (DHCP) service on each node in the network; and\nperforming address autoconfiguration for the node during the robust mode using a centralized DHCP service."
+      ],
+      "title": "RAPID NETWORK FORMATION FOR LOW-POWER AND LOSSY NETWORKS"
+    },
+    {
+      "referenceIdentifier": "20110231573",
+      "abstract": "In one embodiment, a root device may request that one or more devices of a computer network build a directed acyclic graph (DAG) for routing traffic within the computer network based on an objective function (OF), where the OF has one or more metrics to optimize the DAG against and optionally certain constraints. Particular devices that receive the request may then build the DAG based on the OF, and may determine and report OF feedback to the root device. Upon receiving the reports regarding OF feedback, the root device may then adjust the OF based on the feedback, and request a rebuild of the DAG from the devices based on the adjusted OF.",
+      "claims": [
+        "1. A method, comprising:\nrequesting, from a root device, that one or more devices of a computer network build a directed acyclic graph (DAG) for routing traffic within the computer network based on an objective function (OF), the OF having one or more metrics to optimize the DAG against and zero or more constraints;\nreceiving one or more reports from devices of the DAG regarding OF feedback;\nadjusting the OF based on the feedback; and\nrequesting a rebuild of the DAG from the devices based on the adjusted OF.",
+        "2. The method as in claim 1, wherein adjusting comprises:\ndetermining a problem from the one or more reports;\ndetermining a solution to the problem; and\nadjusting the one or more metrics and zero or more constraints based on the solution.",
+        "3. The method as in claim 1, further comprising:\nreporting the one or more reports to a system administrator; and\nreceiving an adjusted OF from the system administrator.",
+        "4. The method as in claim 1, further comprising:\ndetermining network statistics by the root device; and\ngenerating at least one of the received one or more reports regarding OF feedback by the root device as a device of the DAG, wherein the OF feedback is based on the network statistics.",
+        "5. The method as in claim 1, wherein the received feedback includes an indication of network congestion.",
+        "6. The method as in claim 1, wherein a constraint of a first OF requires that a single parent be selected by each device of the DAG, and wherein an adjusted constraint of the adjusted OF requires that a plurality of parents be selected by each device of the DAG.",
+        "7. The method as in claim 6, wherein the OF specifies that the plurality of selected parents must each have a particular metric that is within a threshold distance from a best particular metric of a selected parent.",
+        "8. The method as in claim 1, wherein the received feedback includes a request for an added constraint.",
+        "9. The method as in claim 1, wherein the received feedback from a particular device includes an indication that the particular device is unable to comply with a particular constraint of the OF.",
+        "10. The method as in claim 9, further comprising:\nreceiving a plurality of feedbacks from devices indicating inability to comply with a particular constraint; and\nin response to the plurality of feedbacks being greater than a threshold, relaxing the constraint in the adjusted OF.",
+        "11. The method as in claim 1, wherein the received feedback from a particular device is in response to the particular device encountering a problem.",
+        "12. The method as in claim 1, wherein the received feedback includes network statistics.",
+        "13. The method as in claim 1, wherein adjusting the OF comprises changing one or more of the metrics.",
+        "14. The method as in claim 13, wherein changing metrics comprises at least one of either selecting a new preferred metric or rearranging an order of a plurality of metrics.",
+        "15. The method as in claim 1, wherein adjusting the OF comprises at least one of either adding or removing constraints.",
+        "16. The method as in claim 1, wherein the one or more metrics are selected from a group consisting of:\ndelay, latency, bandwidth, estimated transmission count (ETX), and cost.",
+        "17. The method as in claim 1, wherein the zero or more constraints comprise at least one constraint selected from a group consisting of:\nreliability thresholds, restricted battery operation, multipath diversity, load balancing requirements, bandwidth requirements, transmission types, and number of selected parents.",
+        "18. The method as in claim 1, further comprising:\nutilizing DAG routing according to a Routing Protocol for Low Power and Lossy Networks (RPL).",
+        "19. An apparatus, comprising:\none or more network interfaces adapted to communicate with one or more devices of a computer network;\na processor coupled to the network interfaces and adapted to execute one or more processes; and\na memory adapted to store a process executable by the processor, the process when executed operable to:\nrequest that the one or more devices build a directed acyclic graph (DAG) for routing traffic within the computer network based on an objective function (OF), the OF having one or more metrics to optimize the DAG against and zero or more constraints;\nreceive one or more reports from devices of the DAG regarding OF feedback;\nadjust the OF based on the feedback; and\nrequest a rebuild of the DAG from the devices based on the adjusted OF.",
+        "20. The apparatus as in claim 19, wherein the process when executed is further operable to:\ndetermine a problem from the one or more reports;\ndetermine a solution to the problem; and\nadjust the one or more metrics and zero or more constraints based on the solution.",
+        "21. A method, comprising:\nreceiving a request, originated from a root device, at a particular device of a computer network, to build a directed acyclic graph (DAG) for routing traffic within the computer network based on an objective function (OF), the OF having one or more metrics to optimize the DAG against and zero or more constraints;\nbuilding the DAG based on the OF;\ndetermining OF feedback; and\nreporting the OF feedback toward the root device.",
+        "22. The method as in claim 21, further comprising:\ndetermining the OF feedback in response to determining an encountered problem at the particular device.",
+        "23. The method as in claim 21, further comprising:\ndetermining network statistics at the particular device; and\nincluding the network statistics within the reported OF feedback.",
+        "24. An apparatus, comprising:\none or more network interfaces adapted to communicate with one or more devices of a computer network;\na processor coupled to the network interfaces and adapted to execute one or more processes; and\na memory adapted to store a process executable by the processor, the process when executed operable to:\nreceive a request, originated from a root device, to build a directed acyclic graph (DAG) for routing traffic within the computer network based on an objective function (OF), the OF having one or more metrics to optimize the DAG against and zero or more constraints;\nbuild the DAG based on the OF;\ndetermine OF feedback; and\nreport the OF feedback toward the root device."
+      ],
+      "title": "DYNAMIC DIRECTED ACYCLIC GRAPH (DAG) ADJUSTMENT"
+    }
+  ],
+  "firstInventorToFileIndicator": "Y",
+  "applicationStatusCode": 150,
+  "applicationTypeCode": "UTL",
+  "entityStatusData": {
+    "smallEntityStatusIndicator": false,
+    "businessEntityStatusCategory": "Regular Undiscounted"
+  },
+  "filingDate": "2014-11-24",
+  "class/subclass": "370/389",
+  "nationalStageIndicator": false,
+  "firstInventorName": "Jonathan Hui",
+  "cpcClassificationBag": [
+    "Y02D30/70",
+    "H04W40/125",
+    "H04L45/28"
+  ],
+  "effectiveFilingDate": "2014-11-24",
+  "publicationDateBag": [
+    "2016-05-26"
+  ],
+  "publicationSequenceNumberBag": [
+    "0149805"
+  ],
+  "earliestPublicationDate": "2016-05-26",
+  "applicationTypeLabelName": "Utility",
+  "applicationStatusDate": "2018-01-24",
+  "class": "370",
+  "applicationTypeCategory": "REGULAR",
+  "applicationStatusDescriptionText": "Patented Case",
+  "patentNumber": "9893985",
+  "grantDate": "2018-02-13",
+  "applicantBag": [
+    {
+      "applicantNameText": "Cisco Technology, Inc.",
+      "correspondenceAddressBag": [
+        {
+          "cityName": "San Jose",
+          "geographicRegionName": "CALIFORNIA",
+          "geographicRegionCode": "CA",
+          "nameLineOneText": "Cisco Technology, Inc.",
+          "postalAddressCategory": "postal"
+        }
+      ]
+    }
+  ],
+  "firstApplicantName": "Cisco Technology, Inc.",
+  "customerNumber": 126982,
+  "groupArtUnitNumber": "2414",
+  "earliestPublicationNumber": "US20160149805A1",
+  "inventionTitle": "UTILIZING REMOTE STORAGE FOR NETWORK FORMATION IN IOT NETWORKS",
+  "applicationConfirmationNumber": 8771,
+  "examinerNameText": "SHAH, SAUMIT",
+  "subclass": "389",
+  "publicationCategoryBag": [
+    "Granted/Issued",
+    "Pre-Grant Publications - PGPub"
+  ],
+  "docketNumber": "0140660.U",
+  "title": "UTILIZING REMOTE STORAGE FOR NETWORK FORMATION IN IOT NETWORKS",
+  "parsed_CTNF": [
+    {
+      "claimNumber": 1,
+      "parentClaim": -1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [
+                16,
+                18,
+                19,
+                31,
+                36,
+                40,
+                52,
+                57
+              ],
+              "img": [
+                "1",
+                "2"
+              ]
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [
+                3,
+                41,
+                44,
+                58,
+                71,
+                77,
+                79,
+                80
+              ],
+              "img": [
+                "9A",
+                "9B"
+              ]
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [
+                14,
+                51
+              ],
+              "img": [
+                "7"
+              ]
+            }
+          ],
+          "reason": "Regarding Claim 1, Agarwal et al. (US 20110228696) discloses a method related to the apparatus comprising network interfaces, processor and memory. Hui et al. (US 20130010615) discloses network formation after a power outage using metrics for rapid startup. Vasseur et al. (US 20110231573) discloses selecting metrics to provide to the first node for reestablishing connectivity. Therefore, it would have been obvious to modify Agarwal to include features from Hui and Vasseur to build network topology after a power outage event."
+        }
+      ]
+    },
+    {
+      "claimNumber": 2,
+      "parentClaim": 1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 2, see rejection of Claim 15. The method claim is related to the apparatus of Claim 15. Therefore, the same rejection applies as the rejection of Claim 15."
+        }
+      ]
+    },
+    {
+      "claimNumber": 3,
+      "parentClaim": 1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 3, see rejection of Claim 16. The method claim is related to the apparatus of Claim 16. Therefore, the same rejection applies as the rejection of Claim 16."
+        }
+      ]
+    },
+    {
+      "claimNumber": 4,
+      "parentClaim": 1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 4, see rejection of Claim 17. The method claim is related to the apparatus of Claim 17. Therefore, the same rejection applies as the rejection of Claim 17."
+        }
+      ]
+    },
+    {
+      "claimNumber": 5,
+      "parentClaim": 4,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 5, see rejection of Claim 18. The method claim is related to the apparatus of Claim 18. Therefore, the same rejection applies as the rejection of Claim 18."
+        }
+      ]
+    },
+    {
+      "claimNumber": 6,
+      "parentClaim": 5,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 6, see rejection of Claim 19. The method claim is related to the apparatus of Claim 19. Therefore, the same rejection applies as the rejection of Claim 19."
+        }
+      ]
+    },
+    {
+      "claimNumber": 7,
+      "parentClaim": 1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20100074194",
+              "text": [
+                24
+              ],
+              "img": [
+                "2",
+                "6"
+              ]
+            }
+          ],
+          "reason": "Regarding Claim 7, see rejection of Claim 20. The method claim is related to the apparatus of Claim 20 with additional features from Liu et al. (US 20100074194) regarding determining variation in metrics over time."
+        }
+      ]
+    },
+    {
+      "claimNumber": 8,
+      "parentClaim": 1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 8, see rejection of Claim 21. The method claim is related to the apparatus of Claim 21. Therefore, the same rejection applies as the rejection of Claim 21."
+        }
+      ]
+    },
+    {
+      "claimNumber": 9,
+      "parentClaim": 1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 9, see rejection of Claim 22. The method claim is related to the apparatus of Claim 22. Therefore, the same rejection applies as the rejection of Claim 22."
+        }
+      ]
+    },
+    {
+      "claimNumber": 10,
+      "parentClaim": -1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 10, see rejection of Claim 23. The method claim is related to the apparatus of Claim 23. Therefore, the same rejection applies as the rejection of Claim 23."
+        }
+      ]
+    },
+    {
+      "claimNumber": 11,
+      "parentClaim": 10,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 11, see rejection of Claim 24. The method claim is related to the apparatus of Claim 24. Therefore, the same rejection applies as the rejection of Claim 24."
+        }
+      ]
+    },
+    {
+      "claimNumber": 12,
+      "parentClaim": 10,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 12, see rejection of Claim 25. The method claim is related to the apparatus of Claim 25. Therefore, the same rejection applies as the rejection of Claim 25."
+        }
+      ]
+    },
+    {
+      "claimNumber": 13,
+      "parentClaim": 10,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 13, see rejection of Claim 26. The method claim is related to the apparatus of Claim 26. Therefore, the same rejection applies as the rejection of Claim 26."
+        }
+      ]
+    },
+    {
+      "claimNumber": 14,
+      "parentClaim": -1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [
+                16,
+                18,
+                19,
+                31,
+                36,
+                40,
+                52,
+                57
+              ],
+              "img": [
+                "1",
+                "2"
+              ]
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [
+                3,
+                41,
+                44,
+                58,
+                71,
+                77,
+                79,
+                80
+              ],
+              "img": [
+                "9A",
+                "9B"
+              ]
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [
+                14,
+                51
+              ],
+              "img": [
+                "7"
+              ]
+            }
+          ],
+          "reason": "Regarding Claim 14, Agarwal et al. (US 20110228696) discloses an apparatus with network interfaces, processor, and memory. Hui et al. (US 20130010615) discloses network formation after power outage using metrics. Vasseur et al. (US 20110231573) discloses selecting metrics for reestablishing connectivity. It would have been obvious to one of ordinary skill to combine these teachings for network topology adjustment."
+        }
+      ]
+    },
+    {
+      "claimNumber": 15,
+      "parentClaim": 14,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 15, Agarwal, Hui, and Vasseur disclose an apparatus with metrics used by the first node to select routing links, including ETX metric, for reestablishing connectivity. Therefore, the same rejection applies as the rejection of Claim 14."
+        }
+      ]
+    },
+    {
+      "claimNumber": 16,
+      "parentClaim": 14,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 16, Agarwal, Hui, and Vasseur disclose an apparatus with metrics for adjacent nodes to establish routing links after a power outage. Therefore, the same rejection applies as the rejection of Claim 14."
+        }
+      ]
+    },
+    {
+      "claimNumber": 17,
+      "parentClaim": 14,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 17, Agarwal, Hui, and Vasseur disclose an apparatus where a subset of metrics is used for routing link selection. Therefore, the same rejection applies as the rejection of Claim 16."
+        }
+      ]
+    },
+    {
+      "claimNumber": 18,
+      "parentClaim": 17,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 18, Agarwal, Hui, and Vasseur disclose a subset of metrics associated with a subset of neighboring nodes. Therefore, the same rejection applies as the rejection of Claim 17."
+        }
+      ]
+    },
+    {
+      "claimNumber": 19,
+      "parentClaim": 18,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 19, Agarwal, Hui, and Vasseur disclose a request for metrics regarding additional neighboring nodes. Therefore, the same rejection applies as the rejection of Claim 18."
+        }
+      ]
+    },
+    {
+      "claimNumber": 20,
+      "parentClaim": 14,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20100074194",
+              "text": [
+                24
+              ],
+              "img": [
+                "2",
+                "6"
+              ]
+            }
+          ],
+          "reason": "Regarding Claim 20, Agarwal, Hui, and Vasseur disclose selecting and providing metrics for connectivity after power outage. Liu et al. (US 20100074194) discloses determining variation in metrics over time. It would have been obvious to combine these teachings for route stability."
+        }
+      ]
+    },
+    {
+      "claimNumber": 21,
+      "parentClaim": 14,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 21, Agarwal, Hui, and Vasseur disclose providing a notification to the first node about apparatus protection against power outages. Therefore, the same rejection applies as the rejection of Claim 14."
+        }
+      ]
+    },
+    {
+      "claimNumber": 22,
+      "parentClaim": 14,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 22, Agarwal, Hui, and Vasseur disclose a node without persistent memory for storing metrics. Therefore, the same rejection applies as the rejection of Claim 14."
+        }
+      ]
+    },
+    {
+      "claimNumber": 23,
+      "parentClaim": -1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [
+                16,
+                18,
+                19,
+                31,
+                36,
+                40,
+                52,
+                57
+              ],
+              "img": [
+                "1",
+                "2"
+              ]
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [
+                3,
+                41,
+                44,
+                58,
+                71,
+                77,
+                79,
+                80
+              ],
+              "img": [
+                "9A",
+                "9B"
+              ]
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [
+                14,
+                51
+              ],
+              "img": [
+                "7"
+              ]
+            }
+          ],
+          "reason": "Regarding Claim 23, Agarwal discloses an apparatus with network interfaces, processor, and memory. Hui discloses metrics request and receipt after power outage. Vasseur discloses requesting metrics from the network device. It would have been obvious to combine these teachings for network topology adjustment."
+        }
+      ]
+    },
+    {
+      "claimNumber": 24,
+      "parentClaim": 23,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 24, see rejection of Claim 15. The method claim is related to the apparatus of Claim 15. Therefore, the same rejection applies as the rejection of Claim 15."
+        }
+      ]
+    },
+    {
+      "claimNumber": 25,
+      "parentClaim": 23,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 25, Agarwal, Hui, and Vasseur disclose metrics provision to the network device in response to receiving a notification about protection against power outages. Therefore, the same rejection applies as the rejection of Claim 23."
+        }
+      ]
+    },
+    {
+      "claimNumber": 26,
+      "parentClaim": 16,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20110228696",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20130010615",
+              "text": [],
+              "img": []
+            },
+            {
+              "patentNum": "US 20110231573",
+              "text": [],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 26, see rejection of Claim 16. Therefore, the same rejection applies as the rejection of Claim 16."
+        }
+      ]
+    }
+  ]
+}

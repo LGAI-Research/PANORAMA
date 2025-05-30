@@ -1,0 +1,702 @@
+{
+    "claims": [
+        {
+            "claimNumber": 1,
+            "parentClaim": -1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140278125",
+                            "text": [
+                                25,
+                                36,
+                                39,
+                                82,
+                                83
+                            ],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130192071",
+                            "text": [
+                                76
+                            ],
+                            "img": [
+                                "22C",
+                                "22D",
+                                "22E",
+                                "22F"
+                            ]
+                        },
+                        {
+                            "patentNum": "US 20130041590",
+                            "text": [
+                                139,
+                                149
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 1, Balakrishnan discloses a biometric monitoring system, comprising: a set of wireless sensor interfaces coupled to a garment (Paragraph 36: sensors in garment), each of the set of wireless sensor interfaces comprising: 1) an electrode layer, configured for electrical contact with a user during operation, the electrode layer comprising a receiving region (Paragraph 39: electrode layer), 2) a positional identifier, associated with a position on the garment (Paragraph 83: identify location on apparel), and 3) a retention subsystem (Paragraph 82: sensors are attached or embedded); and comprising: a contact region electrically coupleable to the receiving region of the electrode layer of the corresponding wireless sensor interface (Paragraph 39: connection to the sensor system), a set of sensors configured to detect a set of biometric signal types (Paragraph 25: bio-sensor), and a positional interrogator configured to identify, upon interacting with the positional identifier of the corresponding wireless sensor interface (Paragraph 83: position of sensors is determined), the position associated with the corresponding wireless sensor interface (Paragraph 83: position of sensors). Balakrishnan does not explicitly disclose a set of wireless sensor modules, each of the set of wireless sensor modules configured to be received by and removably coupled to the retention subsystem of a corresponding wireless sensor interface of the set of wireless sensor interfaces, and a control module, communicatively coupled to the set of wireless sensor modules, wherein, based upon a detected position of each of the set of wireless sensor modules, the control module queries a subset of the set of biometric signal types for transmission from each of the set of wireless sensor modules. Esposito discloses a control module, communicatively coupled to the set of wireless sensor modules, wherein, based upon a detected position of each of the set of wireless sensor modules (Fig. 22C-F, Paragraph 76: certain sensors are activated based on the position of the users body), the control module queries a subset of the set of biometric signal types for transmission from each of the set of wireless sensor modules (Fig. 22C-F, Paragraph 76: certain sensors are activated based on the position of the users body). Therefore it would have been obvious to one of ordinary skill in the art at the time of the invention to modify the system in Balakrishnan to use a subset of the sensors as taught by Esposito. The motivation for such a modification would be to increase the flexibility of the system by allowing the users to choose which parameters to monitor as well as saving power by not activating the sensors that are not of interest. Balakrishnan in view of Esposito does not explicitly disclose a set of wireless sensor modules, each of the set of wireless sensor modules configured to be received by and removably coupled to the retention subsystem of a corresponding wireless sensor interface of the set of wireless sensor interfaces. Burich discloses a set of wireless sensor modules, each of the set of wireless sensor modules configured to be received by and removably coupled to the retention subsystem of a corresponding wireless sensor interface of the set of wireless sensor interfaces (Paragraph 139 and 149: sensors are removably mounted and/or connected). Therefore it would have been obvious to one of ordinary skill in the art at the time of the invention to modify the system in Balakrishnan in view of Esposito to use a subset of the sensors as taught by Esposito. The motivation for such a modification would be to increase the flexibility of the system by allowing the users to choose which parameters to monitor as well as saving power by not activating the sensors that are not of interest."
+                }
+            ]
+        },
+        {
+            "claimNumber": 2,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140278125",
+                            "text": [
+                                7,
+                                40
+                            ],
+                            "img": [
+                                "2A",
+                                "2B"
+                            ]
+                        },
+                        {
+                            "patentNum": "US 20130192071",
+                            "text": [
+                                7
+                            ],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130041590",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 2, Balakrishnan in view of Esposito and in further view of Burich discloses wherein the electrode layer further comprises a signal communication region, the signal communication region including a set of conductive leads (Balakrishnan; Fig. 2A-B: connections with the sensors), at least a portion of each of the set of conductive leads configured to electrically couple to the contact region of the corresponding wireless sensor module (Balakrishnan; Fig. 2A-B: connections with the sensors), and a set of biosensing contacts, coupled to the set of conductive leads of the signal communication region, the set of biosensing contacts composed of a conductive polymer (Balakrishnan; Paragraph 40: sensors use conductive polymer), at least a portion of each of the set of biosensing contacts disposed adjacent to and in electrical contact with a skin region of the user (Esposito; Paragraph 7: sensor sensing skin)."
+                }
+            ]
+        },
+        {
+            "claimNumber": 3,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140278125",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130192071",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130041590",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20150100135",
+                            "text": [
+                                45
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 3, Balakrishnan in view of Esposito and in further view of Burich does not explicitly disclose wherein the retention subsystem comprises a fabric layer covering the electrode layer and fixed to the garment at a portion of a periphery of the fabric layer, the retention subsystem thereby configured to form a pocket comprising an opening. Ives discloses wherein the retention subsystem comprises a fabric layer covering the electrode layer and fixed to the garment at a portion of a periphery of the fabric layer, the retention subsystem thereby configured to form a pocket comprising an opening (Paragraph 45: fabric pockets for sensors). Therefore it would have been obvious to one of ordinary skill in the art at the time of the invention to modify the system in Balakrishnan in view of Esposito and in further view of Burich to also use a fabric pocket as taught by Ives. The motivation for such a modification would be to allow for a secure attachment of the sensors."
+                }
+            ]
+        },
+        {
+            "claimNumber": 4,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140278125",
+                            "text": [
+                                80,
+                                82,
+                                83
+                            ],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130192071",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130041590",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 4, Balakrishnan in view of Esposito and in further view of Burich discloses wherein the positional identifier comprises a set of electronic circuit components which exhibit a known characteristic when an electrical current passes therethough, and wherein the positional interrogator is configured to induce the set of electrical components to exhibit the known characteristic thereof (Balakrishnan; Paragraph 80, 82-83: location memory signal)."
+                }
+            ]
+        },
+        {
+            "claimNumber": 5,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140278125",
+                            "text": [
+                                80,
+                                82,
+                                83
+                            ],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130192071",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130041590",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 5, Balakrishnan in view of Esposito and in further view of Burich discloses wherein the positional identifier comprises a wireless identification integrated circuit, and wherein the known characteristic comprises an encoded signal delivered by the wireless identification integrated circuit during operation (Balakrishnan; Paragraph 80, 82-83: location stored in memory)."
+                }
+            ]
+        },
+        {
+            "claimNumber": 6,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140278125",
+                            "text": [
+                                80,
+                                82,
+                                83
+                            ],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130192071",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130041590",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 6, Balakrishnan in view of Esposito and in further view of Burich discloses wherein the positional identifier comprises an integrated circuit, wherein the known characteristic comprises a unique identification code, and wherein the unique identification code is read by the positional interrogator during operation (Balakrishnan; Paragraph 80, 82-83: location stored in memory)."
+                }
+            ]
+        },
+        {
+            "claimNumber": 7,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140278125",
+                            "text": [],
+                            "img": [
+                                "4"
+                            ]
+                        },
+                        {
+                            "patentNum": "US 20130192071",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130041590",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 7, Balakrishnan in view of Esposito and in further view of Burich discloses wherein the control module is electrically coupled to the garment at a control module interface (Balakrishnan; Fig. 4: electrically connected)."
+                }
+            ]
+        },
+        {
+            "claimNumber": 8,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140278125",
+                            "text": [
+                                24,
+                                86
+                            ],
+                            "img": [
+                                "2",
+                                "4"
+                            ]
+                        },
+                        {
+                            "patentNum": "US 20130192071",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130041590",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 8, Balakrishnan in view of Esposito and in further view of Burich discloses wherein the control module further comprises a user input terminal and a user output display (Fig. 2, 4, Paragraph 24, 86: input devices and output display)."
+                }
+            ]
+        },
+        {
+            "claimNumber": 9,
+            "parentClaim": 1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140278125",
+                            "text": [
+                                9,
+                                16
+                            ],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130192071",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130041590",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20150109202",
+                            "text": [
+                                13
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 9, Balakrishnan in view of Esposito and in further view of Burich discloses wherein a first wireless sensor module of the set of wireless sensor modules is positioned proximal a heart region of the user (Paragraph 16: shirt and torso areas), a second wireless sensor module is positioned proximal a quadriceps region of the user (Paragraph 16: trousers and underwear areas), the subset of biometric signal types of the first wireless sensor module queried by the control module comprises a heart rate signal type (Paragraph 9: heart rate). Balakrishnan in view of Esposito and in further view of Burich does not explicitly disclose the subset of biometric signal types of the second wireless sensor module queried by the control module comprises an electromyography signal type. Ataee discloses the subset of biometric signal types of the second wireless sensor module queried by the control module comprises an electromyography signal type (Paragraph 13: EMG signals). Therefore it would have been obvious to one of ordinary skill in the art at the time of the invention to modify the system in Balakrishnan in view of Esposito to also monitor EMG as taught by Ataee. The motivation for such a modification would be to increase the robustness of the system allowing it to be applicable many different applications (Ataee; Paragraph 9)."
+                }
+            ]
+        },
+        {
+            "claimNumber": 10,
+            "parentClaim": -1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140278125",
+                            "text": [
+                                25,
+                                36,
+                                39,
+                                83
+                            ],
+                            "img": [
+                                "1A"
+                            ]
+                        },
+                        {
+                            "patentNum": "US 20130192071",
+                            "text": [
+                                76
+                            ],
+                            "img": [
+                                "22C",
+                                "22D",
+                                "22E",
+                                "22F"
+                            ]
+                        },
+                        {
+                            "patentNum": "US 20130041590",
+                            "text": [
+                                139,
+                                149
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 10, Balakrishnan discloses a biometric monitoring system, comprising: a wireless sensor interface coupled to a garment (Paragraph 36: sensors in garment), comprising: 1) an electrode layer, configured for electrical contact with a user during operation, the first electrode layer comprising a receiving region (Paragraph 39: electrode layer), 2) a positional identifier, associated with a position on the garment (Paragraph 83: identify location on apparel), and comprising: a contact region coupleable to the receiving region of the first electrode layer (Paragraph 39: connection to the sensor system), a set of sensors configured to detect a set of biometric signal types (Paragraph 25: bio-sensor), and a positional interrogator configured to identify (Paragraph 83: position of sensors is determined), upon interacting with the positional identifier of the wireless sensor interface, the position associated with the wireless sensor interface (Paragraph 83: position of sensors); and a control module, communicatively coupled to the wireless sensor module (Fig. 1A: connected control module). Balakrishnan does not explicitly disclose 3) a retention subsystem; a wireless sensor module, configured to be received by and removably coupled to the retention subsystem of the wireless sensor interface and wherein, based upon a detected position of the wireless sensor module, the control module queries a subset of the set of biometric signal types for transmission from the wireless sensor module. Esposito discloses wherein, based upon a detected position of the wireless sensor module (Fig. 22C-F, Paragraph 76: certain sensors are activated based on the position of the users body), the control module queries a subset of the set of biometric signal types for transmission from the wireless sensor module (Fig. 22C-F, Paragraph 76: certain sensors are activated based on the position of the users body). Therefore it would have been obvious to one of ordinary skill in the art at the time of the invention to modify the system in Balakrishnan in view of Esposito to use removable attachments as taught by Burich. The motivation for such a modification would be to increase the flexibility of the system by allowing the users to remove components of the system for maintenance. Balakrishnan in view of Esposito does not explicitly disclose 3) a retention subsystem; a wireless sensor module, configured to be received by and removably coupled to the retention subsystem of the wireless sensor interface. Burich discloses 3) a retention subsystem; a wireless sensor module, configured to be received by and removably coupled to the retention subsystem of the wireless sensor interface (Paragraph 139 and 149: sensors are removably mounted and/or connected). Therefore it would have been obvious to one of ordinary skill in the art at the time of the invention to modify the system in Balakrishnan in view of Esposito to use removable attachments as taught by Burich. The motivation for such a modification would be to increase the flexibility of the system by allowing the users to remove components of the system for maintenance."
+                }
+            ]
+        },
+        {
+            "claimNumber": 11,
+            "parentClaim": 10,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140278125",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130192071",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130041590",
+                            "text": [
+                                136
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 11, Balakrishnan in view of Esposito and in further view of Burich discloses wherein the retention subsystem comprises a mount, embedded in the garment, configured to receive and removably couple to an external surface of the wireless sensor module (Burich; Paragraph 136: interfaces on the fabric for electrical connections with other components)."
+                }
+            ]
+        },
+        {
+            "claimNumber": 12,
+            "parentClaim": 10,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140278125",
+                            "text": [
+                                79
+                            ],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130192071",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130041590",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 12, Balakrishnan in view of Esposito and in further view of Burich discloses wherein the positional identifier comprises at least one passive electronic component, and wherein the positional interrogator is configured to induce the passive electronic component to exhibit a known characteristic during operation (Balakrishnan; Paragraph 79: passive memory)."
+                }
+            ]
+        },
+        {
+            "claimNumber": 13,
+            "parentClaim": 10,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140278125",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130192071",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130041590",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20070299325",
+                            "text": [
+                                88,
+                                89,
+                                90,
+                                93
+                            ],
+                            "img": [
+                                "16A",
+                                "16B",
+                                "16C"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 13, Balakrishnan in view of Esposito and in further view of Berg does not explicitly disclose wherein the contact region of at least one wireless sensor module includes an array of raised surfaces, at least a first of the array of raised surfaces configured to mate with the receiving region of the electrode layer of the corresponding wireless sensor interface, and at least a second of the raised surfaces comprising a portion of the positional interrogator, the second of the raised surfaces configured to mate with the positional identifier of the corresponding wireless sensor interface. Farell discloses wherein the contact region of at least one wireless sensor module includes an array of raised surfaces (Fig. 16A-C, Paragraph 88-90: array of pin connectors or snap connectors), at least a first of the array of raised surfaces configured to mate with the receiving region of the electrode layer of the corresponding wireless sensor interface (Fig. 16A-C, Paragraph 88-90: the components are mated), and at least a second of the raised surfaces comprising a portion of the positional interrogator, the second of the raised surfaces configured to mate with the positional identifier of the corresponding wireless sensor interface (Paragraph 93: position detector connected to pins). Therefore it would have been obvious to one of ordinary skill in the art at the time of the invention to modify the system in Balakrishnan in view of Esposito and in further view of Burich to also use pins as taught by Farell. The motivation for such a modification would be to allow the user to easily connect and disconnect the connections amongst the different components."
+                }
+            ]
+        },
+        {
+            "claimNumber": 14,
+            "parentClaim": -1,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140278125",
+                            "text": [
+                                36,
+                                83,
+                                95
+                            ],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130192071",
+                            "text": [
+                                76
+                            ],
+                            "img": [
+                                "22C",
+                                "22D",
+                                "22E",
+                                "22F"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 14, Balakrishnan discloses a method for monitoring a biometric signal of a user (Paragraph 95: biometric information), comprising: at a first wireless sensor module (Paragraph 36: sensors in garment), detecting, based on an interaction between the first wireless sensor module and a first wireless sensor interface of a garment, a first position of the first wireless sensor module with respect to the garment (Paragraph 83: identify location on apparel). Balakrishnan does not explicitly disclose by way of at least one of the first wireless sensor module and a control module automatically selecting, based on the first position of the first wireless sensor module, a first subset of biometric signal outputs from among a first set of biometric signal outputs of the first wireless sensor module; from the first wireless sensor module, transmitting the first subset of biometric signal outputs to the control module. Esposito discloses by way of at least one of the first wireless sensor module and a control module automatically selecting, based on the first position of the first wireless sensor module, a first subset of biometric signal outputs from among a first set of biometric signal outputs of the first wireless sensor module (Fig. 22C-F, Paragraph 76: certain sensors are activated based on the position of the users body); from the first wireless sensor module, transmitting the first subset of biometric signal outputs to the control module (Fig. 22C-F, Paragraph 76: certain sensors are activated based on the position of the users body). Therefore it would have been obvious to one of ordinary skill in the art at the time of the invention to modify the system in Balakrishnan to use a subset of the sensors as taught by Esposito. The motivation for such a modification would be to increase the flexibility of the system by allowing the users to choose which parameters to monitor as well as saving power by not activating the sensors that are not of interest."
+                }
+            ]
+        },
+        {
+            "claimNumber": 15,
+            "parentClaim": 14,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140278125",
+                            "text": [
+                                7,
+                                83
+                            ],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130192071",
+                            "text": [
+                                76
+                            ],
+                            "img": [
+                                "22C",
+                                "22D",
+                                "22E",
+                                "22F"
+                            ]
+                        }
+                    ],
+                    "reason": "Regarding Claim 15, Balakrishnan in view of Esposito discloses further comprising: providing a set of wireless sensor modules, each at a corresponding wireless sensor interface of the garment (Balakrishnan; Paragraph 7 and 83: each location has an identifier and interface); detecting, at each wireless sensor module of the set of wireless sensor modules, a corresponding position of each wireless sensor module with respect to the garment, based on an interaction between each wireless sensor module and the corresponding wireless sensor interface (Balakrishnan; Paragraph 7 and 83: each location has an identifier), and by way of the control module, automatically selecting, based on the detected corresponding position of each wireless sensor module, a corresponding subset of biometric signal outputs from among a corresponding set of biometric signal outputs of each wireless sensor module (Esposito; Fig. 22C-F, Paragraph 76: certain sensors are activated based on the position of the users body)."
+                }
+            ]
+        },
+        {
+            "claimNumber": 16,
+            "parentClaim": 15,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140278125",
+                            "text": [
+                                39
+                            ],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130192071",
+                            "text": [
+                                9
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 16, Balakrishnan in view of Esposito discloses wherein the interaction between the first wireless sensor and the first wireless sensor interface comprises measurement of the impedance of a portion of the wireless sensor interface by way of the first wireless sensor module (Balakrishnan; Paragraph 39: measuring resistance, Esposito; Paragraph 9: measure resistance)."
+                }
+            ]
+        },
+        {
+            "claimNumber": 17,
+            "parentClaim": 14,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140278125",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130192071",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130245480",
+                            "text": [
+                                7
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 17, Balakrishnan in view of Esposito does not explicitly disclose further comprising computing, at the control module, a quality metric based on the first subset of biometric signal outputs and the first detected position, and automatically selecting an alternative subset of biometric signal outputs from among the first set of biometric signal outputs of the first wireless sensor module. Crockford discloses further comprising computing, at the control module, a quality metric based on the first subset of biometric signal outputs and the first detected position, and automatically selecting an alternative subset of biometric signal outputs from among the first set of biometric signal outputs of the first wireless sensor module (Paragraph 7, Claim 48: choosing from different sets of sensors based on quality). Therefore it would have been obvious to one of ordinary skill in the art at the time of the invention to modify the system in Balakrishnan in view of Esposito to use a quality metric as taught by Crockford. The motivation for such a modification would be to ensure the best accuracy of the sensors possible."
+                }
+            ]
+        },
+        {
+            "claimNumber": 18,
+            "parentClaim": 15,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140278125",
+                            "text": [
+                                25
+                            ],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130192071",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 18, Balakrishnan in view of Esposito discloses further comprising combining, at the control module, two of the corresponding subsets of biometric signal outputs of two of the wireless sensor modules of the set of wireless sensor modules into a compound biometric signal (Balakrishnan; Paragraph 25: combining data from multiple sensors)."
+                }
+            ]
+        },
+        {
+            "claimNumber": 19,
+            "parentClaim": 15,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140278125",
+                            "text": [
+                                25
+                            ],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130192071",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20140200432",
+                            "text": [
+                                106,
+                                193
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 19, Balakrishnan in view of Esposito discloses using motion signals for determining muscle activity (Balakrishnan; Paragraph 25: motion signals). Balakrishnan in view of Esposito does not explicitly disclose wherein transmitting comprises transmitting, from a first subset of the set of wireless sensor modules, an electromyography signal; and wherein the method further comprises rendering, at an output device associated with the user, a graphic depicting muscle activation behavior and motion behavior of the user in near-real-time. Banerji discloses wherein transmitting comprises transmitting, from a first subset of the set of wireless sensor modules, an electromyography signal (Paragraph 106: EMG signals); transmitting, from a second subset of the set of wireless sensor modules, a motion signal (Paragraph 106: motion sensors); and wherein the method further comprises rendering, at an output device associated with the user, a graphic depicting muscle activation behavior and motion behavior of the user in near-real-time (Paragraph 106 and 193: muscle activity display). Therefore it would have been obvious to one of ordinary skill in the art at the time of the invention to modify the system in Balakrishnan in view of Esposito to have a graphic display as taught by Berg. The motivation for such a modification would be to allow the user to visualize the extent of the body’s current state."
+                }
+            ]
+        },
+        {
+            "claimNumber": 20,
+            "parentClaim": 14,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140278125",
+                            "text": [
+                                74,
+                                75
+                            ],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130192071",
+                            "text": [],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 20, Balakrishnan in view of Esposito discloses further comprising at least one of recording, storing and processing the first subset of biometric signal outputs at the control module (Balakrishnan; Paragraph 74-75: data is stored)."
+                }
+            ]
+        },
+        {
+            "claimNumber": 21,
+            "parentClaim": 14,
+            "isReject": true,
+            "reasons": [
+                {
+                    "sectionCode": 103,
+                    "citedPatents": [
+                        {
+                            "patentNum": "US 20140278125",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20130192071",
+                            "text": [],
+                            "img": []
+                        },
+                        {
+                            "patentNum": "US 20150109202",
+                            "text": [
+                                13
+                            ],
+                            "img": []
+                        }
+                    ],
+                    "reason": "Regarding Claim 21, Balakrishnan in view of Esposito does not explicitly disclose wherein the set of biometric signal outputs includes one or more of magnetoencephalography signals, galvanic skin response signals, electrooculography signals, electrocardiography signals, and electromyography signals. Ataee discloses wherein the set of biometric signal outputs includes one or more of magnetoencephalography signals, galvanic skin response signals, electrooculography signals, electrocardiography signals, and electromyography signals (Paragraph 13: EMG signals). Therefore it would have been obvious to one of ordinary skill in the art at the time of the invention to modify the system in Balakrishnan in view of Esposito to also monitor EMG as taught by Ataee. The motivation for such a modification would be to increase the robustness of the system allowing it to be applicable many different applications (Ataee; Paragraph 9)."
+                }
+            ]
+        }
+    ]
+}

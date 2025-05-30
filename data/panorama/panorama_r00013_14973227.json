@@ -1,0 +1,647 @@
+{
+  "id": 13,
+  "abstract": "ABSTRACT  A method and system for remotely monitoring intoxication of a user, comprising: prompting the user to provide a breath sample at a time point; at a breath sample acquisition device, generating a breath sample signal upon reception of the breath sample from the user, and broadcasting a unique signature proximal in time to the time point; using a sensor of a mobile computing device, generating an authentication signal derived from detection of the unique signature; at a processing system in communication with the mobile computing device and the sample acquisition device, receiving the breath sample signal and the authentication signal; generating a verification assessment that validates provision of the breath sample by the user; determining a value of an intoxication metric for the user based upon the breath sample signal; and transforming the verification assessment and the value of the intoxication metric into an analysis of intoxication of the user.  Page 61  of  61",
+  "initialClaims": [
+    "1. A method for remotely monitoring intoxication of a user, comprising: \" at a breath sample acquisition device in communication with a mobile computing device of the user, o transmitting a breath sample signal, derived from reception of a breath sample from the user, to the mobile computing device, and o within a time interval, broadcasting a unique signature indicative of the breath sample acquisition device, wherein the time interval is proximal in time to a time point of breath sample provision from the user; - using a sensor of the mobile computing device, generating an authentication signal derived from detection of the unique signature in association with the breath sample from the user; - at a processing system in communication with the mobile computing device, receiving the breath sample signal and the authentication signal; and - generating a verification assessment that validates provision of the breath sample by the user, based upon the breath sample signal and the authentication signal.",
+    "2. The method of Claim 1, further comprising collecting a location dataset at the mobile device, and prompting the user, at the mobile device, to provide the breath sample based on the location dataset.",
+    "3. The method of Claim 2, wherein prompting the user to provide the breath sample comprises emitting light with a light emitting module of the breath sample acquisition device at a first time point, and wherein broadcasting the unique signature comprises emitting a light signature with the light emitting module of the breath sample acquisition device.",
+    "4. The method of Claim 1, wherein broadcasting the unique signature comprises emitting a light signature with a light emitting module of the breath sample acquisition device.",
+    "5. The method of Claim 4, wherein the light emitting module operates between an on state and an off state, and emitting the light signature comprises operating the light emitting in a specific pattern of on states and off states of the light emitting module.",
+    "6. A method for remotely monitoring intoxication of a user, comprising: - at a breath sample acquisition device in communication with a mobile computing device of the user, o transmitting a breath sample signal, derived from reception of a breath sample from the user, to the mobile computing device, and o broadcasting a unique signature indicative of the breath sample acquisition device; - using a sensor of the mobile computing device, generating an authentication signal derived from detection of the unique signature in association with the breath sample from the user; - at a processing system in communication with the mobile computing device, receiving the breath sample signal and the authentication signal; and - generating a verification assessment that validates provision of the breath sample by the user, based upon the breath sample signal and the authentication signal.",
+    "7. The method of Claim 6, further comprising collecting a communication dataset at the mobile device, and prompting the user, at the mobile device, to provide the breath sample based on the communication dataset.",
+    "8. The method of Claim 6, further comprising generating a second authentication signal that validates the identity of the user, based upon analyzing an action performed by the user.",
+    "9. The method of Claim 8, further comprising generating the second authentication signal in association with a fingerprint pattern signature collected from the user at the mobile device, and generating the verification assessment that validates provision of the breath sample by the user, based upon the breath sample signal, the authentication signal, and the second authentication signal.",
+    "10. . The method of Claim 6, wherein generating the authentication signal comprises detecting the unique signature in a configuration wherein the breath sample acquisition device is physically uncoupled from the mobile computing device.",
+    "11. The method of Claim 6, further comprising determining a value of an intoxication metric for the user based upon the breath sample signal, and transforming the verification assessment and the value of the intoxication metric into an analysis of intoxication of the user.",
+    "12. The method of Claim 6, wherein prompting the user to provide the breath sample comprises emitting light with a light emitting module of the breath sample acquisition device at a first time point, and wherein broadcasting the unique signature comprises emitting a light signature with the light emitting module of the breath sample acquisition device.",
+    "13. The method of Claim 6, wherein broadcasting the unique signature comprises broadcasting at least one of: a light emission signature at the breath sample acquisition device, an audio signal signature at the breath sample acquisition device, and a vibration signal signature at the breath sample acquisition device, proximal in time to the time point of breath sample provision from the user.",
+    "14. The method of Claim 6, wherein generating the authentication signal comprises detecting the unique signature in a configuration wherein the breath sample acquisition device is physically uncoupled from the mobile computing device.",
+    "15. The method of Claim 6, further comprising blocking pairing of a second breath sample acquisition device with the mobile computing device, in enabling validation of a source of the breath sample provided by the user.",
+    "16. The method of Claim 6, further comprising generating an intoxication analysis, based on the verification assessment and the breath sample signal, and transmitting the intoxication analysis to an entity supervising the user, by way of a secure account accessible to the entity, thereby enabling remote monitoring of intoxication of the user.",
+    "17. A method for remotely monitoring intoxication of a user, comprising: - at a sample acquisition device in communication with a mobile computing device, o transmitting a sample signal, derived from reception of a sample from the user, to the mobile computing device, and o broadcasting a unique signature, comprising a pattern of light emission emitted from light emitters of the sample acquisition device; - using an optical sensor of the mobile computing device, generating an authentication signal derived from detection of the pattern of light emission in association with the sample from the user; and - at a processing system in communication with the mobile computing device, generating a verification assessment that validates provision of the sample by the user, based upon the sample signal and the authentication signal.",
+    "18. The method of Claim 17, wherein broadcasting a unique signature occurs within a time interval, and wherein the time interval is proximal in time to a time point of sample provision from the user.",
+    "19. The method of Claim 17, wherein the sample is a breath sample, and wherein the method further comprises prompting the user to provide the breath sample, and wherein prompting the user to provide the breath sample comprises emitting light with a light emitting module of the breath sample acquisition device at a first time point outside the time interval, and wherein broadcasting the unique signature comprises emitting a light signature with the light emitting module of the breath sample acquisition device at a second time point within the time interval.",
+    "20. . The method of Claim 17, further comprising collecting location data at the mobile device, triggering the mobile device of the user to prompt the user to provide the sample based on the location data, and prompting the user to provide the sample."
+  ],
+  "finalClaims": [
+    "1. AMENDMENTS IN THE CLAIMS Please amend the Claims as follows: A method for remotely monitoring intoxication of a user, comprising: . at a breath sample acquisition device in communication with a mobile computing device of the user, o transmitting a breath sample signal, derived from reception of a breath sample from the user, to the mobile computing device, and o within a time interval, broadcasting a unique signature indicative of the breath sample acquisition device, wherein the time interval is proximal in time to a time point of breath sample provision from the user, wherein the unique signature is at least one of an audible signature, a visible signature, and a tangible signature; \" using a sensor of the mobile computing device, generating an authentication signal derived from detection of the unique signature in association with the breath sample from the user; \" at a processing system in communication with the mobile computing device, receiving the breath sample signal and the authentication signal; and \" generating a verification assessment that validates provision of the breath sample by the user, based upon the breath sample signal and the authentication signal; and \" generating an intoxication assessment of the user based upon the breath sample signal. 2. (ORIGINAL) The method of Claim 1, further comprising collecting a location dataset at the mobile device, and prompting the user, at the mobile device, to provide the breath sample based on the location dataset. 3. (ORIGINAL) The method of Claim 2, wherein prompting the user to provide the breath sample comprises emitting light with a light emitting module of the breath sample acquisition device at a first time point, and wherein broadcasting the unique signature comprises emitting a light signature with the light emitting module of the breath sample acquisition device. 4. (ORIGINAL) The method of Claim 1, wherein broadcasting the unique signature comprises emitting a light signature with a light emitting module of the breath sample acquisition device. 5. (ORIGINAL) The method of Claim 4, wherein the light emitting module operates between an on state and an off state, and emitting the light signature comprises operating the light emitting in a specific pattern of on states and off states of the light emitting module. 6. (CURRENTLY AMENDED) A method for remotely monitoring intoxication of a user, comprising: . at a breath sample acquisition device in communication with a mobile computing device of the user, o transmitting a breath sample signal, derived from reception of a breath sample from the user, to the mobile computing device, and o broadcasting a unique signature indicative of the breath sample acquisition device, wherein the unique signature is at least one of an audio signature, a visual signature, and a tactile signature; \" using a sensor of the mobile computing device, generating an authentication signal derived from detection of the unique signature in association with the breath sample from the user; \" at a processing system in communication with the mobile computing device, receiving the breath sample signal and the authentication signal; and \" generating a verification assessment that validates provision of the breath sample by the user, based upon the breath sample signal and the authentication signal; and \" generating an intoxication assessment of the user based upon the breath sample signal. 7. (ORIGINAL) The method of Claim 6, further comprising collecting a communication dataset at the mobile device, and prompting the user, at the mobile device, to provide the breath sample based on the communication dataset. 8. (ORIGINAL) The method of Claim 6, further comprising generating a second authentication signal that validates the identity of the user, based upon analyzing an action performed by the user. 9. (ORIGINAL) The method of Claim 8, further comprising generating the second authentication signal in association with a fingerprint pattern signature collected from the user at the mobile device, and generating the verification assessment that validates provision of the breath sample by the user, based upon the breath sample signal, the authentication signal, and the second authentication signal. The method of Claim 6, wherein generating the authentication signal comprises detecting the unique signature in a configuration wherein the breath sample acquisition device is physically uncoupled from the mobile computing device. 11. (CURRENTLY AMENDED) The method of Claim 6, further comprising determining a value of an intoxication metric for the user based upon the breath sample signal, and transforming the verification assessment and the value of the intoxication metric into an analysis-ef the intoxication assessment of the user. 12. (ORIGINAL) The method of Claim 6, wherein prompting the user to provide the breath sample comprises emitting light with a light emitting module of the breath sample acquisition device at a first time point, and wherein broadcasting the unique signature comprises emitting a light signature with the light emitting module of the breath sample acquisition device. 13. (ORIGINAL) The method of Claim 6, wherein broadcasting the unique signature comprises broadcasting at least one of: a light emission signature at the breath sample acquisition device, an audio signal signature at the breath sample acquisition device, and a vibration signal signature at the breath sample acquisition device, proximal in time to the time point of breath sample provision from the user. 14. (ORIGINAL) The method of Claim 6, wherein generating the authentication signal comprises detecting the unique signature in a configuration wherein the breath sample acquisition device is physically uncoupled from the mobile computing device. 15. (ORIGINAL) The method of Claim 6, further comprising blocking pairing of a second breath sample acquisition device with the mobile computing device, in enabling validation of a source of the breath sample provided by the user. The method of Claim 6, further comprising geier-atig an intoxication analysis, based on the verification assessment and the br eath sample sign--al d transmitting the intoxication assessment analysis to an entity supervising the user, by way of a secure account accessible to the entity, thereby enabling remote monitoring of intoxication of the user. 17. (CURRENTLY AA method for remotely monitoring intoxication of a user, comprising: \" at a sample acquisition device in communication with a mobile computing device, o transmitting a sample signal, derived from reception of a sample from the user, to the mobile computing device, and o broadcasting a unique signature, comprising a pattern of visible light emission emitted from light emitters of the sample acquisition device; \" using an optical sensor of the mobile computing device, generating an authentication signal derived from detection of the pattern of light emission in association with the sample from the user; and \" at a processing system in communication with the mobile computing device, generating a verification assessment that validates provision of the sample by the user, based upon the sample signal and the authentication signal; and \" generating an intoxication assessment of the user based upon the sample signal. The method of Claim 17, wherein broadcasting a unique signature occurs within a time interval, and wherein the time interval is proximal in time to a time point of sample provision from the user. 19. (ORIGINAL) The method of Claim 17, wherein the sample is a breath sample, and wherein the method further comprises prompting the user to provide the breath sample, and wherein prompting the user to provide the breath sample comprises emitting light with a light emitting module of the breath sample acquisition device at a first time point outside the time interval, and wherein broadcasting the unique signature comprises emitting a light signature with the light emitting module of the breath sample acquisition device at a second time point within the time interval. 20. (ORIGINAL) The method of Claim 17, further comprising collecting location data at the mobile device, triggering the mobile device of the user to prompt the user to provide the sample based on the location data, and prompting the user to provide the sample.",
+    "2. The method of Claim 1, further comprising collecting a location dataset at the mobile device, and prompting the user, at the mobile device, to provide the breath sample based on the location dataset.",
+    "3. The method of Claim 2, wherein prompting the user to provide the breath sample comprises emitting light with a light emitting module of the breath sample acquisition device at a first time point, and wherein broadcasting the unique signature comprises emitting a light signature with the light emitting module of the breath sample acquisition device.",
+    "4. The method of Claim 1, wherein broadcasting the unique signature comprises emitting a light signature with a light emitting module of the breath sample acquisition device.",
+    "5. The method of Claim 4, wherein the light emitting module operates between an on state and an off state, and emitting the light signature comprises operating the light emitting in a specific pattern of on states and off states of the light emitting module.",
+    "6. A method for remotely monitoring intoxication of a user, comprising: . at a breath sample acquisition device in communication with a mobile computing device of the user, o transmitting a breath sample signal, derived from reception of a breath sample from the user, to the mobile computing device, and o broadcasting a unique signature indicative of the breath sample acquisition device, wherein the unique signature is at least one of an audio signature, a visual signature, and a tactile signature; \" using a sensor of the mobile computing device, generating an authentication signal derived from detection of the unique signature in association with the breath sample from the user; \" at a processing system in communication with the mobile computing device, receiving the breath sample signal and the authentication signal; and \" generating a verification assessment that validates provision of the breath sample by the user, based upon the breath sample signal and the authentication signal; and \" generating an intoxication assessment of the user based upon the breath sample signal.",
+    "7. The method of Claim 6, further comprising collecting a communication dataset at the mobile device, and prompting the user, at the mobile device, to provide the breath sample based on the communication dataset.",
+    "8. The method of Claim 6, further comprising generating a second authentication signal that validates the identity of the user, based upon analyzing an action performed by the user.",
+    "9. The method of Claim 8, further comprising generating the second authentication signal in association with a fingerprint pattern signature collected from the user at the mobile device, and generating the verification assessment that validates provision of the breath sample by the user, based upon the breath sample signal, the authentication signal, and the second authentication signal.",
+    "10. The method of Claim 6, wherein generating the authentication signal comprises detecting the unique signature in a configuration wherein the breath sample acquisition device is physically uncoupled from the mobile computing device.",
+    "11. The method of Claim 6, further comprising determining a value of an intoxication metric for the user based upon the breath sample signal, and transforming the verification assessment and the value of the intoxication metric into an analysis-ef the intoxication assessment of the user.",
+    "12. The method of Claim 6, wherein prompting the user to provide the breath sample comprises emitting light with a light emitting module of the breath sample acquisition device at a first time point, and wherein broadcasting the unique signature comprises emitting a light signature with the light emitting module of the breath sample acquisition device.",
+    "13. The method of Claim 6, wherein broadcasting the unique signature comprises broadcasting at least one of: a light emission signature at the breath sample acquisition device, an audio signal signature at the breath sample acquisition device, and a vibration signal signature at the breath sample acquisition device, proximal in time to the time point of breath sample provision from the user.",
+    "14. The method of Claim 6, wherein generating the authentication signal comprises detecting the unique signature in a configuration wherein the breath sample acquisition device is physically uncoupled from the mobile computing device.",
+    "15. The method of Claim 6, further comprising blocking pairing of a second breath sample acquisition device with the mobile computing device, in enabling validation of a source of the breath sample provided by the user.",
+    "16. The method of Claim 6, further comprising geier-atig an intoxication analysis, based on the verification assessment and the br eath sample sign--al d transmitting the intoxication assessment analysis to an entity supervising the user, by way of a secure account accessible to the entity, thereby enabling remote monitoring of intoxication of the user.",
+    "17. (CURRENTLY AA method for remotely monitoring intoxication of a user, comprising: \" at a sample acquisition device in communication with a mobile computing device, o transmitting a sample signal, derived from reception of a sample from the user, to the mobile computing device, and o broadcasting a unique signature, comprising a pattern of visible light emission emitted from light emitters of the sample acquisition device; \" using an optical sensor of the mobile computing device, generating an authentication signal derived from detection of the pattern of light emission in association with the sample from the user; and \" at a processing system in communication with the mobile computing device, generating a verification assessment that validates provision of the sample by the user, based upon the sample signal and the authentication signal; and \" generating an intoxication assessment of the user based upon the sample signal.",
+    "18. The method of Claim 17, wherein broadcasting a unique signature occurs within a time interval, and wherein the time interval is proximal in time to a time point of sample provision from the user.",
+    "19. The method of Claim 17, wherein the sample is a breath sample, and wherein the method further comprises prompting the user to provide the breath sample, and wherein prompting the user to provide the breath sample comprises emitting light with a light emitting module of the breath sample acquisition device at a first time point outside the time interval, and wherein broadcasting the unique signature comprises emitting a light signature with the light emitting module of the breath sample acquisition device at a second time point within the time interval.",
+    "20. The method of Claim 17, further comprising collecting location data at the mobile device, triggering the mobile device of the user to prompt the user to provide the sample based on the location data, and prompting the user to provide the sample."
+  ],
+  "CTNFDocumentIdentifier": "J5K1TABGRXEAPX5",
+  "CTNFBodyText": "DETAILED ACTION\nClaims 1 – 20 are pending in the present application.\nThe present application, filed on or after March 16, 2013, is being examined under the first inventor to file provisions of the AIA .\n\nDouble Patenting\nThe nonstatutory double patenting rejection is based on a judicially created doctrine grounded in public policy (a policy reflected in the statute) so as to prevent the unjustified or improper timewise extension of the “right to exclude” granted by a patent and to prevent possible harassment by multiple assignees. A nonstatutory double patenting rejection is appropriate where the conflicting claims are not identical, but at least one examined application claim is not patentably distinct from the reference claim(s) because the examined application claim is either anticipated by, or would have been obvious over, the reference claim(s). See, e.g., In re Berg, 140 F.3d 1428, 46 USPQ2d 1226 (Fed. Cir. 1998); In re Goodman, 11 F.3d 1046, 29 USPQ2d 2010 (Fed. Cir. 1993); In re Longi, 759 F.2d 887, 225 USPQ 645 (Fed. Cir. 1985); In re Van Ornum, 686 F.2d 937, 214 USPQ 761 (CCPA 1982); In re Vogel, 422 F.2d 438, 164 USPQ 619 (CCPA 1970); In re Thorington, 418 F.2d 528, 163 USPQ 644 (CCPA 1969).\nA timely filed terminal disclaimer in compliance with 37 CFR 1.321(c) or 1.321(d) may be used to overcome an actual or provisional rejection based on nonstatutory double patenting provided the reference application or patent either is shown to be commonly owned with the examined application, or claims an invention made as a result of activities undertaken within the scope of a joint research agreement. See MPEP § 717.02 for applications subject to examination  under the first inventor to file provisions of the AIA  as explained in MPEP § 2159.  See MPEP §§ 706.02(l)(1) - 706.02(l)(3) for applications not subject to examination under the first inventor to file provisions of the AIA . A terminal disclaimer must be signed in compliance with 37 CFR 1.321(b). \nThe USPTO Internet website contains terminal disclaimer forms which may be used. Please visit www.uspto.gov/patent/patents-forms. The filing date of the application in which the form is filed determines what form (e.g., PTO/SB/25, PTO/SB/26, PTO/AIA /25, or PTO/AIA /26) should be used. A web-based eTerminal Disclaimer may be filled out completely online using web-screens. An eTerminal Disclaimer that meets all requirements is auto-processed and approved immediately upon submission. For more information about eTerminal Disclaimers, refer to www.uspto.gov/patents/process/file/efs/guidance/eTD-info-I.jsp.\nClaims 1-20 are rejected on the ground of nonstatutory double patenting as being unpatentable over claims 1-13 of U.S. Patent No. 9,250,228. Although the claims at issue are not identical, they are not patentably distinct from each other because the present claims are a subset of the limitations already patented in the above US patent. \nSpecifically, claim 1 of the instant application contains the same limitations of allowed claim 1 of U.S. Patent No. 9,250,228 except for the first and last two bullet indentions. Claim 6, likewise, contains a subset of allowed claim 1 of U.S. Patent No. 9,250,228. Claim 17 of the instant application is a subset of claim 14 of U.S. Patent No. 9,250,228 and has the optical sensor limitation particularly. \nPlease Note: the restriction requirement presented 03/06/2015 in parent application 14/602919 (now U.S. Patent No. 9,250,228) is between a method and apparatus (system). The  method portion was elected and the instant claims are also methods. Thus, there is no bar on double patenting rejections amongst these claims.\n\nClaim Rejections - 35 USC § 112\nThe following is a quotation of 35 U.S.C. 112(b):\n(b)  CONCLUSION.—The specification shall conclude with one or more claims particularly pointing out and distinctly claiming the subject matter which the inventor or a joint inventor regards as the invention.\n\n\nThe following is a quotation of 35 U.S.C. 112 (pre-AIA ), second paragraph:\nThe specification shall conclude with one or more claims particularly pointing out and distinctly claiming the subject matter which the applicant regards as his invention.\n\n\nClaims 1-10, 12-15 and 17-20 are rejected under 35 U.S.C. 112(b) or 35 U.S.C. 112 (pre-AIA ), second paragraph, as being incomplete for omitting essential steps, such omission amounting to a gap between the steps.  See MPEP § 2172.01.  The omitted steps are:  any positively recited “monitoring intoxication of a user” (emphasis added). Specifically, the limitations in the instant claim set (excluding claims 11 and 16) are to various steps which process or authenticate a breath sample/signal but do not, without further recitation, monitor intoxication as the preambles of independent claims 1, 6, and 17 indicate.  \nFor purpose of examination the preamble will be treated as not having patentable weight.\nRegardless, positive in claim recitation of the metes and bounds of the essential steps applicant wishes to claim is required.\n\nClaim Rejections - 35 USC § 103\nThe following is a quotation of 35 U.S.C. 103 which forms the basis for all obviousness rejections set forth in this Office action:\n A patent for a claimed invention may not be obtained, notwithstanding that the claimed invention is not identically disclosed as set forth in section 102, if the differences between the claimed invention and the prior art are such that the claimed invention as a whole would have been obvious before the effective filing date of the claimed invention to a person having ordinary skill in the art to which the claimed invention pertains. Patentability shall not be negated by the manner in which the invention was made.\n\nClaims 1-20 are rejected under 35 U.S.C. 103 as being unpatentable over Keays (US 20130021153 A1) in view of Golino (US 20140281523 A1).\n\nRegarding claim 1, Keays teaches a method for remotely monitoring intoxication of a user, comprising: \nat a breath sample acquisition device (at least 300; [0085] teaches “a hand-held breath testing unit 300”) in communication with a mobile computing device of the user (at least 500; [0096] teaches that 500 may be a “smart cellular phone, PDA, tablet, laptop, or other mobile or personal computing device”; see fig. 10), \ntransmitting a breath sample signal (400/440; [0094] teaches that 400 may be a “breath test signal”), derived from reception of a breath sample from the user (see [0094]; see also fig. 10 showing this data flow), to the mobile computing device (fig. 10 shows this data flow goes from the breathalyzer containing device to the mobile device), and\nwithin a time interval (the time when the sample is taken until the “end of the breath testing session” [0093]), broadcasting a unique signature (at least UID 420; see fig. 10 showing the date flow of UID signal 420) indicative of the breath sample acquisition device ([0103] teaches that “a PAN authentication key” for a “breath testing unit or interlock device” may be entered), wherein the time interval is proximal in time to a time point of breath sample provision from the user ([0093] teaches that time for creating the UID is “Immediately after the air sample is taken”); \n using a sensor of the mobile computing device ([0100] teaches that the intermediary device 500 may be used as a sensory device; see fig. 10), generating an authentication signal derived from detection of the unique signature in association with the breath sample from the user ([0103] teaches that “In some embodiments, the software application causes the intermediary device 500 to undergo an authentication process”; further, [0100] teaches that the encrypted report “may also comprise identity verification data and/or a time/date stamp data”; see fig. 10 showing the data flow such that the encrypted report contains the UID data in pure or modified form); \nat a processing system (at least 360; see fig. 10; see also 600 as [0111]) in communication with the mobile computing device (see data flow between the various processing and sensing components shown in fig. 10), receiving the breath sample signal (at least 440; see fig. 10 showing data flow) and the authentication signal ([0103] teaches that “During the authentication process, the intermediary device may be paired to the breath testing unit 300 and/or to the monitoring station 600.”); and \ngenerating a verification assessment that validates provision of the breath sample by the user, based upon the breath sample signal and the authentication signal ([0093-94] teaches that the signal processor uses the input data to generate a breath test signal and [0101-102] teaches that this signal may be used together fail a particular sample or generate other verification related data/reports).\nKeays lacks teaching that the sensor of the mobile computing device derived unique signature is used to generate the authentication signal (rather the authentication key is referenced as simply being a serial number for example [0103]).\n However, Golino teaches methods for data transfer and authentication (see abstract) for use with breathalyzer and breathalyzer peripherals such as cell phones ([0020] teaches that the data authentication me be used with “a breathalyzer, such as for example a cell phone or other device--breathalyzer peripheral”) including a device number for a user’s device ([0096] teaching about a DISN) which may be based on unique device information ([0096] teaches that “the user device identifier may be a serial user device identifier, assigned serially to subsequently set-up different user devices”).\nTherefore, before the effective filing date of the claimed invention it would have been obvious to one of ordinary skill in the art to modify the authentication key for a device used in breathalyzing of Keays with the DISN derived from unique device information for use with breathalyzing devices or peripherals of Golino. This is because determining and verifying data sources, both personal and device, is critical to making user specific decisions based on that data. This is important in order to properly attribute a breath sample properly.\n\nRegarding claim 2, Keays teaches collecting a location dataset at the mobile device, and prompting the user, at the mobile device, to provide the breath sample based on the location dataset (see [0116] teaching use of GPS to help generate the breath test signal).\n\nRegarding claim 3, Keays teaches that prompting the user to provide the breath sample comprises emitting light with a light emitting module of the breath sample acquisition device (320 has both a camera 322 and LED 324) at a first time point ([0093] teaches a flash “Immediately after the air sample is taken”), and wherein broadcasting the unique signature  comprises emitting a light signature with the light emitting module of the breath sample acquisition device ([0093] teaches that the flash and camera operate together).\n\nRegarding claim 4, Keays teaches broadcasting the unique signature comprises emitting a light signature with a light emitting module of the breath sample acquisition device (320 has both a camera 322 and LED 324; [0093] teaches a flash “Immediately after the air sample is taken”, and that the flash and camera operate together).\n\nRegarding claim 5, Keays teaches that the light emitting module operates between an on state and an off state ([0093] teaches that the LED operates as a flash), and emitting the light signature comprises operating the light emitting in a specific pattern of on states and off states of the light emitting module ([0093] teaches that the pattern for flashing on is “Immediately after the air sample is taken”).\n\nRegarding claim 6, Keays teaches a method for remotely monitoring intoxication of a user, comprising: \nat a breath sample acquisition device (at least 300; [0085] teaches “a hand-held breath testing unit 300”) in communication with a mobile computing device of the user (at least 500; [0096] teaches that 500 may be a “smart cellular phone, PDA, tablet, laptop, or other mobile or personal computing device”; see fig. 10), \ntransmitting a breath sample signal (400/440; [0094] teaches that 400 may be a “breath test signal”), derived from reception of a breath sample from the user (see [0094]; see also fig.  10 showing this data flow), to the mobile computing device (fig. 10 shows this data flow goes from the breathalyzer containing device to the mobile device), and \nbroadcasting a unique signature (at least UID 420; see fig. 10 showing the date flow of UID signal 420) indicative of the breath sample acquisition device ([0103] teaches that “a PAN authentication key” for a “breath testing unit or interlock device” may be entered); \nusing a sensor of the mobile computing device ([0100] teaches that the intermediary device 500 may be used as a sensory device; see fig. 10), generating an authentication signal derived from detection of the unique signature in association with the breath sample from the user ([0103] teaches that “In some embodiments, the software application causes the intermediary device 500 to undergo an authentication process”; further, [0100] teaches that the encrypted report “may also comprise identity verification data and/or a time/date stamp data”; see fig. 10 showing the data flow such that the encrypted report contains the UID data in pure or modified form); \nat a processing system (at least 360; see fig. 10; see also 600 as [0111]) in communication with the mobile computing device (see data flow between the various processing and sensing components shown in fig. 10), receiving the breath sample signal (at least 440; see fig. 10 showing data flow) and the authentication signal ([0103] teaches that “During the authentication process, the intermediary device may be paired to the breath testing unit 300 and/or to the monitoring station 600.”); and \ngenerating a verification assessment that validates provision of the breath sample by the user, based upon the breath sample signal and the authentication signal ([0093-94] teaches that the signal processor uses the input data to generate a breath test signal and [0101-102]  teaches that this signal may be used together fail a particular sample or generate other verification related data/reports).\nKeays lacks teaching that the sensor of the mobile computing device derived unique signature is used to generate the authentication signal (rather the authentication key is referenced as simply being a serial number for example [0103]).\nHowever, Golino teaches methods for data transfer and authentication (see abstract) for use with breathalyzer and breathalyzer peripherals such as cell phones ([0020] teaches that the data authentication me be used with “a breathalyzer, such as for example a cell phone or other device--breathalyzer peripheral”) including a device number for a user’s device ([0096] teaching about a DISN) which may be based on unique device information ([0096] teaches that “the user device identifier may be a serial user device identifier, assigned serially to subsequently set-up different user devices”).\nTherefore, before the effective filing date of the claimed invention it would have been obvious to one of ordinary skill in the art to modify the authentication key for a device used in breathalyzing of Keays with the DISN derived from unique device information for use with breathalyzing devices or peripherals of Golino. This is because determining and verifying data sources, both personal and device, is critical to making user specific decisions based on that data. This is important in order to properly attribute a breath sample properly.\n\nRegarding claim 7, Keays teaches collecting a communication dataset at the mobile device (at least the combination of signals 400; see fig. 10 showing this data flow from the breath tester to the mobile device), and prompting the user, at the mobile device (see [0105] number='10'teaching that the mobile device may prompt via the “prompting screen”), to provide the breath sample based on the communication dataset ([0105]).\n\nRegarding claim 8, Keays teaches generating a second authentication signal that validates the identity of the user, based upon analyzing an action performed by the user (two authentications are taught in [0093] and [0103] respectively; [0048] teaches that multiple biometric ID may be used, including fingerprinting which requires at least the action of placing a finger in a proper location).\n\nRegarding claim 9, Keays lacks teaching that generating the second authentication signal in association with a fingerprint pattern signature collected from the user at the mobile device, and generating the verification assessment that validates provision of the breath sample by the user, based upon the breath sample signal, the authentication signal, and the second authentication signal.\nHowever, Keays does disclose a variety of authentication signals (two authentications are taught in [0093] and [0103] respectively; see also [0048]).\nTherefore, at the time the invention was made, it would have been obvious to a person of ordinary skill in the art to modify the various authentication and verification concepts of Keays with any variety of combinations of such known biometric and data driven authentications.  This is because one of ordinary skill in the art would have expected Applicant’s invention to perform equally well with whichever number of authentications is design driven to reach a desired level of security and verification certainty because it has been held that mere duplication of the number='11'essential working parts of a device involves only routine skill in the art (see MPEP 2144.04 (VI-B))\n\nRegarding claim 10, Keays teaches that generating the authentication signal comprises detecting the unique signature in a configuration wherein the breath sample acquisition device is physically uncoupled from the mobile computing device (see fig. 10 showing that the devices may be separate and only wirelessly connected, i.e. exemplary Bluetooth element 380).\n\nRegarding claim 11, Keays teaches determining a value of an intoxication metric for the user based upon the breath sample signal, and transforming the verification assessment and the value of the intoxication metric into an analysis of intoxication of the user ([0089]; see also [0111-112]).\n\nRegarding claim 12, Keays teaches that prompting the user to provide the breath sample comprises emitting light with a light emitting module of the breath sample acquisition device (320 has both a camera 322 and LED 324) at a first time point ([0093] teaches a flash “Immediately after the air sample is taken”), and wherein broadcasting the unique signature comprises emitting a light signature with the light emitting module of the breath sample acquisition device ([0093] teaches that the flash and camera operate together).\n\n\nnumber='12'Regarding claim 13, Keays teaches that broadcasting the unique signature comprises broadcasting at least one of: a light emission signature at the breath sample acquisition device, an audio signal signature at the breath sample acquisition device, and a vibration signal signature at the breath sample acquisition device, proximal in time to the time point of breath sample provision from the user (see [0105]).\n\nRegarding claim 14, Keays teaches that generating the authentication signal comprises detecting the unique signature in a configuration wherein the breath sample acquisition device is physically uncoupled from the mobile computing device (see fig. 10 showing that the devices may be separate and only wirelessly connected, i.e. exemplary Bluetooth element 380).\n\nRegarding claim 15, Keays teaches blocking pairing of a second breath sample acquisition device with the mobile computing device, in enabling validation of a source of the breath sample provided by the user (see at least [0103] teaching that the PAN authentication key may be required which will act to block any secondary device attempted to be used).\n\nRegarding claim 16, Keays teaches generating an intoxication analysis, based on the verification assessment and the breath sample signal, and transmitting the intoxication analysis to an entity supervising the user, by way of a secure account accessible to the entity, thereby enabling remote monitoring of intoxication of the user (600 is a “monitoring station”; see fig. 10 and [0111] teaching that secure supervisory review is contemplated).\n\nnumber='13'Regarding claim 17, Keays teaches a method for remotely monitoring intoxication of a user, comprising: \nat a sample acquisition device (at least 300; [0085] teaches “a hand-held breath testing unit 300”) in communication with a mobile computing device (at least 500; [0096] teaches that 500 may be a “smart cellular phone, PDA, tablet, laptop, or other mobile or personal computing device”; see fig. 10), \ntransmitting a sample signal (400/440; [0094] teaches that 400 may be a “breath test signal”), derived from reception of a sample from the user (see [0094]; see also fig. 10 showing this data flow), to the mobile computing device (fig. 10 shows this data flow goes from the breathalyzer containing device to the mobile device), and \nbroadcasting a unique signature (at least UID 420; see fig. 10 showing the date flow of UID signal 420), comprising a pattern of light emission emitted from light emitters of the sample acquisition device (320 has both a camera 322 and LED 324; [0093] teaches a flash “Immediately after the air sample is taken”, and that the flash and camera operate together; [0093] teaches that the pattern for flashing on is “Immediately after the air sample is taken”); \nusing an optical sensor (at least 322) of the mobile computing device (see fig. 10 showing that while the camera is in the breath capture device, it is connected with the mobile device), generating an authentication signal derived from detection of the pattern of light emission in association with the sample from the user ([0093] teaches that the UID signal from the camera is used “to generate user identification data 420 for verifying the user of the breath testing unit”); and \nnumber='14'at a processing system (at least 360; see fig. 10; see also 600 as [0111]) in communication with the mobile computing device (see data flow between the various processing and sensing components shown in fig. 10), generating a verification assessment that validates provision of the sample by the user, based upon the sample signal and the authentication signal ([0093-94] teaches that the signal processor uses the input data to generate a breath test signal and [0101-102] teaches that this signal may be used together fail a particular sample or generate other verification related data/reports).\nKeays lacks teaching that the sensor of the mobile computing device derived unique signature is used to generate the authentication signal (rather the authentication key is referenced as simply being a serial number for example [0103]).\nHowever, Golino teaches methods for data transfer and authentication (see abstract) for use with breathalyzer and breathalyzer peripherals such as cell phones ([0020] teaches that the data authentication me be used with “a breathalyzer, such as for example a cell phone or other device--breathalyzer peripheral”) including a device number for a user’s device ([0096] teaching about a DISN) which may be based on unique device information ([0096] teaches that “the user device identifier may be a serial user device identifier, assigned serially to subsequently set-up different user devices”).\nTherefore, before the effective filing date of the claimed invention it would have been obvious to one of ordinary skill in the art to modify the authentication key for a device used in breathalyzing of Keays with the DISN derived from unique device information for use with breathalyzing devices or peripherals of Golino. This is because determining and verifying data number='15'sources, both personal and device, is critical to making user specific decisions based on that data. This is important in order to properly attribute a breath sample properly.\n\nRegarding claim 18, Keays teaches that broadcasting a unique signature occurs within a time interval (the time when the sample is taken until the “end of the breath testing session” [0093]), and wherein the time interval is proximal in time to a time point of sample provision from the user ([0093] teaches that time for creating the UID is “Immediately after the air sample is taken”).\n\nRegarding claim 19, Keays teaches that the sample is a breath sample (at least 300; [0085] teaches “a hand-held breath testing unit 300”), and wherein the method further comprises prompting the user to provide the breath sample (see [0105] teaching that the mobile device may prompt via the “prompting screen”), and wherein prompting the user to provide the breath sample comprises emitting light with a light emitting module of the breath sample acquisition device at a first time point outside the time interval ([0105] teaches that the display may be used “In some embodiments, prompting may occur at a predetermined time that is not directly after authentication but at a predetermined time stored in a memory of the intermediary device and accessible by the application software.”), and wherein broadcasting the unique signature comprises emitting a light signature with the light emitting module of the breath sample acquisition device at a second time point within the time interval ([0093] teaches a flash “Immediately after the air sample is taken”).\n\nnumber='16'Regarding claim 20, Keays teaches that collecting location data at the mobile device, triggering the mobile device of the user to prompt the user to provide the sample based on the location data, and prompting the user to provide the sample (see [0116] teaching use of GPS to help generate the breath test signal).\n\nConclusion\nThe prior art made of record and not relied upon is considered pertinent to applicant's disclosure. See PTO-892.\n",
+  "NOABodyText": "CNTA  14/973,227  NOA  90412  2855    DETAILED ACTION  15-10-aia AIA 07-03-aia The present application, filed on or after March 16, 2013, is being examined under the first inventor to file provisions of the AIA.   Examiner Comment on Terminal Disclaimer  The terminal disclaimer filed on 11/27/2017 has been reviewed and is accepted.  The terminal disclaimer has been recorded.   Allowable Subject Matter  12-151-07 AIA 07-97 12-51-07 Claim s 1-20 are allowed.  13-03 AIA The following is an examiner’s statement of reasons for allowance:  The best prior art of record Keays (US20130021153) and Golino (US20140281523), fail to specifically teach the invention as claimed. The specific limitations of using a breath sample device and a mobile computing device for remotely monitoring user intoxication in independent claims 1, 6, and 17 when combined with the limitations of a unique signature indicative of the breath sample device where that signal is audible/visible/tangible (i.e. not electronic handshaking) in combination with the further limitations of each of independent claims 1, 6, and 17 distinguish the present invention from the combined prior art.  Hence the prior art of record fails to teach the invention as set forth in claims 1-20. The examiner cannot find specific teaching of the invention, nor reasons within the cited art to combine the elements of these references other than applicant’s own reasoning to fully encompass the current pending claims.  In addition, see applicant’s reasoning in amendment/response of 11/27/2017 pp.9-11 .  Any comments considered necessary by applicant must be submitted no later than the payment of the issue fee and, to avoid processing delays, should preferably accompany the issue fee.  Such submissions should be clearly labeled “Comments on Statement of Reasons for Allowance.”   Conclusion  07-96 AIA The prior art made of record and not relied upon is considered pertinent to applicant's disclosure. See PTO-892 already of record .  Any inquiry concerning this communication or earlier communications from the examiner should be directed to PHILIP COTEY whose telephone number is (571)270-1029.  The examiner can normally be reached on Monday-Friday 8:00AM to 5:00PM.  Examiner interviews are available via telephone, in-person, and video conferencing using a USPTO supplied web-based collaboration tool. To schedule an interview, applicant is encouraged to use the USPTO Automated Interview Request (AIR) at http://www.uspto.gov/interviewpractice.  If attempts to reach the examiner by telephone are unsuccessful, the examiner’s supervisor, Lisa Caputo can be reached on (571) 272-2388.  The fax phone number for the organization where this application or proceeding is assigned is 571-273-8300.  Information regarding the status of an application may be obtained from the Patent Application Information Retrieval (PAIR) system.  Status information for published applications may be obtained from either Private PAIR or Public PAIR.  Status information for unpublished applications is available through Private PAIR only.  For more information about the PAIR system, see http://pair-direct.uspto.gov. Should you have questions on access to the Private PAIR system, contact the Electronic Business Center (EBC) at 866-217-9197 (toll-free). If you would like assistance from a USPTO Customer Service Representative or access to the automated information system, call 800-786-9199 (IN USA OR CANADA) or 571-272-1000.       /Philip Cotey/  Examiner, Art Unit 2855  /LISA CAPUTO/  Supervisory Patent Examiner, Art Unit 2855     Application/Control Number:  14/973,227  Page 2    Art Unit:  2855          Application/Control Number:  14/973,227  Page 3    Art Unit:  2855",
+  "applicationNumber": "14973227",
+  "patentsCitedByExaminer": [
+    {
+      "referenceIdentifier": "9250228",
+      "abstract": "A method and system for remotely monitoring intoxication of a user, comprising: prompting the user to provide a breath sample at a time point; at a breath sample acquisition device, generating a breath sample signal upon reception of the breath sample from the user, and broadcasting a unique signature proximal in time to the time point; using a sensor of a mobile computing device, generating an authentication signal derived from detection of the unique signature; at a processing system in communication with the mobile computing device and the sample acquisition device, receiving the breath sample signal and the authentication signal; generating a verification assessment that validates provision of the breath sample by the user; determining a value of an intoxication metric for the user based upon the breath sample signal; and transforming the verification assessment and the value of the intoxication metric into an analysis of intoxication of the user.",
+      "claims": [
+        "1. A method for remotely monitoring intoxication of a user, comprising:\nprompting the user to provide a breath sample at a time point by way of an application executing at a mobile computing device;\nat a breath sample acquisition device in communication with the mobile computing device, transmitting a breath sample signal, derived from reception of the breath sample from the user, to the mobile computing device, and within a time interval, broadcasting a unique signature indicative of the breath sample acquisition device, wherein the time interval is proximal in time to the time point of breath sample provision from the user;\nusing a sensor of the mobile computing device, generating an authentication signal derived from detection of the unique signature in association with the breath sample from the user;\nat a processing system in communication with the mobile computing device, receiving the breath sample signal and the authentication signal;\ngenerating a verification assessment that validates provision of the breath sample by the user, based upon the breath sample signal and the authentication signal;\ndetermining a value of an intoxication metric for the user based upon the breath sample signal; and\ntransforming the verification assessment and the value of the intoxication metric into an analysis of intoxication of the user.",
+        "2. The method of claim 1, wherein prompting the user to provide the breath sample comprises emitting light with a light emitting module of the breath sample acquisition device at a first time point, and wherein broadcasting the unique signature comprises emitting a light signature with the light emitting module of the breath sample acquisition device.",
+        "3. The method of claim 2, wherein prompting comprises receiving a schedule of time points at which a supervising entity desires to monitor intoxication of the user, and automatically prompting the user to provide breath samples according to the schedule of time points.",
+        "4. The method of claim 1, wherein prompting is automatically triggered based upon at least one of:\ndetection of an event of the user derived from accessing a social networking application native to the mobile computing device and detection of a location of the user derived from GPS data from the mobile computing device.",
+        "5. The method of claim 1, wherein broadcasting the unique signature comprises broadcasting at least one of:\na light emission signature at the breath sample acquisition device, an audio signal signature at the breath sample acquisition device, and a vibration signal signature at the breath sample acquisition device, proximal in time to the time point of breath sample provision from the user.",
+        "6. The method of claim 5, wherein generating the authentication signal comprises detecting the unique signature in a configuration wherein the breath sample acquisition device is physically uncoupled from the mobile computing device.",
+        "7. The method of claim 6, wherein the verification assessment is based upon verification of pairing between the breath sample acquisition device associated with the user and the mobile computing device associated with the user.",
+        "8. The method of claim 7, further comprising blocking pairing of a second breath sample acquisition device with the mobile computing device, in enabling validation of a source of the breath sample provided by the user.",
+        "9. The method of claim 1, further comprising generating a second authentication signal derived from video capture of a facial feature of the user, using a camera module of the mobile computing device, and wherein generating the authentication signal comprises detecting a light emission signature broadcasted by the breath sample acquisition device, using the camera module of the mobile computing device.",
+        "10. The method of claim 9, wherein generating the verification assessment is based upon processing the authentication signal and the second authentication signal to validate the source of the breath sample signal as the breath sample acquisition device, and to validate an identifying feature of the user providing the breath sample.",
+        "11. The method of claim 1, wherein determining the value of the intoxication metric for the user based upon the breath sample signal comprises transforming an electrical current magnitude resulting from oxidation of alcohol carried in the breath sample into a blood alcohol concentration value.",
+        "12. The method of claim 1, further comprising transmitting the analysis to an entity supervising the user, by way of a secure account accessible to the entity, thereby enabling remote monitoring of intoxication of the user.",
+        "13. The method of claim 12, wherein transmitting the analysis to the entity comprises providing the entity with video content showing a light emission signature broadcasted by the breath sample acquisition device as the unique signature and the user, as the user provides the breath sample, thereby enabling remote monitoring of intoxication of the user.",
+        "14. A method for remotely monitoring intoxication of a user, comprising:\nat a breath sample acquisition device in communication with a mobile computing device, transmitting a breath sample signal, derived from reception of a breath sample from the user, to the mobile computing device, and broadcasting a unique signature, comprising a pattern of light emission emitted from light emitters of the breath sample acquisition device, proximal in time to the time point of breath sample provision from the user;\nusing an optical sensor of the mobile computing device, generating an authentication signal derived from detection of the pattern of light emission in association with the breath sample from the user;\nat a processing system in communication with the mobile computing device, receiving the breath sample signal and the authentication signal;\ngenerating a verification assessment that validates provision of the breath sample by the user, based upon the breath sample signal and the authentication signal;\ndetermining a value of an intoxication metric for the user based upon the breath sample signal; and\ntransmitting information derived from the verification assessment and the value of the intoxication metric to an entity associated with the user."
+      ],
+      "title": "Method and system for remotely monitoring intoxication"
+    },
+    {
+      "referenceIdentifier": "20140281523",
+      "abstract": "A computer-implemented method and an according system of secure remote authentication of acquired data is provided to allow a more secure and verifiable acquisition of digital data. The method may comprise exchanging between a user device and a security managing device seed information and generating synchronized random number time stamps on both devices based on the exchanged seed information, acquiring digital data using the user device, generating metadata with at least user time information upon acquisition of the digital data and providing authenticated digital data from at least the acquired digital data, the metadata and a user time stamp. Further, the method may comprise transmitting the authenticated digital data to the security managing device and verifying upon reception of the authenticated digital data, whether the user time information and the user time stamp of said authenticated digital data corresponds to verification time information and a correlating verification time stamp.",
+      "claims": [
+        "1. A computer-implemented method of secure remote authentication of acquired data using at least a security managing device comprising:\nexchanging, using the security managing device, seed information with a user device to provide synchronized time stamp generation with the user device, generating, using the security managing device, at least one verification time stamp based on the exchanged seed information, correlating, using the security managing device, the generated verification time stamp with verification time information, receiving, from the user device, authenticated digital data comprising digital data, a user time stamp and metadata, wherein the metadata comprises at least user time information and verifying, using the security managing device, whether the user time information and the user time stamp of said authenticated digital data correspond to the verification time information and the correlating verification time stamp.",
+        "2. The method of claim 1, wherein upon successful verification further storing the authenticated digital data in a data repository database.",
+        "3. The method of claim 2, wherein upon successful verification further encrypting the authenticated digital data and storing the encrypted digital data in an audit database.",
+        "4. The method of claim 2 or 3, wherein prior to storing the authenticated digital data and using the security managing device, assigning the authenticated digital data a serial data identifier and storing the serial data identifier with the authenticated digital data.",
+        "5. The method of claim 2 or 3, wherein upon storing the authenticated digital data and using the security managing device, storing at least a predefined user device identifier received from the user device, the metadata and the serial data identifier in a transaction log database.",
+        "6. The method of claim 1, wherein prior to the exchange of seed information at least a transmission encryption key is generated during an initialization stage.",
+        "7. The method of claim 6, wherein the transmission encryption key is generated using an encrypting one time password protocol.",
+        "8. The method of claim 6 or 7, wherein the step of exchanging seed information comprises, using the security managing device:\ngenerating the seed information, encrypting the seed information with the transmission encryption key and transmitting the encrypted seed information to the user device.",
+        "9. The method of claim 6, wherein prior to verifying that the user time information and the user time stamp correspond to the verification time information and the verification time stamp, decrypting the encrypted authenticated digital data using the transmission encryption key.",
+        "10. The method of claim 6, wherein the initialization stage comprises:\nreceiving from the user device, device information of one or more parameters of the user device and determining, using the security managing device, whether the received device information corresponds to predefined device attestation information, so that the transmission encryption key is only generated, in case the received device information corresponds to the predefined device attestation information.",
+        "11. The method of claim 10, wherein upon reception of the device information using the security managing device, the device information is further stored in the transaction log database.",
+        "12. The method of claim 11, further comprising the step of determining, using the security managing device, whether the received device information corresponds to stored device information comprised in the transaction log database, so that the transmission encryption key is only generated, in case the received device information corresponds to stored device information.",
+        "13. The method of claim 1, wherein said digital data is multimedia digital data.",
+        "14. A computer-readable medium including contents that are configured to cause a computing system to conduct the method of claim 1.",
+        "15. A remote device comprising a security managing device, the remote device forming part of a system of secure remote authentication of acquired data, the security managing device comprising:\na communication interface, adapted to communicate with a user device to receive authenticated digital data, which authenticated digital data comprises at least digital data, a user time stamp and metadata, wherein the metadata comprises at least user time information, a verification random number generator for generating at least one verification time stamp and correlating said verification time stamp with verification time information and a data verification module, wherein the security managing device is configured to exchange seed information with the user device, the verification random number generator is configured for synchronized time stamp generation with a user random number generator of the user device based on the exchanged seed information and the data verification module is configured to determine, whether the user time information and the user time stamp of the authenticated digital data correspond to the verification time information and the correlating verification time stamp.",
+        "16. The remote device of claim 15, further comprising a data repository database, wherein the data verification module is further configured to store the authenticated digital data in a data repository database upon successful verification.",
+        "17. The remote device of claim 16, further comprising an audit database, wherein the data verification module is further configured to encrypt the authenticated digital data and to store the encrypted digital data in an audit database upon successful verification.",
+        "18. The remote device of claim 16 or 17, wherein the data verification module is further configured to assign the authenticated digital data a serial data identifier and to store the serial data identifier with the authenticated digital data.",
+        "19. The remote device of claim 16 or 17, further comprising a transaction log database, wherein the data verification module is configured to store at least a predefined user device identifier received from the user device, the metadata and the serial data identifier in a transaction log database.",
+        "20. A computer-implemented method of secure remote authentication of acquired data using at least a user device comprising:\nexchanging, using the user device, seed information with a security managing device to provide synchronized time stamp generation with the security managing device, acquiring, using the user device, digital data, generating, using the user device, metadata with at least user time information upon acquisition of the digital data, generating, using the user device, at least one user time stamp based on the exchanged seed information upon acquisition of the digital data, providing, using the user device, authenticated digital data from at least the acquired digital data, the metadata and the user time stamp and transmitting, using the user device, the authenticated digital data to the security managing device.",
+        "21. The method of claim 20, wherein metadata is generated, using the user device, upon acquisition of the digital data with at least the user time information and location information.",
+        "22. The method of claim 20, wherein metadata is generated, using the user device, upon acquisition of the digital data with at least the user time information, location information and a predefined user device identifier.",
+        "23. The method of claim 20, wherein prior to the step of exchanging seed information at least a transmission encryption key is generated during an initialization stage.",
+        "24. The method of claim 23, wherein the transmission encryption key is generated using an encrypting one time password protocol.",
+        "25. The method of claim 23 or 24, wherein prior to transmitting the authenticated digital data and using the user device, encrypting the authenticated digital data using the transmission encryption key.",
+        "26. The method of claim 23, wherein the initialization stage comprises:\nproviding, using the user device, device information of one or more parameters of the user device and transmitting, using the user device, the device information to the security managing device for determining whether the device information corresponds to predefined device attestation information, so that the transmission encryption key is only generated in case the device information corresponds to the predefined device attestation information.",
+        "27. The method of claim 20, wherein said digital data is multimedia digital data.",
+        "28. A computer-readable medium including contents that are configured to cause a computing system to conduct the method of claim 20.",
+        "29. A user device forming part of a system of secure remote authentication of acquired data, comprising a data gathering module for acquiring digital data, a metadata generator for providing metadata with at least user time information upon acquisition of the digital data, a user random number generator for generating a user time stamp at least upon acquisition of the digital data, a user authenticating module and a communication interface for communicating with a security managing device, wherein the user device is configured to exchange seed information with the security managing device, the user random number generator is configured for synchronized time stamp generation with a verification random number generator of the security managing device based on the exchanged seed information, the user authenticating module is configured for providing authenticated digital data from at least the acquired digital data, the metadata and the generated user time stamp and the communication interface is configured to transmit the authenticated digital data to the security managing device.",
+        "30. The user device of claim 29, further comprising a positioning module providing location information, so that the metadata generator provides metadata with at least the user time information and the location information.",
+        "31. The user device of claim 29, further comprising a predefined user device identifier, so that the metadata generator provides metadata with at least the user time information, location information and the predefined user device identifier.",
+        "32. A computer-implemented method of secure remote authentication of acquired data using at least a user device and a security managing device comprising:\nexchanging between the user device and the security managing device seed information, generating synchronized random number time stamps on both devices based on the exchanged seed information, wherein at least one user time stamp is generated on the user device and at least a verification time stamp is generated on the security managing device, correlating, using the security managing device, the generated verification time stamp with verification time information, acquiring, using the user device, digital data, generating, using the user device, metadata with at least user time information upon acquisition of the digital data, generating, using the user device, the user time stamp upon acquisition of the digital data, providing, using the user device, authenticated digital data from at least the acquired digital data, the metadata and the user time stamp, transmitting, using the user device, the authenticated digital data to the security managing device, verifying, using the security managing device, upon reception of the authenticated digital data, whether the user time information and the user time stamp of said authenticated digital data correspond to the verification time information and the correlating verification time stamp.",
+        "33. The method of claim 32, wherein upon successful verification further storing the authenticated digital data in a data repository database.",
+        "34. The method of claim 33, wherein upon successful verification further encrypting the authenticated digital data and storing the encrypted digital data in an audit database.",
+        "35. The method of claim 33 or 34, wherein prior to storing the authenticated digital data and using the security managing device, assigning the authenticated digital data a serial data identifier and storing the serial data identifier with the authenticated digital data.",
+        "36. The method of claim 32, wherein metadata is generated, using the user device, upon acquisition of the digital data with at least the user time information and location information.",
+        "37. The method of claim 32, wherein metadata is generated, using the user device, upon acquisition of the digital data with at least the user time information, location information and a predefined user device identifier.",
+        "38. The method of claim 37, wherein upon storing the authenticated digital data and using the security managing device, storing at least the predefined user device identifier, the metadata and the serial data identifier in a transaction log database.",
+        "39. The method of claim 32, wherein prior to the exchange of seed information at least a transmission encryption key is generated during an initialization stage.",
+        "40. The method of claim 39, wherein the transmission encryption key is generated using an encrypting one time password protocol.",
+        "41. The method of claim 39 or 40, wherein the step of exchanging seed information comprises, using the security managing device:\ngenerating the seed information, encrypting the seed information with the transmission encryption key and transmitting the encrypted seed information to the user device.",
+        "42. The method of one of claims 39-41, wherein prior to transmitting the authenticated digital data and using the user device, encrypting the authenticated digital data using the transmission encryption key.",
+        "43. The method of claim 42, wherein prior to verifying that the user time information and the user time stamp correspond to the verification time information and the verification time stamp, decrypting the encrypted authenticated digital data using the transmission encryption key.",
+        "44. The method of claim 39, wherein the initialization stage comprises:\nproviding, using the user device, device information of one or more parameters of the user device, transmitting, using the user device, the device information to the security managing device, determining, using the security managing device, whether the received device information corresponds to predefined device attestation information, so that the transmission encryption key is only generated in case the received device information corresponds to the predefined device attestation information.",
+        "45. The method of claim 44, wherein upon reception of the device information using the security managing device, the device information is further stored in the transaction log database.",
+        "46. The method of claim 45, further comprising the step of determining, using the security managing device, whether the received device information corresponds to stored device information comprised in the transaction log database, so that the transmission encryption key is only generated, in case the received device information corresponds to stored device.",
+        "47. The method of claim 32, wherein said digital data is multimedia digital data.",
+        "48. A computer-readable medium including contents that are configured to cause a computing system to conduct the method of claim 32.",
+        "49. System of secure remote authentication of acquired data, with a user device comprising a data gathering module for acquiring digital data, a metadata generator for providing metadata with at least user time information upon acquisition of the digital data, a user random number generator for generating at least one user time stamp upon acquisition of the digital data, a user authenticating module for providing authenticated digital data from at least the acquired digital data, the metadata and the generated user time stamp and a first communication interface for transmitting the authenticated digital data and a remote device with a security managing device comprising a second communication interface, adapted to communicate with the user device, a verification random number generator for generating at least one verification time stamp and correlating the verification time stamp with verification time information and a data verification module, wherein the user device and the security managing device are configured to exchange seed information, the user random number generator and the verification random number generator are configured for synchronized time stamp generation based on the exchanged seed information and the data verification module is configured to determine, whether the user time information and the user time stamp of the authenticated digital data correspond to the verification time information and the correlating verification time stamp."
+      ],
+      "title": "System and method of secure remote authentication of acquired data"
+    },
+    {
+      "referenceIdentifier": "20130021153",
+      "abstract": "A system and method of monitoring sobriety using a hand-held breath testing device that, on receipt of a user's breath, generates a breath test signal comprising substance content data and user identification data, and wirelessly transmits the breath test signal to a breath test signal receiving station. The breath test signal includes substance content data and user identification data. The substance content data includes at least one of: a blood alcohol level and a narcotics presence. The user identification data includes compressed image data. The signal receiving station is monitored by a supervisor who is able to intervene should the substance level be greater than a predetermined threshold, or should the user identification data no match with a reference user identification data.",
+      "claims": [
+        "1. A system for monitoring the sobriety of a user, the system comprising:\na handheld breath testing device comprising a sensor, the breath testing device operable to receive a user's breath and generate a breath test signal therefrom;\na transceiver for receiving the breath test signal and transmitting the breath test signal to a monitoring station;\nwherein the breath test signal indicates the presence of a controlled substance in the breath of the user.",
+        "2. The system of claim 1, wherein the sensor comprises at least one of:\na mass spectroscopy sensor, a fiber optic fluorescent sensor, and a surface acoustic wave sensor.",
+        "3. The system of claim 2 wherein the sensor is operable to detect the presence of at least one of:\nmethamphetamines, amphetamines, barbituates, tetrahydrocannabinol, benzoylmethylecgonine, diacetylmorphine, lysergic acid diethylamide, psilocin, and phencyclidine.",
+        "4. The system of claim 1 wherein the breath test signal indicates the presence of at least one of:\nmethamphetamines, amphetamines, barbituates, tetrahydrocannabinol, benzoylmethylecgonine, diacetylmorphine, lysergic acid diethylamide, psilocin, and phencyclidine.",
+        "5. The system of claim 1, wherein the monitoring station is at least one of:\na mobile device, an email and an internet website.",
+        "6. The system of claim 1, wherein the monitoring station is operable to store the breath test signal; and\nwherein the stored breath test signal is accessible by at least one of:\na family member, sober coach, and parole officer.",
+        "7. The system of claim 1, wherein the monitoring station is a vehicle interlock device.",
+        "8. The system of claim 1, wherein the breath test signal is an encrypted signal.",
+        "9. The system of claim 1, further comprising:\na user identification device for generating user identification data, the transceiver receiving the user identification data and transmitting the user identification data to the monitoring station.",
+        "10. The system of claim 9, wherein the user identification data comprises at least one of:\nphotographic, video, biometric, location, retinal, fingerprint, heat signature, voice, password, and verification key data.",
+        "11. The system of claim 9, wherein the user identification device is operable to indicate to the user whether it is horizontal.",
+        "12. The system of claim 1, further comprising:\na memory unit operable to store one or more breath test reports in a queue;\nwherein transmission of the one or more breath test reports is according to the queue.",
+        "13. The system of claim 1, further comprising:\na GPS unit operable to generate a location data;\nwherein the transceiver is operable to receive the location data and transmit to the monitoring station.",
+        "14. The system of claim 1, wherein transmission of the breath test signal requires authentication of the breath testing device by the monitoring station.",
+        "15. The system of claim 1, wherein the monitoring station communicates at least one of the following states to the user:\na breath test session is required, a breath test session was required, and a breath test session will be required.",
+        "16. The system of claim 1, wherein the breath test signal comprises an official department of transportation evidential breath test report."
+      ],
+      "title": "Sobriety Monitoring System"
+    }
+  ],
+  "firstInventorToFileIndicator": "Y",
+  "applicationStatusCode": 150,
+  "applicationTypeCode": "UTL",
+  "entityStatusData": {
+    "smallEntityStatusIndicator": false,
+    "businessEntityStatusCategory": "Small"
+  },
+  "filingDate": "2015-12-17",
+  "class/subclass": "73/23.3",
+  "nationalStageIndicator": false,
+  "firstInventorName": "Keith Harry Nothacker",
+  "cpcClassificationBag": [
+    "G01N33/4972",
+    "G06V40/1365",
+    "G06V40/172",
+    "G06V40/10",
+    "G06V40/15",
+    "G06V40/20",
+    "G06F2218/16",
+    "B60W40/08",
+    "B60W2040/0818",
+    "B60W2040/0836"
+  ],
+  "effectiveFilingDate": "2015-12-17",
+  "publicationDateBag": [
+    "2016-04-14"
+  ],
+  "publicationSequenceNumberBag": [
+    "0103117"
+  ],
+  "earliestPublicationDate": "2016-04-14",
+  "applicationTypeLabelName": "Utility",
+  "applicationStatusDate": "2018-02-21",
+  "class": "73",
+  "applicationTypeCategory": "REGULAR",
+  "applicationStatusDescriptionText": "Patented Case",
+  "patentNumber": "9915644",
+  "grantDate": "2018-03-13",
+  "applicantBag": [
+    {
+      "applicantNameText": "KHN Solutions, Inc.",
+      "correspondenceAddressBag": [
+        {
+          "cityName": "San Francisco",
+          "geographicRegionName": "CALIFORNIA",
+          "geographicRegionCode": "CA",
+          "nameLineOneText": "KHN Solutions, Inc.",
+          "postalAddressCategory": "postal"
+        }
+      ]
+    }
+  ],
+  "firstApplicantName": "KHN Solutions, Inc.",
+  "customerNumber": 49142,
+  "groupArtUnitNumber": "2855",
+  "earliestPublicationNumber": "US20160103117A1",
+  "inventionTitle": "METHOD AND SYSTEM FOR REMOTELY MONITORING INTOXICATION",
+  "applicationConfirmationNumber": 7751,
+  "examinerNameText": "COTEY, PHILIP L",
+  "subclass": "23.3",
+  "publicationCategoryBag": [
+    "Granted/Issued",
+    "Pre-Grant Publications - PGPub"
+  ],
+  "docketNumber": "BACT-P02-US2",
+  "title": "METHOD AND SYSTEM FOR REMOTELY MONITORING INTOXICATION",
+  "parsed_CTNF": [
+    {
+      "claimNumber": 1,
+      "parentClaim": -1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20130021153",
+              "text": [
+                85,
+                93,
+                94,
+                96,
+                100,
+                103
+              ],
+              "img": [
+                "10"
+              ]
+            },
+            {
+              "patentNum": "US 20140281523",
+              "text": [
+                20,
+                96
+              ],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 1, Keays teaches a method for remotely monitoring intoxication of a user, comprising: at a breath sample acquisition device in communication with a mobile computing device of the user, transmitting a breath sample signal derived from reception of a breath sample from the user, to the mobile computing device, and broadcasting a unique signature indicative of the breath sample acquisition device. Keays lacks teaching that the sensor of the mobile computing device derived unique signature is used to generate the authentication signal. However, Golino teaches methods for data transfer and authentication for use with breathalyzer and breathalyzer peripherals such as cell phones including a device number for a user’s device which may be based on unique device information. Therefore, before the effective filing date of the claimed invention it would have been obvious to one of ordinary skill in the art to modify the authentication key for a device used in breathalyzing of Keays with the DISN derived from unique device information for use with breathalyzing devices or peripherals of Golino."
+        }
+      ]
+    },
+    {
+      "claimNumber": 2,
+      "parentClaim": 1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20130021153",
+              "text": [
+                116
+              ],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 2, Keays teaches collecting a location dataset at the mobile device, and prompting the user, at the mobile device, to provide the breath sample based on the location dataset."
+        }
+      ]
+    },
+    {
+      "claimNumber": 3,
+      "parentClaim": 2,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20130021153",
+              "text": [
+                93
+              ],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 3, Keays teaches that prompting the user to provide the breath sample comprises emitting light with a light emitting module of the breath sample acquisition device at a first time point, and wherein broadcasting the unique signature comprises emitting a light signature with the light emitting module of the breath sample acquisition device."
+        }
+      ]
+    },
+    {
+      "claimNumber": 4,
+      "parentClaim": 1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20130021153",
+              "text": [
+                93
+              ],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 4, Keays teaches broadcasting the unique signature comprises emitting a light signature with a light emitting module of the breath sample acquisition device."
+        }
+      ]
+    },
+    {
+      "claimNumber": 5,
+      "parentClaim": 4,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20130021153",
+              "text": [
+                93
+              ],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 5, Keays teaches that the light emitting module operates between an on state and an off state, and emitting the light signature comprises operating the light emitting in a specific pattern of on states and off states of the light emitting module."
+        }
+      ]
+    },
+    {
+      "claimNumber": 6,
+      "parentClaim": -1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20130021153",
+              "text": [
+                85,
+                93,
+                94,
+                96,
+                100,
+                103
+              ],
+              "img": [
+                "10"
+              ]
+            },
+            {
+              "patentNum": "US 20140281523",
+              "text": [
+                20,
+                96
+              ],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 6, Keays teaches a method for remotely monitoring intoxication of a user, comprising: at a breath sample acquisition device in communication with a mobile computing device of the user, transmitting a breath sample signal derived from reception of a breath sample from the user, to the mobile computing device, and broadcasting a unique signature indicative of the breath sample acquisition device. Keays lacks teaching that the sensor of the mobile computing device derived unique signature is used to generate the authentication signal. However, Golino teaches methods for data transfer and authentication for use with breathalyzer and breathalyzer peripherals such as cell phones including a device number for a user’s device which may be based on unique device information. Therefore, before the effective filing date of the claimed invention it would have been obvious to one of ordinary skill in the art to modify the authentication key for a device used in breathalyzing of Keays with the DISN derived from unique device information for use with breathalyzing devices or peripherals of Golino."
+        }
+      ]
+    },
+    {
+      "claimNumber": 7,
+      "parentClaim": 6,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20130021153",
+              "text": [
+                105
+              ],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 7, Keays teaches collecting a communication dataset at the mobile device, and prompting the user, at the mobile device, to provide the breath sample based on the communication dataset."
+        }
+      ]
+    },
+    {
+      "claimNumber": 8,
+      "parentClaim": 6,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20130021153",
+              "text": [
+                48,
+                93,
+                103
+              ],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 8, Keays teaches generating a second authentication signal that validates the identity of the user, based upon analyzing an action performed by the user."
+        }
+      ]
+    },
+    {
+      "claimNumber": 9,
+      "parentClaim": 8,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20130021153",
+              "text": [
+                48,
+                93,
+                103
+              ],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 9, Keays lacks teaching that generating the second authentication signal in association with a fingerprint pattern signature collected from the user at the mobile device, and generating the verification assessment that validates provision of the breath sample by the user, based upon the breath sample signal, the authentication signal, and the second authentication signal. However, Keays does disclose a variety of authentication signals. Therefore, at the time the invention was made, it would have been obvious to a person of ordinary skill in the art to modify the various authentication and verification concepts of Keays with any variety of combinations of such known biometric and data driven authentications."
+        }
+      ]
+    },
+    {
+      "claimNumber": 10,
+      "parentClaim": 6,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20130021153",
+              "text": [],
+              "img": [
+                "10"
+              ]
+            }
+          ],
+          "reason": "Regarding Claim 10, Keays teaches that generating the authentication signal comprises detecting the unique signature in a configuration wherein the breath sample acquisition device is physically uncoupled from the mobile computing device."
+        }
+      ]
+    },
+    {
+      "claimNumber": 11,
+      "parentClaim": 6,
+      "isReject": false,
+      "reasons": []
+    },
+    {
+      "claimNumber": 12,
+      "parentClaim": 6,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20130021153",
+              "text": [
+                93
+              ],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 12, Keays teaches that prompting the user to provide the breath sample comprises emitting light with a light emitting module of the breath sample acquisition device at a first time point, and wherein broadcasting the unique signature comprises emitting a light signature with the light emitting module of the breath sample acquisition device."
+        }
+      ]
+    },
+    {
+      "claimNumber": 13,
+      "parentClaim": 6,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20130021153",
+              "text": [
+                105
+              ],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 13, Keays teaches that broadcasting the unique signature comprises broadcasting at least one of: a light emission signature at the breath sample acquisition device, an audio signal signature at the breath sample acquisition device, and a vibration signal signature at the breath sample acquisition device, proximal in time to the time point of breath sample provision from the user."
+        }
+      ]
+    },
+    {
+      "claimNumber": 14,
+      "parentClaim": 6,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20130021153",
+              "text": [],
+              "img": [
+                "10"
+              ]
+            }
+          ],
+          "reason": "Regarding Claim 14, Keays teaches that generating the authentication signal comprises detecting the unique signature in a configuration wherein the breath sample acquisition device is physically uncoupled from the mobile computing device."
+        }
+      ]
+    },
+    {
+      "claimNumber": 15,
+      "parentClaim": 6,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20130021153",
+              "text": [
+                103
+              ],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 15, Keays teaches blocking pairing of a second breath sample acquisition device with the mobile computing device, in enabling validation of a source of the breath sample provided by the user."
+        }
+      ]
+    },
+    {
+      "claimNumber": 16,
+      "parentClaim": 6,
+      "isReject": false,
+      "reasons": []
+    },
+    {
+      "claimNumber": 17,
+      "parentClaim": -1,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20130021153",
+              "text": [
+                85,
+                93,
+                94,
+                96,
+                100,
+                103
+              ],
+              "img": [
+                "10"
+              ]
+            },
+            {
+              "patentNum": "US 20140281523",
+              "text": [
+                20,
+                96
+              ],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 17, Keays teaches a method for remotely monitoring intoxication of a user, comprising: at a sample acquisition device in communication with a mobile computing device, transmitting a sample signal derived from reception of a sample from the user, to the mobile computing device, and broadcasting a unique signature, comprising a pattern of light emission emitted from light emitters of the sample acquisition device. Keays lacks teaching that the sensor of the mobile computing device derived unique signature is used to generate the authentication signal. However, Golino teaches methods for data transfer and authentication for use with breathalyzer and breathalyzer peripherals such as cell phones including a device number for a user’s device which may be based on unique device information. Therefore, before the effective filing date of the claimed invention it would have been obvious to one of ordinary skill in the art to modify the authentication key for a device used in breathalyzing of Keays with the DISN derived from unique device information for use with breathalyzing devices or peripherals of Golino."
+        }
+      ]
+    },
+    {
+      "claimNumber": 18,
+      "parentClaim": 17,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20130021153",
+              "text": [
+                93
+              ],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 18, Keays teaches that broadcasting a unique signature occurs within a time interval, and wherein the time interval is proximal in time to a time point of sample provision from the user."
+        }
+      ]
+    },
+    {
+      "claimNumber": 19,
+      "parentClaim": 17,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20130021153",
+              "text": [
+                85,
+                93,
+                94,
+                100,
+                105
+              ],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 19, Keays teaches that the sample is a breath sample, and wherein the method further comprises prompting the user to provide the breath sample, and wherein prompting the user to provide the breath sample comprises emitting light with a light emitting module of the breath sample acquisition device at a first time point outside the time interval, and wherein broadcasting the unique signature comprises emitting a light signature with the light emitting module of the breath sample acquisition device at a second time point within the time interval."
+        }
+      ]
+    },
+    {
+      "claimNumber": 20,
+      "parentClaim": 17,
+      "isReject": true,
+      "reasons": [
+        {
+          "sectionCode": 103,
+          "citedPatents": [
+            {
+              "patentNum": "US 20130021153",
+              "text": [
+                116
+              ],
+              "img": []
+            }
+          ],
+          "reason": "Regarding Claim 20, Keays teaches that collecting location data at the mobile device, triggering the mobile device of the user to prompt the user to provide the sample based on the location data, and prompting the user to provide the sample."
+        }
+      ]
+    }
+  ]
+}

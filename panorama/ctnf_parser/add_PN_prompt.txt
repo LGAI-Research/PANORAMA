@@ -1,0 +1,31 @@
+IMPORTANT: You must ONLY return the requested JSON structure. Do not include any additional text, explanations, or comments before or after the JSON.
+
+Task:
+Your job is to read the original CTNF document and enrich the citedPatents part of the CTNF data parsed into JSON. (If the original CTNF document is not provided, refer to the reason text to perform this task.)
+
+1. For every claim in the JSON, check if `isReject` is `true` and any `reason` has a `sectionCode` of `102` or `103`.
+
+2. For those claims, look for paragraph references in the original CTNF document of the form `[NNNN]` (4 digits), including ranges such as `[000N]-[00NN]`. 
+   - Convert each reference to an integer and, if a range is found, expand it. For example, `[0011]-[0016]` → `[11, 12, 13, 14, 15, 16]`.
+
+3. For those same claims, also look for figure references in the original CTNF document of the form `(fig.XYZ)`, `(Fig.12)`, etc.
+   - Normalize them to strings without “fig.” or “Fig.”. For example, `(fig.3A)` → `"3A"`, `(Fig.12)` → `"12"`.
+   - If the same figure reference appears multiple times for the same patent, list it only once (no duplicates).
+
+IMPORTANT: Only include paragraph numbers in 'text' and 'img' if they specifically apply to the same patent number mentioned in the reason text. If paragraph references are associated with a different patent, do not include them. If the same paragraph number or range is mentioned multiple times for the same patent, list it only once (no duplicates).
+
+4. For each item in the `"citedPatents"` array (currently a list of strings like `["US 20070159740"]`), transform it into an array of objects with the following structure:
+   ```json
+   [
+     {
+       "patentNum": "<the existing patent number string>",
+       "text": [<unique paragraph numbers>],
+       "img": [<unique figure labels>]
+     }
+   ]
+
+Apply these "text" and "img" references to every cited patent in the same reason if the references specifically belong to that patent.
+
+5. If no paragraph or figure references are found for a particular patent within a reason, the "text" or "img" field should be an empty array ([]).
+
+6. Return ONLY the final transformed JSON, with no extra commentary. Keep the existing JSON structure (claims, reasons, etc.) and replace "citedPatents": ["..."] with "citedPatents": [{"patentNum": "...", "text": [...], "img": [...]}] as specified.
